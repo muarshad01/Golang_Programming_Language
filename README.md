@@ -1,13 +1,34 @@
 # Go-Programming-Language
 Learn How To Code: Google's Go (golang) Programming Language
 
-Format Code:
+## Format Code
+```
 $ go fmt <filename>.go
+```
 
-Run code:
+## Run code
+```
 $ go run <filename>.go
+```
 
+## The Go Playground
+```
+https://play.golang.org/
+```
+
+## Documentation
+```
+https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> index
+```
+
+## Packages
+```
 https://golang.org/pkg
-
+```
+```
 https://godoc.org/<pkg-name>
-https://godoc.org/fmg
+https://godoc.org/fmt
+https://godoc.org/net/http
+https://godoc.org/text/template
+https://godoc.org/html/template
+```
