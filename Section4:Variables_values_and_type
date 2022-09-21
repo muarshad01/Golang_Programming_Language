@@ -96,9 +96,34 @@ func Fprint(w io.Writer, a ...any) (n int, err error)
 func Fprintf(w io.Writer, format string, a ...any) (n int, err error)
 func Fprintln(w io.Writer, a ...any) (n int, err error)
 
+# ------------------------
 35. Creating your own type
 # ------------------------
 #
+You can create your own type in Go
+
+code: https://play.golang.org/p/5lTs6Z6PWI
+
+package main
+
+import (
+	"fmt"
+)
+
+var a int
+
+type hotdog int
+
+var b hotdog
+
+func main() {
+	a = 42
+	b = 43
+	fmt.Println(a)
+	fmt.Printf("%T\n", a)
+	fmt.Println(b)
+	fmt.Printf("%T\n", b)
+}
 
 36. Conversion, not casting
 # -------------------------
