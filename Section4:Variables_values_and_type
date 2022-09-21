@@ -80,18 +80,22 @@ var y int = 42
 var y     = 42
     y    := 42
 
+code: https://play.golang.org/p/oLxC8gHE0D
+
+group #1 - general printing to standard out
+---
 func Print(a ...any) (n int, err error)
 func Printf(format string, a ...any) (n int, err error)
 func Println(a ...any) (n int, err error)
 
+group #2 = printing to a string which you can assign to a variable
 ---
-
 func Sprint(a ...any) string
 func Sprintf(format string, a ...any) string
 func Sprintln(a ...any) string
 
+group #3 - printing to a file or a web server’s response
 ---
-
 func Fprint(w io.Writer, a ...any) (n int, err error)
 func Fprintf(w io.Writer, format string, a ...any) (n int, err error)
 func Fprintln(w io.Writer, a ...any) (n int, err error)
@@ -125,6 +129,12 @@ func main() {
 	fmt.Printf("%T\n", b)
 }
 
+# -------------------------
 36. Conversion, not casting
 # -------------------------
 #
+
+We don’t talk about objects we talk about creating TYPES and VALUES of a certain TYPE. 
+We don’t talk about casting, we talk about CONVERSION and ASSERTION.
+
+code: https://play.golang.org/p/1NqUFF242Y
