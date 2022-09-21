@@ -30,6 +30,15 @@ https://godoc.org/net/http
 https://godoc.org/text/template
 https://godoc.org/html/template
 ```
+## The Go Programming Language Specification
+```
+https://go.dev/ref/spec
+```
+
+## Effective Go
+```
+https://go.dev/doc/effective_go
+```
 
 ## Go Language Patterns
 ```
