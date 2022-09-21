@@ -30,3 +30,8 @@ https://godoc.org/net/http
 https://godoc.org/text/template
 https://godoc.org/html/template
 ```
+
+## Go Language Patterns
+```
+[Go Language Patterns](http://www.golangpatterns.info/)
+```
