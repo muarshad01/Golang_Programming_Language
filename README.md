@@ -16,15 +16,13 @@ $ go run <filename>.go
 https://play.golang.org/
 ```
 
-## Documentation
+## Documentation & Package
 ```
 https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> index
-```
-
-## Packages
-```
 https://golang.org/pkg
 ```
+
+## Packages (Easy way!)
 ```
 https://godoc.org/<pkg-name>
 https://godoc.org/fmt
