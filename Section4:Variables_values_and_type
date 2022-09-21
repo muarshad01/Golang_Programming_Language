@@ -34,7 +34,19 @@ The Go Playground: https://play.golang.org/
 # --------------------------
 #
 
-code: 
+the "...<some type>" is how we signify a "variadic parameter"
+	the type "interface{}" is the empty interface
+	every value is also of type "interface{}"
+	So, the parameter "...interface{}" means "give me as many arguments of any type as you'd like"
+
+use the "_" underscore character to throw away returns
+	you can't have unused variables in your code
+	this is "code pollution"
+	the compiler doesn't allow it
+
+fmt.Println(a...interface{}) (n int, err error)				// Note: func returns multiple values
+
+code: https://play.golang.org/p/30rOKO3qT8s
 
 package main
 
