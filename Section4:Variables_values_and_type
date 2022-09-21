@@ -54,23 +54,29 @@ func main() {
 	fmt.Println(n)
 }
 
-# ----------------------------
-30. Short declaration operator
-# ----------------------------
+# --------------------------------
+30. Short declaration operator :=
+# --------------------------------
 
-
+# -----------------
 31. The var keyword
 #------------------
-#
 
+where "var" can be used
+	any place within the package
+scope
+	best practice: keep scope as “narrow” as possible
+
+code: https://play.golang.org/p/iXJaHEZztc
+code: https://play.golang.org/p/D0Sxev__J_i
+
+# ----------------
 32. Exploring type
 # ----------------
-#
 
 # ------------
 33. Zero value
 # ------------
-#
 
 understanding zero value
 -- false for booleans
@@ -96,7 +102,6 @@ code: https://play.golang.org/p/0nVApmU1hsK
 # -----------------
 34. The fmt package
 # -----------------
-#
 
 var y int = 42
 var y     = 42
@@ -125,7 +130,7 @@ func Fprintln(w io.Writer, a ...any) (n int, err error)
 # ------------------------
 35. Creating your own type
 # ------------------------
-#
+
 You can create your own type in Go
 
 code: https://play.golang.org/p/5lTs6Z6PWI
@@ -154,7 +159,6 @@ func main() {
 # -------------------------
 36. Conversion, not casting
 # -------------------------
-#
 
 We don’t talk about objects we talk about creating TYPES and VALUES of a certain TYPE. 
 We don’t talk about casting, we talk about CONVERSION and ASSERTION.
