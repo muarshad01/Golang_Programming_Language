@@ -40,6 +40,11 @@ https://go.dev/ref/spec
 https://go.dev/doc/effective_go
 ```
 
+## Go Forum
+```
+https://forum.golangbridge.org/
+```
+
 ## Go Language Patterns
 ```
 [Go Language Patterns](http://www.golangpatterns.info/)
