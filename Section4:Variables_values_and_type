@@ -10,9 +10,42 @@
 # --------------
 #
 
+1. package main
+2. func main
+
+code: https://go.dev/play/p/v3rrZLwEUC
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	fmt.Println("Hello, playground")
+}
+
+Formt: go fmt <filename>.go
+Run:   go run <filename>.go
+
+The Go Playground: https://play.golang.org/
+
 29. Introduction to packages
 # --------------------------
 #
+
+code: 
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	n, _ := fmt.Println("Hello, playground", 42, true)
+	fmt.Println(n)
+}
 
 30. Short declaration operator
 #-----------------------------
