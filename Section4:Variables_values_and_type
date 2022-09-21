@@ -71,9 +71,30 @@ func main() {
 # ------------
 #
 
+# -----------------
 34. The fmt package
 # -----------------
 #
+
+var y int = 42
+var y     = 42
+    y    := 42
+
+func Print(a ...any) (n int, err error)
+func Printf(format string, a ...any) (n int, err error)
+func Println(a ...any) (n int, err error)
+
+---
+
+func Sprint(a ...any) string
+func Sprintf(format string, a ...any) string
+func Sprintln(a ...any) string
+
+---
+
+func Fprint(w io.Writer, a ...any) (n int, err error)
+func Fprintf(w io.Writer, format string, a ...any) (n int, err error)
+func Fprintln(w io.Writer, a ...any) (n int, err error)
 
 35. Creating your own type
 # ------------------------
