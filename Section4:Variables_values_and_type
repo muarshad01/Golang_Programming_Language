@@ -10,8 +10,7 @@
 28. Hello world
 # -------------
 
-1. package main
-2. func main
+Every program has to have a "package main" and "func main() {}"
 
 code: https://go.dev/play/p/v3rrZLwEUC
 
