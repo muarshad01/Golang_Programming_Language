@@ -2,6 +2,9 @@
 43. Bool type
 # -----------
 
+code: https://play.golang.org/p/WmPsOkVzwS
+code: https://play.golang.org/p/inS_7F0HdC
+
 # --------------------
 44. How computers work
 # --------------------
@@ -9,6 +12,24 @@
 # ---------------
 45. Numeric types
 # ---------------
+
+Golang spec --> Numeric types
+
+int & uint -- implementation-specific sizes
+
+byte is an alias for uint8
+rune is an alias for int32
+
+int32 and int are not the same!!
+
+Rule of thumb:
+	Just use "int"
+	just use "float64"
+
+runtime package:
+	GOOS, GOARCH
+code: https://play.golang.org/p/1vp5DImIMM
+
 
 # -------------
 46. String type
