@@ -22,7 +22,7 @@ https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> in
 https://golang.org/pkg
 ```
 
-## Packages (Easy way!)
+## Packages
 ```
 https://godoc.org/<pkg-name>
 https://godoc.org/fmt
@@ -30,7 +30,7 @@ https://godoc.org/net/http
 https://godoc.org/text/template
 https://godoc.org/html/template
 ```
-## The Go Programming Language Specification
+## Language Specification
 ```
 https://go.dev/ref/spec
 ```
