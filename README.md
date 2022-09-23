@@ -57,5 +57,6 @@ https://gobyexample.com/
 
 ## NOTES
 ```
-Go is STATIC programming language
+1. Go is STATIC programming language
+2. There is no "while"
 ```
