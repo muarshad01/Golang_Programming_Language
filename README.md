@@ -59,4 +59,7 @@ https://gobyexample.com/
 ```
 1. Go is STATIC programming language
 2. There is no "while" or "do-while"
+3. Go has "fallthrough" in switch statement
+4. "default" case may appear anywhere in a switch statement
+5. case can be presented in comma-seperted lists.
 ```
