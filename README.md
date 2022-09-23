@@ -58,5 +58,5 @@ https://gobyexample.com/
 ## NOTES
 ```
 1. Go is STATIC programming language
-2. There is no "while"
+2. There is no "while" or "do-while"
 ```
