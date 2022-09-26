@@ -42,3 +42,22 @@ code:
 -- unfurling a slice of int: https://play.golang.org/p/T-mm6-SH71
 -- passing in zero or more values: https://play.golang.org/p/Qc5sq_AK_T
 -- variadic parameter has to be the final parameter: https://play.golang.org/p/euQ8PDQ8RN
+
+# --------
+112. Defer
+# --------
+
+A "defer" statement invokes a function whose execution is deferred to the moment
+the surrounding function returns, either because the surrounding function executed a return statement, 
+reached the end of its function body, or because the corresponding goroutine is "panicking".
+
+code: https://play.golang.org/p/AYY3AN4LQ6
+
+# ----------
+113. Methods
+# ----------
+
+A method is nothing more than a FUNC attached to a TYPE. When you attach a func to a
+type it is a method of that type. You attach a func to a type with a RECEIVER.
+
+code: https://play.golang.org/p/HIBt2HHiIm
