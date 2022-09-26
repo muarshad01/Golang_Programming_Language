@@ -61,3 +61,27 @@ A method is nothing more than a FUNC attached to a TYPE. When you attach a func 
 type it is a method of that type. You attach a func to a type with a RECEIVER.
 
 code: https://play.golang.org/p/HIBt2HHiIm
+
+# -----------------
+115. Anonymous func
+# -----------------
+
+Anonymous self-executing func
+
+func(){
+	...
+}()
+
+func(x int){
+	...
+}(42)
+
+code: https://play.golang.org/p/54U7XWrNwZ
+
+# ------------------
+116. func expression
+# ------------------
+
+Assigning a func to a variable
+
+code: https://play.golang.org/p/2ekrbY9SAm
