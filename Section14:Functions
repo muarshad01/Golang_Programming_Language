@@ -85,3 +85,19 @@ code: https://play.golang.org/p/54U7XWrNwZ
 Assigning a func to a variable
 
 code: https://play.golang.org/p/2ekrbY9SAm
+
+# -------------------
+117. Returning a func
+# -------------------
+
+# -----------
+118. Callback
+# -----------
+
+# ----------
+119. Closure
+# ----------
+
+# ------------
+120. Recursion
+# ------------
