@@ -19,3 +19,12 @@ code:
 -- takes an argument: https://play.golang.org/p/dpINmrlSsQ
 -- return:            https://play.golang.org/p/eh2Aud2jyr
 -- multiple returns:  https://play.golang.org/p/7Xl9uVH2pO
+
+# ---------------------
+110. Variadic parameter
+# ---------------------
+
+You can create a func which takes an unlimited number of arguments. When you do this,
+this is known as a “variadic parameter.” We use the lexical element operator “...T” to signify a variadic parameter (there “T” represents some type).
+
+code: https://play.golang.org/p/Yi0FsQ2tKq
