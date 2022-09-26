@@ -30,3 +30,15 @@ You can create a func which takes an unlimited number of arguments. When you do 
 this is known as a “variadic parameter.” We use the lexical element operator “...T” to signify a variadic parameter (there “T” represents some type).
 
 code: https://play.golang.org/p/Yi0FsQ2tKq
+
+# --------------------
+111. Unfurling a slice
+# --------------------
+
+When you have a slice of some type, you can pass in the individual values in a slice by
+using the “...” operator.
+
+code:
+-- unfurling a slice of int: https://play.golang.org/p/T-mm6-SH71
+-- passing in zero or more values: https://play.golang.org/p/Qc5sq_AK_T
+-- variadic parameter has to be the final parameter: https://play.golang.org/p/euQ8PDQ8RN
