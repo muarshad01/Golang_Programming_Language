@@ -2,13 +2,22 @@
 137. JSON documentation
 # ---------------------
 
+
 # ---------------
 138. JSON marshal
 # ---------------
 
+Here is an example of how you marshal data in Go to JSON. Also important, this video shows
+how the case of an identifier - lowercase or uppercase, 
+determines whether or not the data can be exported.
+
+code: https://play.golang.org/p/jtE_n16cQO
+
 # -----------------
 139. JSON unmarshal
 # -----------------
+
+code: https://play.golang.org/p/O9q0DmpzsZ
 
 # -------------------
 140. Writer interface
