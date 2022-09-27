@@ -1,0 +1,44 @@
+# ---------------------
+137. JSON documentation
+# ---------------------
+
+# ---------------
+138. JSON marshal
+# ---------------
+
+# -----------------
+139. JSON unmarshal
+# -----------------
+
+# -------------------
+140. Writer interface
+# -------------------
+
+Understanding the writer interface from package io.
+
+code: https://play.golang.org/p/3Txh-dKQBf video: 121
+
+# -------
+141. Sort
+# -------
+
+The sort package allows us to sort slices.
+ 
+starting code:https://play.golang.org/p/igIGnMv6AN
+sorted: https://play.golang.org/p/8UkvEdzQOk
+
+# --------------
+142. Sort custom
+# --------------
+
+Here is how we sort on fields in a struct. 
+
+code:
+● starting code: https://play.golang.org/p/UhXN-G2FwY
+● sorted
+	○ by age: https://play.golang.org/p/kqmJovOU5V
+	○ by name: https://play.golang.org/p/he70VcFmdM
+
+# ---------
+143. bcrypt
+# ---------
