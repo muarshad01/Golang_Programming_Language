@@ -66,3 +66,4 @@ https://gobyexample.com/
 ```
 
 ## Book
+https://www.golang-book.com/books/intro by Caleb Doxsey
