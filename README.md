@@ -66,4 +66,7 @@ https://gobyexample.com/
 ```
 
 ## Book
+```
 https://www.golang-book.com/books/intro by Caleb Doxsey
+https://beyondkmp.com/books/golang/The.Go.Programming.Language.pdf by Brian W. Kernighan
+```
