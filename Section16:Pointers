@@ -1,0 +1,24 @@
+# --------------------
+132. What are pointers
+# --------------------
+
+All values are stored in memory. Every location in memory has an address. A pointer is a memory address.
+-- & (ampersand) 
+-- *int (pointer to an int)
+-- * (dereferencing operator)
+
+code
+	step 0 - code from video: https://play.golang.org/p/Ysv5Adn3V1
+	step 1 - take an address & : https://play.golang.org/p/BO7zRQN4Xm
+	step 2 - dereference * : https://play.golang.org/p/ucJYPu3QkP
+	step 3 - dereference * : https://play.golang.org/p/KpLImTmQCa
+
+# -----------------------
+133. When to use pointers
+# -----------------------
+
+# --------------
+134. Method Sets
+# --------------
+
+
