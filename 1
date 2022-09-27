@@ -44,22 +44,17 @@ code: https://play.golang.org/p/VTZ2Bof6bN
 85. Slice - make
 # --------------
 
-Slices are built on top of arrays. A slice is dynamic in that it will grow in size.
+# ---------------------------------
+86. Slice - multi-dimensional slice
+# ---------------------------------
+
+Slices are built on top of arrays. A slice is dynamic in that it will grow in size. 
 The underlying array, however, does not grow in size. When we create a slice, we can use the built in function make to specify how large our slice should be and also how large the underlying array should be. This can enhance performance a little bit.
 
 -- make([]T, length, capacity)
 -- make([]int, 50, 100)
 
 code: https://play.golang.org/p/07hH1b-hvD
-
-# ---------------------------------
-86. Slice - multi-dimensional slice
-# ---------------------------------
-
-A multi-dimensional slice is like a spreadsheet. You can have a slice of a slice of some type.
-Does that sound confusing? Watch this video and it will all be clarified. code
-
-code: https://play.golang.org/p/S4cyB89Zpm
 
 # --------------------
 87. Map - introduction
