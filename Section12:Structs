@@ -34,3 +34,37 @@ code:
 # --------------
 104.Housekeeping
 # --------------
+
+It’s all about type
+
+Is go an object oriented language? 
+	Go has OOP aspects. But it’s all about TYPE. We create TYPES in Go; user-defined TYPES. 
+We can then have VALUES of that type. We can assign VALUES of a user-defined TYPE to VARIABLES. 
+
+Go is Object Oriented
+	Encapsulation
+		a. state ("fields")
+		b. behavior ("methods")
+		c. exported & unexported; viewable & not viewable
+
+	Reusability
+		a. inheritance ("embedded types")
+	Polymorphism 
+		a. interfaces
+	Overriding
+		a. "promotion"
+
+Traditional OOP 
+1. Classes
+	a. data structure describing a type of object
+	b. you can then create "instances"/"objects" from the class / blueprint
+	c. classes hold both:
+		i. state / data / fields
+		ii. behavior / methods
+	d. public / private
+2. Inheritance
+
+InGo:
+1. you don't create classes, you create a TYPE
+2. you don't instantiate, you create a VALUE of a TYPE
+
