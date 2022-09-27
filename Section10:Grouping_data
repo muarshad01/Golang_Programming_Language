@@ -34,10 +34,16 @@
 87. Map - introduction
 # --------------------
 
+code: https://play.golang.org/p/TJajJyrUo5
+
 # -----------------------------
-88. Slice - add element & range
+88. Map - add element & range
 # -----------------------------
 
-# ----------------
-89. Slice - delete
-# ----------------
+code: https://play.golang.org/p/RTuBRiW087
+
+# --------------
+89. Map - delete
+# --------------
+
+code: https://play.golang.org/p/t5g_-8wgOL
