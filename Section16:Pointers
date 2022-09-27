@@ -17,6 +17,10 @@ code
 133. When to use pointers
 # -----------------------
 
+code:
+	step 1 no pointer: https://play.golang.org/p/lxsWkhTaYv
+	step 2 pointer: https://play.golang.org/p/XuI19kjFmb
+
 # --------------
 134. Method Sets
 # --------------
