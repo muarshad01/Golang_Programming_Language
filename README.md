@@ -64,3 +64,5 @@ https://gobyexample.com/
 5. case can be presented in comma-seperted lists.
 6. Everything in Go is PASS BY VALUE (PASS BY COPY or PASS BY REFERENCE throw them away!)
 ```
+
+## Book
