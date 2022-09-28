@@ -17,6 +17,9 @@ code: https://play.golang.org/p/jtE_n16cQO
 139. JSON unmarshal
 # -----------------
 
+https://mholt.github.io/json-to-go/
+https://github.com/goestoeleven
+
 code: https://play.golang.org/p/O9q0DmpzsZ
 
 # -------------------
@@ -26,6 +29,22 @@ code: https://play.golang.org/p/O9q0DmpzsZ
 Understanding the writer interface from package io.
 
 code: https://play.golang.org/p/3Txh-dKQBf video: 121
+
+package main
+
+import (
+	"fmt"
+	"io"
+	"os"
+)
+
+func main() {
+	fmt.Println("Hello, playground")
+	fmt.Fprintln(os.Stdout, "Hello, playground")
+	io.WriteString(os.Stdout, "Hello, playground")
+}
+
+
 
 # -------
 141. Sort
