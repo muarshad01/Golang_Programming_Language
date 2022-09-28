@@ -65,12 +65,13 @@ https://gobyexample.com/
 6. Everything in Go is PASS BY VALUE (PASS BY COPY or PASS BY REFERENCE throw them away!)
 ```
 
-## Book
+## Books & Courses
 ```
-https://www.golang-book.com/books/intro by Caleb Doxsey
-https://beyondkmp.com/books/golang/The.Go.Programming.Language.pdf by Brian W. Kernighan
-https://www.golangprograms.com/
-Go: The Complete Developer's Guide (Golang) -- Udemy course -- Stephen Grider
+1. Web Development w/ Google’s Go (golang) Programming Language -- Udemy course (20 hrs) -- Todd McLeod
+2. Go: The Complete Developer's Guide (Golang) -- Udemy course (9 hrs) -- Stephen Grider
+3. Learn How To Code: Google's Go (golang) Programming Language -- Udemy course (22 hrs) -- Todd McLeod
+4. https://beyondkmp.com/books/golang/The.Go.Programming.Language.pdf -- Brian W. Kernighan (https://github.com/GoesToEleven/gopl.io): TEACH THIS
+5. https://www.golangprograms.com/
 ```
 
 ## Course Git
