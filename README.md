@@ -34,7 +34,7 @@ https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> in
 2. Go: The Complete Developer's Guide (Golang) -- Udemy course (9 hrs) -- Stephen Grider
 3. Learn How To Code: Google's Go (golang) Programming Language -- Udemy course (22 hrs) -- Todd McLeod
 * [The Go Programming Lanauge by Brian W. Kernighan - Book](https://beyondkmp.com/books/golang/The.Go.Programming.Language.pdf)
-** [The Go Programming Language by Brian W. Kernighan - code](https://github.com/GoesToEleven/gopl.io)
+	* [The Go Programming Language by Brian W. Kernighan - code](https://github.com/GoesToEleven/gopl.io)
 * [Welcome to Golang Programs](https://www.golangprograms.com/)
 * [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
 * [Go Language Patterns](http://www.golangpatterns.info/)
