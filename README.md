@@ -1,5 +1,5 @@
 # Go-Programming-Language
-Learn How To Code: Google's Go (golang) Programming Language ([code link][https://github.com/goestoeleven])
+Learn How To Code: Google's Go (golang) Programming Language [GitHub code link][https://github.com/goestoeleven])
 
 ## Useful commands
 ```
