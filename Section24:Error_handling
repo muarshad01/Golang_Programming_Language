@@ -1,0 +1,34 @@
+# ----------------
+178. Understanding
+# ----------------
+
+# ------------------
+179. Checking errors
+# ------------------
+
+code: https://go.dev/play/p/flMiN9rZtnC
+code: https://go.dev/play/p/SHxi-AdsJT9
+code: https://go.dev/play/p/fSqQ0Q1uLhu
+code: https://go.dev/play/p/NdQkbOK909r
+
+# -----------------------
+180. Printing and logging
+# -----------------------
+
+1. fmt.Println() -- stdout 
+2. log.Println() -- default stdout but can also go to a logfile
+3. log.Fatalln() -- os.Exit(); deferred functions are not run; exit status 1 
+4. log.Panicln() -- deferred functions run; can use “recover” 
+5. panic() -- deferred function run
+
+code: https://go.dev/play/p/y_ozMejQuBD
+code: https://go.dev/play/p/u9bXYTxWod7
+
+
+# ----------
+181. Recover
+# ----------
+
+# -------------------
+182. Errors with info
+# -------------------
