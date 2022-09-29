@@ -63,6 +63,7 @@ https://gobyexample.com/
 4. "default" case may appear anywhere in a switch statement
 5. case can be presented in comma-seperted lists.
 6. Everything in Go is PASS BY VALUE (PASS BY COPY or PASS BY REFERENCE throw them away!)
+7. There is no try-catch-finally in go
 ```
 
 ## Books & Courses
