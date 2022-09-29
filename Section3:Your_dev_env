@@ -1,0 +1,15 @@
+# -------------
+7. The terminal
+# -------------
+
+# --------------
+11. Instlling Go
+# --------------
+
+https://go.dev/dl/
+
+$ go env
+	GOPATH="/Users/<username>/go"
+	GOROOT="/usr/local/go"
+$ go versin
+$ go help
