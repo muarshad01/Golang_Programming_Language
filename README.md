@@ -73,6 +73,7 @@ https://gobyexample.com/
 3. Learn How To Code: Google's Go (golang) Programming Language -- Udemy course (22 hrs) -- Todd McLeod
 4. https://beyondkmp.com/books/golang/The.Go.Programming.Language.pdf -- Brian W. Kernighan (https://github.com/GoesToEleven/gopl.io): TEACH THIS
 5. https://www.golangprograms.com/
+6. Learn Go with Tests: https://quii.gitbook.io/learn-go-with-tests/
 ```
 
 ## Course Git
@@ -87,5 +88,5 @@ JSON-to-Go: https://mholt.github.io/json-to-go/
 
 ## Articles
 ```
-Defer, Panic, and Recover: https://go.dev/blog/defer-panic-and-recover
+[Defer, Panic, and Recover] (https://go.dev/blog/defer-panic-and-recover)
 ```

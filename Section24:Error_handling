@@ -37,3 +37,9 @@ code: https://play.golang.org/p/ZocncqtwaK
 # -------------------
 182. Errors with info
 # -------------------
+
+1. errors.New()
+2. fmt.Errorf()
+3. builtin.error
+
+
