@@ -5,22 +5,19 @@ Learn How To Code: Google's Go (golang) Programming Language ([code link][https:
 ```
 	$ go fmt <filename>.go
 	$ go run <filename>.go
-```
-## Documentation & Package
-```
-https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> index
-https://golang.org/pkg
+	$ go help doc
 ```
 
-## Packages
+## Packages & Documentation
 ```
 https://godoc.org/<pkg-name>
 https://godoc.org/fmt
 https://godoc.org/net/http
 https://godoc.org/text/template
 https://godoc.org/html/template
-```
 
+https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> index
+```
 ## NOTES
 ```
 1. Go is STATIC programming language
