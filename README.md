@@ -1,5 +1,5 @@
 # Go-Programming-Language
-Learn How To Code: Google's Go (golang) Programming Language
+Learn How To Code: Google's Go (golang) Programming Language ([code link][https://github.com/goestoeleven])
 
 ## Format Code
 ```
@@ -70,11 +70,6 @@ https://forum.golangbridge.org/
 4. https://beyondkmp.com/books/golang/The.Go.Programming.Language.pdf -- Brian W. Kernighan (https://github.com/GoesToEleven/gopl.io): TEACH THIS
 5. https://www.golangprograms.com/
 6. Learn Go with Tests: https://quii.gitbook.io/learn-go-with-tests/
-```
-
-## Course Git
-```
-https://github.com/goestoeleven
 ```
 
 ## Tools
