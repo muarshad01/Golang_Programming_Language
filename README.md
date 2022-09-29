@@ -88,5 +88,5 @@ JSON-to-Go: https://mholt.github.io/json-to-go/
 
 ## Articles
 ```
-[Defer, Panic, and Recover] (https://go.dev/blog/defer-panic-and-recover)
+[Defer, Panic, and Recover] (https://go.dev/blog/defer-panic-and-recover "Error Handling")
 ```
