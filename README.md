@@ -88,5 +88,7 @@ JSON-to-Go: https://mholt.github.io/json-to-go/
 
 ## Articles
 ```
+Error handling and Go: https://go.dev/blog/error-handling-and-go
 [Defer, Panic, and Recover](https://go.dev/blog/defer-panic-and-recover)
+Frequently Asked Questions (FAQ): https://go.dev/doc/faq#exceptions
 ```
