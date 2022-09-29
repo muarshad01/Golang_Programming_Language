@@ -46,14 +46,10 @@ https://forum.golangbridge.org/
 ```
 
 ## Go Language Patterns
-```
-[Go Language Patterns](http://www.golangpatterns.info/)
-```
+*[Go Language Patterns](http://www.golangpatterns.info/)
 
 ## Go By Example
-```
-https://gobyexample.com/
-```
+* [Go By Example](https://gobyexample.com/)
 
 ## NOTES
 ```
