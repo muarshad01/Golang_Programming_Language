@@ -30,11 +30,10 @@ https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> in
 ```
 
 ## Books & Courses
-1. Web Development w/ Google’s Go (golang) Programming Language -- Udemy course (20 hrs) -- Todd McLeod
-2. Go: The Complete Developer's Guide (Golang) -- Udemy course (9 hrs) -- Stephen Grider
-3. Learn How To Code: Google's Go (golang) Programming Language -- Udemy course (22 hrs) -- Todd McLeod
-* [The Go Programming Lanauge by Brian W. Kernighan - Book](https://beyondkmp.com/books/golang/The.Go.Programming.Language.pdf)
-	* [The Go Programming Language by Brian W. Kernighan - code](https://github.com/GoesToEleven/gopl.io)
+* [Web Development w/ Google’s Go (golang) Programming Language -- Udemy(~20 hrs)](https://www.udemy.com/course/go-programming-language/)
+* [Go: The Complete Developer's Guide (Golang) -- Udemy(~9 hrs)](https://www.udemy.com/course/go-the-complete-developers-guide/)
+* [Learn How To Code: Google's Go (golang) Programming Language -- Udemy(~22 hrs)](https://www.udemy.com/course/learn-how-to-code/)
+* [The Go Programming Lanauge by Brian W. Kernighan - Book](https://beyondkmp.com/books/golang/The.Go.Programming.Language.pdf) & [code](https://github.com/GoesToEleven/gopl.io)
 * [Welcome to Golang Programs](https://www.golangprograms.com/)
 * [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
 * [Go Language Patterns](http://www.golangpatterns.info/)
