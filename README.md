@@ -3,9 +3,14 @@ Learn How To Code: Google's Go (golang) Programming Language [GitHub code link](
 
 ## Useful commands
 ```
-	$ go fmt <filename>.go
-	$ go run <filename>.go
-	$ go help doc
+$ go version
+$ go env
+$ go help
+$ go fmt <filename>
+$ go fmt ./...
+$ go run <filename>			# builds -> run your code -> gets rid of any of the files
+$ go build				# if there are no errors, it puts an executable into the "current folder"
+$ go install <filename>			# puts the executable in $GOPATH / bin
 ```
 
 ## Packages & Documentation
@@ -18,6 +23,7 @@ https://godoc.org/html/template
 
 https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> index
 ```
+
 ## NOTES
 ```
 1. Go is STATIC programming language
