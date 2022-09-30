@@ -57,6 +57,8 @@ https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> in
 * [Concurrency in Go; Tools and Techniques for Developers by Katherine Cox-Buday (O’Reilly 2017)](https://www.amazon.com/Concurrency-Go-Tools-Techniques-Developers/dp/1491941197)
 * [Go in Action](https://www.manning.com/books/go-in-action)
 * [How to Write a Book: Introduction](https://www.doxsey.net/blog/how-to-write-a-book--introduction/)
+* [Mastering Go: Harness the power of Go to build professional utilities and concurrent servers and services, 3rd Edition 3rd ed. Edition]()
+* [Learning Go: An Idiomatic Approach to Real-World Go Programming 1st Edition]() 
 
 ## Tools
 * [JSON to Go](https://mholt.github.io/json-to-go/)
