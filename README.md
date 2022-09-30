@@ -57,3 +57,4 @@ https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> in
 * [Frequently Asked Questions (FAQ)](https://go.dev/doc/faq#exceptions)
 * [Go Forum](https://forum.golangbridge.org/)
 * [G BLog](https://go.dev/blog/)
+* [Using Go Modules](https://go.dev/blog/using-go-modules)
