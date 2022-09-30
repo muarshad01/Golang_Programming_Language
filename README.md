@@ -1,6 +1,9 @@
 # Go-Programming-Language
 Learn How To Code: Google's Go (golang) Programming Language [GitHub code link](https://github.com/goestoeleven)
 
+
+* [Grit - Angela Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8)
+
 ## Useful commands
 ```
 $ go version
