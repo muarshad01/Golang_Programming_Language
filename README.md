@@ -40,6 +40,7 @@ https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> in
 * [Go By Example](https://gobyexample.com/)
 * [Go Language Specifiction](https://go.dev/ref/spec)
 * [Effective Go](https://go.dev/doc/effective_go)
+* [An Introduction to Progrmming in Go by Caleb Doxey](https://www.golang-book.com/public/pdf/gobook.pdf)
 
 ## Tools
 * [JSON to Go](https://mholt.github.io/json-to-go/)
