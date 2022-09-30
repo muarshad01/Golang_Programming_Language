@@ -41,6 +41,11 @@ https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> in
 * [Go Language Specifiction](https://go.dev/ref/spec)
 * [Effective Go](https://go.dev/doc/effective_go)
 * [An Introduction to Progrmming in Go by Caleb Doxey](https://www.golang-book.com/public/pdf/gobook.pdf)
+* [Pro Go: The Complete Guide to Programming Reliable and Efficient Software Using Golang 1st ed. Edition](https://www.amazon.com/Pro-Go-Complete-Programming-Efficient/dp/1484273540)
+* [Practical Go: Building Scalable Network and Non-Network Applications 1st Edition](https://amsaha.bitbucket.io/)
+* [Efficient Go - 2022](https://www.oreilly.com/library/view/efficient-go/9781098105709/)
+* [Concurrency in Go; Tools and Techniques for Developers by Katherine Cox-Buday (O’Reilly 2017)](https://www.amazon.com/Concurrency-Go-Tools-Techniques-Developers/dp/1491941197)
+* [Go in Action](https://www.manning.com/books/go-in-action)
 
 ## Tools
 * [JSON to Go](https://mholt.github.io/json-to-go/)
