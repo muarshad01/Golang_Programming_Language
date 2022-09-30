@@ -3,7 +3,7 @@ Learn How To Code: Google's Go (golang) Programming Language [GitHub code link](
 
 
 * [Grit - Angela Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8)
-* Bill Gates & WARREN BUFFET -> ONE ATTRIBUTE (*FOCUS*)
+* Bill Gates & Warren Buffet -> ONE Attribute for success (_FOCUS_)
 
 ## Useful commands
 ```
