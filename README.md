@@ -56,3 +56,4 @@ https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> in
 * [Defer, Panic, and Recover](https://go.dev/blog/defer-panic-and-recover)
 * [Frequently Asked Questions (FAQ)](https://go.dev/doc/faq#exceptions)
 * [Go Forum](https://forum.golangbridge.org/)
+* [G BLog](https://go.dev/blog/)
