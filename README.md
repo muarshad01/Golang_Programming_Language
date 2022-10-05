@@ -59,6 +59,7 @@ https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> in
 * [How to Write a Book: Introduction](https://www.doxsey.net/blog/how-to-write-a-book--introduction/)
 * [Mastering Go: Harness the power of Go to build professional utilities and concurrent servers and services, 3rd Edition 3rd ed. Edition]()
 * [Learning Go: An Idiomatic Approach to Real-World Go Programming 1st Edition]() 
+* [Design Patterns](https://golangbyexample.com/all-design-patterns-golang/)
 
 ## Tools
 * [JSON to Go](https://mholt.github.io/json-to-go/)
