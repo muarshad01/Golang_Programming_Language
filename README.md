@@ -31,12 +31,13 @@ https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> in
 ## NOTES
 ```
 1. Go is STATIC programming language
-2. There is no "while" or "do-while"
-3. Go has "fallthrough" in switch statement
-4. "default" case may appear anywhere in a switch statement
-5. case can be presented in comma-seperted lists.
-6. Everything in Go is PASS BY VALUE (PASS BY COPY or PASS BY REFERENCE throw them away!)
-7. There is no try-catch-finally in go
+2. Everything in Go is "passed by value"
+3. There is no "while" or "do-while"
+4. Go has "fallthrough" in switch statement
+5. "default" case may appear anywhere in a switch statement
+6. case can be presented in comma-seperted lists.
+7. Everything in Go is PASS BY VALUE (PASS BY COPY or PASS BY REFERENCE throw them away!)
+8. There is no try-catch-finally in go
 ```
 
 ## Books & Courses
