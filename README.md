@@ -16,7 +16,12 @@ $ go run <filename>			# builds -> run your code -> gets rid of any of the files
 $ go build				# if there are no errors, it puts an executable into the "current folder"
 $ go install <filename>			# puts the executable in $GOPATH / bin
 
-export GOPATH=/Users/marshad/go
+$ go env GOROOT
+$ go env GOPATH
+
+# ~/.bash_profile
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 ```
 
