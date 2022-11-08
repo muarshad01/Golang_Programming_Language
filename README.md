@@ -73,7 +73,7 @@ https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> in
 * [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
 
 ## Tools
-* [JSON to Go](https://mholt.github.io/json-to-go/)
+* [JSON-to-Go Convert](https://mholt.github.io/json-to-go/)
 * [Go online Playground](https://play.golang.org/)
 
 ## Useful Articles
