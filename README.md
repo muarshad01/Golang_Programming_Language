@@ -32,6 +32,20 @@ $ source ~/.bash_profile
 
 ***
 
+# Go Modules
+
+```
+$ cd $GOPATH/src
+$ mkdir project && cd project
+$ touch main.go
+
+$ go run main.go
+$ go mod init
+$ go mod tidy
+```
+
+***
+
 ## Useful commands
 ```
 $ go help
