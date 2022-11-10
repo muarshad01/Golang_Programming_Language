@@ -43,6 +43,14 @@ $ go run main.go
 $ go mod init
 $ go mod tidy
 ```
+OR
+
+```
+$ mkdir -p ~/Desktop/go_workspace && cd go_workspace
+$ mkdir hello && cd hello
+$ go mod init example/user/hello
+$ touch main.go
+```
 
 ***
 
