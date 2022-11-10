@@ -17,12 +17,23 @@ Verify that you've installed Go by opening a command prompt and typing the follo
 
 Confirm that the command prints the installed version of Go.
 
+```
+$ go version
+$ go env
+$ go env GOROOT
+$ go env GOPATH
+
+$ vim ~./bash_profile
+$ export GOROOT=/usr/local/go
+$ export GOPATH=$HOME/go
+$ export PATH=$PATH:$GOPATH/bin
+$ source ~/.bash_profile
+```
+
 ***
 
 ## Useful commands
 ```
-$ go version
-$ go env
 $ go help
 $ go fmt <filename>
 $ go fmt ./...
@@ -30,13 +41,6 @@ $ go run <filename>			# builds -> run your code -> gets rid of any of the files
 $ go build				# if there are no errors, it puts an executable into the "current folder"
 $ go install <filename>			# puts the executable in $GOPATH / bin
 
-$ go env GOROOT
-$ go env GOPATH
-
-# ~/.bash_profile
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
 ```
 
 ## Packages & Documentation
