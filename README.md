@@ -1,9 +1,23 @@
 # Go-Programming-Language
 Learn How To Code: Google's Go (golang) Programming Language [GitHub code link](https://github.com/goestoeleven)
 
-
 * [Grit - Angela Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8)
 * Bill Gates & Warren Buffet -> ONE Attribute for success (_FOCUS_)
+
+***
+
+# Install the latest version of Go
+
+* [Go download & Install](https://go.dev/doc/install)
+
+Open the package file you downloaded and follow the prompts to install Go. The package installs the Go distribution to `/usr/local/go`. The package should put the `/usr/local/go/bin` directory in your `PATH` environment variable. You may need to restart any open Terminal sessions for the change to take effect.
+
+Verify that you've installed Go by opening a command prompt and typing the following command:
+`$ go version`
+
+Confirm that the command prints the installed version of Go.
+
+***
 
 ## Useful commands
 ```
