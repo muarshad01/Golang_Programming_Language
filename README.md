@@ -46,10 +46,15 @@ $ go mod tidy
 OR
 
 ```
-$ mkdir -p ~/Desktop/go_workspace && cd go_workspace
-$ mkdir hello && cd hello
-$ go mod init example/user/hello
-$ touch main.go
+Example:
+--------
+$ mkdir -p $GOPATH/src/github.com/muarshad01
+$ cd $GOPATH/src/github.com/muarshad01
+$ git clone git@github.com:muarshad01/GoLang_Web_Dev.git
+$ cd GoLang_Web_Dev
+$ touch main.go   # Create other files & folders
+$ go mod init
+$ go mod tidy
 ```
 
 ***
