@@ -72,6 +72,18 @@ $ go install <filename>			# puts the executable in $GOPATH / bin
 
 ```
 
+***
+# golint
+```
+$ mkdir -p $GOPATH/src/test
+$ cd $GOPATH/src/test
+$ go mod init
+$ go get -u golang.org/x/lint/golint
+$ go install golang.org/x/lint/golint
+$ echo $GOBIN | grep golint
+```
+***
+
 ## Packages & Documentation
 ```
 https://godoc.org/<pkg-name>
@@ -82,6 +94,8 @@ https://godoc.org/html/template
 
 https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> index
 ```
+
+***
 
 ## NOTES
 ```
@@ -94,6 +108,8 @@ https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> in
 7. Everything in Go is PASS BY VALUE (PASS BY COPY or PASS BY REFERENCE throw them away!)
 8. There is no try-catch-finally in go
 ```
+
+***
 
 ## Books & Courses
 * [Web Development w/ Google’s Go (golang) Programming Language -- Udemy(~20 hrs)](https://www.udemy.com/course/go-programming-language/)
