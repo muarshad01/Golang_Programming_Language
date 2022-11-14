@@ -122,6 +122,7 @@ https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> in
 ## Tools
 * [JSON-to-Go Convert](https://mholt.github.io/json-to-go/)
 * [Go online Playground](https://play.golang.org/)
+* [Better Go Playground](https://goplay.tools/)
 
 ## Useful Articles
 * [Error handling and Go](https://go.dev/blog/error-handling-and-go)
