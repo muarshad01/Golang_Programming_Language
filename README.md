@@ -63,7 +63,9 @@ $ go mod tidy
 ```
 $ go help
 $ go fmt <filename>
-$ go fmt ./...
+$ go fmt ./...          # formats `go` code
+$ go vet                # reports suspicious structs
+$ go lint               # reports poor coding style
 $ go run <filename>			# builds -> run your code -> gets rid of any of the files
 $ go build				# if there are no errors, it puts an executable into the "current folder"
 $ go install <filename>			# puts the executable in $GOPATH / bin
