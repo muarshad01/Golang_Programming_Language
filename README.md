@@ -70,6 +70,11 @@ $ go run <filename>			# builds -> run your code -> gets rid of any of the files
 $ go build				      # if there are no errors, it puts an executable into the "current folder"
 $ go install <filename>			# puts the executable in $GOPATH / bin
 $ go doc fmt Println
+
+$ go tool
+$ go tool cover -help
+$ go test -coverprofile=c.out
+$ go tool cover -html=c.out
 ```
 
 ***
