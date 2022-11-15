@@ -81,6 +81,7 @@ $ go mod init
 $ go get -u golang.org/x/lint/golint
 $ go install golang.org/x/lint/golint
 $ echo $GOBIN | grep golint
+$ go test -bench .
 ```
 ***
 
