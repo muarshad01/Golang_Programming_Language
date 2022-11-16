@@ -67,6 +67,7 @@ $ go fmt ./...          # formats `go` code
 $ go vet ./...          # reports suspicious structs (code correctness)
 $ go lint               # reports poor coding style (style mistakes)
 ```
+
 # Run code
 ```
 $ go run <filename>         # builds -> run your code -> gets rid of any of the files
@@ -87,14 +88,15 @@ $ go doc fmt Println
 ```
 
 # Testing & Coverage
-[Testing Code](https://github.com/GoesToEleven/go-programming/tree/master/code_samples/009-testing)
+* [Package testing](https://pkg.go.dev/testing)
+* [Example Code](https://github.com/GoesToEleven/go-programming/tree/master/code_samples/009-testing)
 ```
-go run main.go
-go test
-go test -bench .
-go test -cover
-go test -coverprofile c.out
-go tool cover -html=c.out
+$ go run main.go
+$ go test
+$ go test -bench .
+$ go test -cover
+$ go test -coverprofile c.out
+$ go tool cover -html=c.out
 ```
 
 ***
