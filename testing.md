@@ -98,3 +98,8 @@ func main() {
         fmt.Println(dir1.Join(xs))
 }
 ```
+
+```
+$ ls
+$ dir1	go.mod	main.go
+```
