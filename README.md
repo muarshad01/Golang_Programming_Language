@@ -66,9 +66,17 @@ $ go fmt <filename>
 $ go fmt ./...          # formats `go` code
 $ go vet ./...          # reports suspicious structs (code correctness)
 $ go lint               # reports poor coding style (style mistakes)
-$ go run <filename>			# builds -> run your code -> gets rid of any of the files
-$ go build				      # if there are no errors, it puts an executable into the "current folder"
-$ go install <filename>			# puts the executable in $GOPATH / bin
+```
+# Run code
+```
+$ go run <filename>			    # builds -> run your code -> gets rid of any of the files
+
+$ go build <filename>	      # if there are no errors, it puts an executable into the "current folder"
+$ ./<filename>
+
+$ go install <filename>			# puts the 'executable' in $GOPATH/bin
+$ cd $GOPATH/bin
+$ ./<filename>
 ```
 
 # Documentation
