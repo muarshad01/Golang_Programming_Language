@@ -103,3 +103,9 @@ func main() {
 $ ls
 $ dir1	go.mod	main.go
 ```
+
+```
+TestCat(t *testing.T) {...}
+BenchmarkCat(b *testing.B) {...}
+ExampleCat(t *testing.T) {...}
+```
