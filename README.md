@@ -86,11 +86,12 @@ $ go doc fmt Println
 
 # Testing & Coverage
 ```
-$ go test -cover
-$ go test -coverprofile c.out
-$ go tool
-$ go tool cover -help
-$ go tool cover -html=c.out
+go run main.go
+go test
+go test -bench .
+go test -cover
+go test -coverprofile c.out
+go tool cover -html=c.out
 ```
 
 ***
