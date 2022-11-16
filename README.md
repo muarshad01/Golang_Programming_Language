@@ -81,6 +81,8 @@ $ ./<filename>
 
 # Documentation
 ```
+$ godoc -http=:8080       # Not working!!!
+$ go help doc
 $ go doc fmt Println
 ```
 
