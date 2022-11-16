@@ -28,10 +28,12 @@ $ go help
 # Env variable(s) & PATH setup
 ```
 $ vim ~/.bash_profile
+
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOPATH/bin
+
 $ source ~/.bash_profile
 ```
 
