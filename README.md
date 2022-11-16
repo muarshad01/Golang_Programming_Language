@@ -69,6 +69,7 @@ $ go lint               # reports poor coding style (style mistakes)
 $ go run <filename>			# builds -> run your code -> gets rid of any of the files
 $ go build				      # if there are no errors, it puts an executable into the "current folder"
 $ go install <filename>			# puts the executable in $GOPATH / bin
+```
 
 # Documentation
 ```
