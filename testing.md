@@ -80,3 +80,21 @@ func Join(xs []string) string {
         return strings.Join(xs, " ")
 }
 ```
+
+# main.go
+```
+package main
+
+import (
+        "fmt"
+        "strings"
+        "test_code/dir1"
+)
+
+func main() {
+        const s = "hell how are you doin g. I'm doing fine. What's new at your end. Nothing special. How about you. Nothing!"
+        xs := strings.Split(s, " ")
+        fmt.Println(dir1.Cat(xs))
+        fmt.Println(dir1.Join(xs))
+}
+```
