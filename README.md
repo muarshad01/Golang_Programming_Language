@@ -87,6 +87,7 @@ $ go doc fmt Println
 ```
 
 # Testing & Coverage
+[Testing Code](https://github.com/GoesToEleven/go-programming/tree/master/code_samples/009-testing)
 ```
 go run main.go
 go test
