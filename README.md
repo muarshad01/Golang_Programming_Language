@@ -20,6 +20,11 @@ Confirm that the command prints the installed version of Go.
 ```
 $ go version
 $ go env
+$ go help
+```
+
+# Env variable(s) & PATH setup
+```
 $ go env GOROOT
 $ go env GOPATH
 
