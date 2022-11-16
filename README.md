@@ -69,12 +69,12 @@ $ go lint               # reports poor coding style (style mistakes)
 ```
 # Run code
 ```
-$ go run <filename>			    # builds -> run your code -> gets rid of any of the files
-
-$ go build <filename>	      # if there are no errors, it puts an executable into the "current folder"
+$ go run <filename>         # builds -> run your code -> gets rid of any of the files
+---
+$ go build <filename>       # if there are no errors, it puts an executable into the "current folder"
 $ ./<filename>
-
-$ go install <filename>			# puts the 'executable' in $GOPATH/bin
+---
+$ go install <filename>     # puts the 'executable' in $GOPATH/bin
 $ cd $GOPATH/bin
 $ ./<filename>
 ```
