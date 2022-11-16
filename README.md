@@ -6,7 +6,7 @@ Learn How To Code: Google's Go (golang) Programming Language [GitHub code link](
 
 ***
 
-# Install the latest version of Go
+## Install the latest version of Go
 
 * [Go download & Install](https://go.dev/doc/install)
 
@@ -32,7 +32,7 @@ $ source ~/.bash_profile
 
 ***
 
-# Go Modules
+## Go Modules
 
 ```
 $ cd $GOPATH/src
@@ -63,7 +63,7 @@ $ go mod tidy
 ```
 $ go help
 $ go fmt <filename>
-$ go fmt ./...          # formats `go` code
+$ go fmt ./...          
 $ go vet ./...          # reports suspicious structs (code correctness)
 $ go lint               # reports poor coding style (style mistakes)
 ```
@@ -80,14 +80,14 @@ $ cd $GOPATH/bin
 $ ./<filename>
 ```
 
-# Documentation
+## Documentation
 ```
 $ godoc -http=:8080       # Not working!!!
 $ go help doc
 $ go doc fmt Println
 ```
 
-# Testing & Coverage
+## Testing & Coverage
 * [Package testing](https://pkg.go.dev/testing)
 * [Example Code](https://github.com/GoesToEleven/go-programming/tree/master/code_samples/009-testing)
 ```
@@ -100,7 +100,7 @@ $ go tool cover -html=c.out
 ```
 
 ***
-# golint
+## golint
 ```
 $ mkdir -p $GOPATH/src/test
 $ cd $GOPATH/src/test
@@ -175,6 +175,6 @@ https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> in
 * [Defer, Panic, and Recover](https://go.dev/blog/defer-panic-and-recover)
 * [Frequently Asked Questions (FAQ)](https://go.dev/doc/faq#exceptions)
 * [Go Forum](https://forum.golangbridge.org/)
-* [G BLog](https://go.dev/blog/)
+* [Go Blog](https://go.dev/blog/)
 * [Using Go Modules](https://go.dev/blog/using-go-modules)
 * [JSON and Go](https://go.dev/blog/json)
