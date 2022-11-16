@@ -23,17 +23,18 @@ $ go env
 $ go help
 ```
 
+***
+
 # Env variable(s) & PATH setup
 ```
-$ go env GOROOT
-$ go env GOPATH
-
 $ vim ~/.bash_profile
-$ export GOROOT=/usr/local/go
-$ export GOPATH=$HOME/go
-$ export PATH=$PATH:$GOPATH/bin
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin
 $ source ~/.bash_profile
 ```
+
 ***
 
 # Run code
