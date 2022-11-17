@@ -25,7 +25,21 @@ $ go help
 
 ***
 
-# Env variable(s) & PATH setup
+## Go workspace
+```
+<goworkaspace>	# one folder - any name, any location
+  |--bin
+	|--pkg
+	|--src
+
+$ mkdir ~/goworkspace
+$ cd ~/goworkspace
+$ mkdir bin pkg src
+```
+
+***
+
+## Env variable(s) & PATH setup
 ```
 $ vim ~/.bash_profile
 
