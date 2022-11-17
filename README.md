@@ -29,8 +29,8 @@ $ go help
 ```
 <goworkaspace>	# one folder - any name, any location
   |--bin
-	|--pkg
-	|--src
+  |--pkg
+  |--src
 
 $ mkdir ~/goworkspace
 $ cd ~/goworkspace
