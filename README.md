@@ -108,12 +108,7 @@ $ go vet ./...          # reports suspicious structs (code correctness)
 $ go lint               # reports poor coding style (style mistakes)
 ```
 
-## Documentation
-```
-$ godoc -http=:8080       # Not working!!!
-$ go help doc
-$ go doc fmt Println
-```
+***
 
 ## Testing & Coverage
 * [Package testing](https://pkg.go.dev/testing)
@@ -140,7 +135,7 @@ $ go test -bench .
 ```
 ***
 
-## Packages & Documentation
+## Documentation
 ```
 https://godoc.org/<pkg-name>
 https://godoc.org/fmt
@@ -148,7 +143,10 @@ https://godoc.org/net/http
 https://godoc.org/text/template
 https://godoc.org/html/template
 
-https://golang.org --> Documents (Docs) --> Package Documentation --> fmt --> index
+```
+$ godoc -http=:8080       # Not working!!!
+$ go help doc
+$ go doc fmt Println
 ```
 
 ***
