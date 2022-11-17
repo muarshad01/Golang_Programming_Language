@@ -49,17 +49,17 @@ $ go install maing.go     # puts the 'executable' in $GOPATH/bin
 
 ***
 
-## Go Modules
-
+## Go Modules & Dependencies
+[Using Go Modules](https://go.dev/blog/using-go-modules)
 ```
-$ cd $GOPATH/src
-$ mkdir project && cd project
-$ touch main.go
-
-$ go run main.go
-$ go mod init
+$ mkdir -p $GOPATH/src/HAPPYDOC
+$ cd $GOPATH/src/HAPPYDOC
+$ go mod init example/username/repo
 $ go mod tidy
+$ go test
+$ go list -m all
 ```
+
 OR
 
 ```
