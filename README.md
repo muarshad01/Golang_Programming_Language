@@ -36,7 +36,7 @@ $ mkdir ~/goworkspace
 $ cd ~/goworkspace
 $ mkdir bin pkg src
 
-NOTE: Usually, the default go workspace is $GOPATH=$HOME/go
+NOTE: Usually, the default go workspace on macOS is $GOPATH=$HOME/go
 ```
 
 ***
