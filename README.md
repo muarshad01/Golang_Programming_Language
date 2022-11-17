@@ -49,13 +49,25 @@ $ go install maing.go     # puts the 'executable' in $GOPATH/bin
 
 ***
 
-## Go Modules & Dependencies
+## Go Modules: Managing and Updating Dependencies
 [Using Go Modules](https://go.dev/blog/using-go-modules)
 ```
 $ mkdir -p $GOPATH/src/HAPPYDOC
 $ cd $GOPATH/src/HAPPYDOC
 $ go mod init example/username/repo
 $ go mod tidy
+$ go test
+$ go list -m all
+
+Update
+
+$ go list -m all
+$ go get golang.org/x/text
+$ go test
+$ go get rsc.io/sampler
+$ go test
+$ go list -m -versions rsc.io/sampler
+$ go get rsc.io/sampler@v1.3.1
 $ go test
 $ go list -m all
 ```
