@@ -50,8 +50,8 @@ $ go install maing.go     # puts the 'executable' in $GOPATH/bin
 ***
 
 ## Go Modules: Managing and Updating Dependencies
-[Using Go Modules](https://go.dev/blog/using-go-modules)
-[Tutorial: Create a Go module](https://go.dev/doc/tutorial/create-module#prerequisites)
+* [Using Go Modules](https://go.dev/blog/using-go-modules)
+* [Tutorial: Create a Go module](https://go.dev/doc/tutorial/create-module#prerequisites)
 ```
 $ mkdir -p $GOPATH/src/HAPPYDOG
 $ cd $GOPATH/src/HAPPYDOG
@@ -97,8 +97,6 @@ $ go fmt ./...
 $ go vet ./...          # reports suspicious structs (code correctness)
 $ go lint               # reports poor coding style (style mistakes)
 ```
-
-
 
 ## Documentation
 ```
