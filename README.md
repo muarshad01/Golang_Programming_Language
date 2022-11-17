@@ -35,6 +35,8 @@ $ go help
 $ mkdir ~/goworkspace
 $ cd ~/goworkspace
 $ mkdir bin pkg src
+
+NOTE: Usually, the default go workspace is $GOPATH=$HOME/go
 ```
 
 ***
@@ -58,8 +60,6 @@ $ source ~/.bash_profile
 $ go run main.go
 $ go build                # mac: folder-name is executable
 $ go install maing.go     # puts the 'executable' in $GOPATH/bin
-
-NOTE: Usually, the default go workspace is $GOPATH/go
 ```
 
 ***
@@ -145,7 +145,6 @@ https://godoc.org/net/http
 https://godoc.org/text/template
 https://godoc.org/html/template
 
-```
 $ godoc -http=:8080       # Not working!!!
 $ go help doc
 $ go doc fmt Println
