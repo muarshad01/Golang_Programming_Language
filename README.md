@@ -51,6 +51,7 @@ $ go install maing.go     # puts the 'executable' in $GOPATH/bin
 
 ## Go Modules: Managing and Updating Dependencies
 [Using Go Modules](https://go.dev/blog/using-go-modules)
+[Tutorial: Create a Go module](https://go.dev/doc/tutorial/create-module#prerequisites)
 ```
 $ mkdir -p $GOPATH/src/HAPPYDOG
 $ cd $GOPATH/src/HAPPYDOG
@@ -117,8 +118,8 @@ $ go test -cover
 $ go test -coverprofile c.out
 $ go tool cover -html=c.out
 ```
-
 ***
+
 ## golint
 ```
 $ mkdir -p $GOPATH/src/test
