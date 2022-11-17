@@ -44,7 +44,7 @@ $ mkdir bin pkg src
 $ vim ~/.bash_profile
 
 export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
+export GOPATH=$HOME/go            # GOPATH needs to point to goworkspace
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOPATH/bin
 
