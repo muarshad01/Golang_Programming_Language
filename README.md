@@ -60,7 +60,6 @@ $ go build                # mac: folder-name is executable
 $ go install maing.go     # puts the 'executable' in $GOPATH/bin
 ```
 
-
 ***
 
 ## Go Modules: Managing and Updating Dependencies
@@ -87,18 +86,15 @@ $ go test
 $ go list -m all
 ```
 
-OR
-
+***
+## Using 'go get' to get course code
+[cod link](https://github.com/GoesToEleven/GolangTraining)
 ```
-Example:
---------
-$ mkdir -p $GOPATH/src/github.com/muarshad01
-$ cd $GOPATH/src/github.com/muarshad01
-$ git clone git@github.com:muarshad01/GoLang_Web_Dev.git
-$ cd GoLang_Web_Dev
-$ touch main.go   # Create other files & folders
-$ go mod init
-$ go mod tidy
+$ mkdir -p $GOPATH/src/examplegocode
+$ cd $GOPATH/src/examplegocode
+$ go mod init example.com/test
+$ go get -d github.com/GoesToEleven/go-programming/...        # See the '...'
+$ cd $GOPATH /pkg/mod/github.com/!goes!to!eleven/!golang!training@v0.0.0-20181204234241-afa19f5c43f3/01_getting-started
 ```
 
 ***
