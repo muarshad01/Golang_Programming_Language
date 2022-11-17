@@ -58,6 +58,8 @@ $ source ~/.bash_profile
 $ go run main.go
 $ go build                # mac: folder-name is executable
 $ go install maing.go     # puts the 'executable' in $GOPATH/bin
+
+NOTE: Usually, the default go workspace is $GOPATH/go
 ```
 
 ***
