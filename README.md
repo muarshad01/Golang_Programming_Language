@@ -52,8 +52,8 @@ $ go install maing.go     # puts the 'executable' in $GOPATH/bin
 ## Go Modules: Managing and Updating Dependencies
 [Using Go Modules](https://go.dev/blog/using-go-modules)
 ```
-$ mkdir -p $GOPATH/src/HAPPYDOC
-$ cd $GOPATH/src/HAPPYDOC
+$ mkdir -p $GOPATH/src/HAPPYDOG
+$ cd $GOPATH/src/HAPPYDOG
 $ go mod init example/username/repo
 $ go mod tidy
 $ go test
