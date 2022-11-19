@@ -29,3 +29,9 @@ func LoadInt64(addr *int64) (val int64)
 ```
 
 ***
+
+```
+// go run -race main.go
+// vs
+// go run main.go
+```
