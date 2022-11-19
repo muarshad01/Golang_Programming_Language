@@ -2,7 +2,7 @@
 
 # Concurrency
 
-* [https://pkg.go.dev/sync#WaitGroup](https://pkg.go.dev/sync#WaitGroup)
+* [sync.WaitGroup](https://pkg.go.dev/sync#WaitGroup)
 ```go
 type WaitGroup
 	func (wg *WaitGroup) Add(delta int)
