@@ -30,6 +30,16 @@ func LoadInt64(addr *int64) (val int64)
 
 ***
 
+[runtim](https://pkg.go.dev/runtime)
+```go
+const GOOS string = goos.GOOS
+const GOARCH string = goarch.GOARCH
+func NumCPU() int
+func NumGoroutine() int
+```
+
+***
+
 ```
 // go run -race main.go
 // vs
