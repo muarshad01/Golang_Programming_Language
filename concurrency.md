@@ -36,6 +36,8 @@ const GOOS string = goos.GOOS
 const GOARCH string = goarch.GOARCH
 func NumCPU() int
 func NumGoroutine() int
+func GOMAXPROCS(n int) int
+func Gosched()
 ```
 
 ***
