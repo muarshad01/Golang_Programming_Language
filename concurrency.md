@@ -13,7 +13,7 @@ type WaitGroup
 ***
 
 * [sync.Mutex](https://pkg.go.dev/sync#Mutex)
-```
+```go
 type Mutex
 	func (m *Mutex) Lock()
 	func (m *Mutex) TryLock() bool
