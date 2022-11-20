@@ -58,6 +58,7 @@ $ source ~/.bash_profile
 # Run code
 ```
 $ go run main.go
+$ go run -race main.go
 $ go build                # mac: folder-name is executable
 $ go install maing.go     # puts the 'executable' in $GOPATH/bin
 ```
