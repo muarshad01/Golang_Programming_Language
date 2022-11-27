@@ -51,9 +51,11 @@ func Panic(v ...any)
 func Panicf(format string, v ...any)
 func Panicln(v ...any)
 ```
-For `log.Println()`, default is *stdout* similar to `fmt.Println()` but can also write to a logfile
+For `log.Println()`, default is *stdout* similar to `fmt.Println()` but can also write to a logfile.
+
 For  `log.Fatal()`, `os.Exit()` is executed, i.e., exit status 1; deferred functions are not run.
-For `log.Panic()`, deferred functions are run; i.e., can use *recover*  
+
+For `log.Panic()`, deferred functions are run; i.e., can use *recover*.
 
 code: https://go.dev/play/p/y_ozMejQuBD
 code: https://go.dev/play/p/u9bXYTxWod7
