@@ -45,7 +45,7 @@ func New(text string) error {
 
 ## Lecture 180. Printing and logging
 
-[log](https://pkg.go.dev/log#pkg-index)
+[package log](https://pkg.go.dev/log#pkg-index)
 ```go
 func Print(v ...any)
 func Printf(format string, v ...any)
