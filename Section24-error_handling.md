@@ -50,6 +50,8 @@ func Fatalln(v ...any)
 func Panic(v ...any)
 func Panicf(format string, v ...any)
 func Panicln(v ...any)
+
+func SetOutput(w io.Writer)
 ```
 For `log.Println()`, default is *stdout* similar to `fmt.Println()` but can also write to a logfile.
 
