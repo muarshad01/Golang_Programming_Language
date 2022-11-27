@@ -6,7 +6,7 @@ type error interface {
 	Error() string
 }
 ```
-`error` in Go is an interface.
+* `error` in Go is an interface.
 
 ```go
 type errorString struct {
