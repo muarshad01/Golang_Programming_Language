@@ -33,14 +33,15 @@ func New(text string) error {
 
 ***
 
-# ------------------
-179. Checking errors
-# ------------------
+## 179. Checking errors
 
-code: https://go.dev/play/p/flMiN9rZtnC
-code: https://go.dev/play/p/SHxi-AdsJT9
-code: https://go.dev/play/p/fSqQ0Q1uLhu
-code: https://go.dev/play/p/NdQkbOK909r
+* code
+  - https://go.dev/play/p/flMiN9rZtnC
+  - https://go.dev/play/p/SHxi-AdsJT9
+  - https://go.dev/play/p/fSqQ0Q1uLhu
+  - https://go.dev/play/p/NdQkbOK909r
+
+***
 
 ## Lecture 180. Printing and logging
 
