@@ -51,9 +51,7 @@ func Panic(v ...any)
 func Panicf(format string, v ...any)
 func Panicln(v ...any)
 ```
-
-1. fmt.Println() -- stdout 
-2. log.Println() -- default stdout but can also go to a logfile
+For `log.Println()` default stdout similar to `fmt.Println()` but can also go to a logfile
 
 3. log.Fatal()
 4. log.Fatalln() -- os.Exit(); deferred functions are not run; exit status 1 
