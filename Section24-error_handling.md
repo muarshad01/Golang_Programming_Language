@@ -57,8 +57,8 @@ func SetOutput(w io.Writer)
 * For  `log.Fatal()`, `os.Exit()` is executed, i.e., exit status 1; deferred functions are not run.
 * For `log.Panic()`, deferred functions are run; i.e., can use *recover*.
 * code
-- https://go.dev/play/p/y_ozMejQuBD
-- https://go.dev/play/p/u9bXYTxWod7
+  - https://go.dev/play/p/y_ozMejQuBD
+  - https://go.dev/play/p/u9bXYTxWod7
 
 # ----------
 181. Recover
