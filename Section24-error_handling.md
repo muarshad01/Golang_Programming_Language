@@ -59,9 +59,6 @@ func Panic(v ...any)
 func Panicf(format string, v ...any)
 func Panicln(v ...any)
 
-func SetOutput(w io.Writer)
-
-func Errorf(format string, a ...any) error
 ```
 * For `log.Println()`, default is **stdout** similar to `fmt.Println()` but can also write to a logfile.
 * For  `log.Fatal()`, `os.Exit()` is executed, i.e., exit status 1; deferred functions are not run.
@@ -69,6 +66,12 @@ func Errorf(format string, a ...any) error
 * code
   - https://go.dev/play/p/y_ozMejQuBD
   - https://go.dev/play/p/u9bXYTxWod7
+
+```go
+func SetOutput(w io.Writer)
+
+func Errorf(format string, a ...any) error
+```
 
 ***
 
