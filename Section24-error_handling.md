@@ -71,7 +71,10 @@ func Panicln(v ...any)
 func SetOutput(w io.Writer)
 
 func Errorf(format string, a ...any) error
+
+errors.New(fmt.Sprintf("There was an error in toJSON %v", err)
 ```
+`fmt.Errorf(...)`
 
 ***
 
