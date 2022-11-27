@@ -8,7 +8,18 @@ type error interface {
 ```
 `error` in Go is an interface.
 
-package errors
+```go
+type errorString struct {
+	s string
+}
+```
+
+```go
+func (e *errorString) Error() string {
+	return e.s
+}
+```
+Any other type (e.g., type `errotString` struct{}) that implements `Error()` method is also of type `error` interface in Go.
 
 [func New](https://pkg.go.dev/errors#New)
 ```go
@@ -16,21 +27,7 @@ func New(text string) error {
 	return &errorString{text}
 }
 ```
-`func New()` returns an `error` that formats as the given text. Each call to `New()` returns a distinct `error` value even if the text is identical.
-
-```go
-type errorString struct {
-	s string
-}
-```
-`errorString` is a trivial implementation of error.
-
-```
-func (e *errorString) Error() string {
-	return e.s
-}
-```
-Any other type that implements "Error() string" is also of type "error" in Go.
+`func New(...)` returns an `error` that formats as the given text. Each call to `New()` returns a distinct `error` value even if the text is identical.
 
 ***
 
