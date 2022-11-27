@@ -35,7 +35,7 @@ code: https://go.dev/play/p/SHxi-AdsJT9
 code: https://go.dev/play/p/fSqQ0Q1uLhu
 code: https://go.dev/play/p/NdQkbOK909r
 
-# Lecture 180. Printing and logging
+## Lecture 180. Printing and logging
 
 [log](https://pkg.go.dev/log#pkg-index)
 ```go
