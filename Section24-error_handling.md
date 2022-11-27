@@ -68,14 +68,17 @@ func SetOutput(w io.Writer)
   - https://go.dev/play/p/y_ozMejQuBD
   - https://go.dev/play/p/u9bXYTxWod7
 
-# ----------
-181. Recover
-# ----------
+***
 
-blog: https://blog.golang.org/defer-panic-and-recover
+## 181. Recover
 
-code: https://play.golang.org/p/HI4uG55ait
-code: https://play.golang.org/p/ZocncqtwaK
+* [Defer, Panic, and Recover](https://blog.golang.org/defer-panic-and-recover)
+
+* code
+  - https://play.golang.org/p/HI4uG55ait
+  - https://play.golang.org/p/ZocncqtwaK
+
+***
 
 # -------------------
 182. Errors with info
