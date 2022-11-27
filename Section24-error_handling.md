@@ -18,15 +18,21 @@ func New(text string) error {
 ```
 `func New()` returns an `error` that formats as the given text. Each call to `New()` returns a distinct `error` value even if the text is identical.
 
-// errorString is a trivial implementation of error.
+```go
 type errorString struct {
 	s string
 }
+```
+`errorString` is a trivial implementation of error.
 
-// Any other type that implements "Error() string" is also of type "error" in Go.
+```
 func (e *errorString) Error() string {
 	return e.s
 }
+```
+Any other type that implements "Error() string" is also of type "error" in Go.
+
+***
 
 # ------------------
 179. Checking errors
