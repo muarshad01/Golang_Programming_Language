@@ -1,12 +1,12 @@
-# ----------------
-178. Understanding
-# ----------------
+## 178. Understanding
 
-// "error" in Go is an interface.
+[type error](https://pkg.go.dev/builtin#error)
+```go
 type error interface {
 	Error() string
 }
-
+```
+`error` in Go is an interface.
 
 package errors
 
