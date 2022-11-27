@@ -53,15 +53,12 @@ func Panicln(v ...any)
 
 func SetOutput(w io.Writer)
 ```
-For `log.Println()`, default is *stdout* similar to `fmt.Println()` but can also write to a logfile.
-
-For  `log.Fatal()`, `os.Exit()` is executed, i.e., exit status 1; deferred functions are not run.
-
-For `log.Panic()`, deferred functions are run; i.e., can use *recover*.
-
-code: https://go.dev/play/p/y_ozMejQuBD
-code: https://go.dev/play/p/u9bXYTxWod7
-
+* For `log.Println()`, default is *stdout* similar to `fmt.Println()` but can also write to a logfile.
+* For  `log.Fatal()`, `os.Exit()` is executed, i.e., exit status 1; deferred functions are not run.
+* For `log.Panic()`, deferred functions are run; i.e., can use *recover*.
+* code
+- https://go.dev/play/p/y_ozMejQuBD
+- https://go.dev/play/p/u9bXYTxWod7
 
 # ----------
 181. Recover
