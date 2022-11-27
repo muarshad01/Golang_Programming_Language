@@ -80,10 +80,8 @@ func SetOutput(w io.Writer)
 
 ***
 
-# -------------------
-182. Errors with info
-# -------------------
+## 182. Errors with info
 
-1. errors.New()
-2. fmt.Errorf()
-3. builtin.error
+`errors.New()`
+`fmt.Errorf()`
+`builtin.error`
