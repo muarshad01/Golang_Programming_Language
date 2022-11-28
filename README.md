@@ -46,7 +46,7 @@ NOTE: Usually, the default go workspace on macOS is $GOPATH=$HOME/go
 $ vim ~/.bash_profile
 
 export GOROOT=/usr/local/go
-export GOPATH=$HOME/go            # GOPATH needs to point to goworkspace
+export GOPATH=$HOME/go            # macOS: GOPATH = <goworkspace> = $HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOPATH/bin
 
