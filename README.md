@@ -140,20 +140,27 @@ $ go test -bench .
 
 ## Documentation
 ```go
-go doc fmt 
-go doc fmt Print
+$ go help doc
 
-go doc -src fmt 
-go doc -src fmt Print
-go doc -src errors New
+$ go doc fmt 
+$ go doc fmt Print
+
+$ go doc -src fmt 
+$ go doc -src fmt Print
+$ go doc -src errors New
 
 https://godoc.org/fmt
 https://godoc.org/net/http
 https://godoc.org/text/template
 https://godoc.org/html/template
 
-$ godoc -http=:8080       # Not working!!!
-$ go help doc
+$ mkdir -p $GOPATH/src/test
+$ cd $GOPATH/src/test
+$ go mod init
+$ go get golang.org/x/tools/cmd/godoc
+$ go install golang.org/x/tools/cmd/godoc
+$ echo $GOBIN | grep godoc
+$ godoc -http=:6060
 ```
 
 ***
