@@ -56,7 +56,7 @@ $ source ~/.bash_profile
 ***
 
 # Run code
-```
+```go
 $ go run main.go
 $ go run -race main.go
 $ go build                # mac: folder-name is executable
@@ -68,7 +68,7 @@ $ go install maing.go     # puts the 'executable' in $GOPATH/bin
 ## Go Modules: Managing and Updating Dependencies
 * [Using Go Modules](https://go.dev/blog/using-go-modules)
 * [Tutorial: Create a Go module](https://go.dev/doc/tutorial/create-module#prerequisites)
-```
+```go
 $ mkdir -p $GOPATH/src/HAPPYDOG
 $ cd $GOPATH/src/HAPPYDOG
 $ go mod init example/username/repo
@@ -92,7 +92,7 @@ $ go list -m all
 ***
 ## Using 'go get' to get course code
 [cod link](https://github.com/GoesToEleven/GolangTraining)
-```
+```go
 $ mkdir -p $GOPATH/src/examplegocode
 $ cd $GOPATH/src/examplegocode
 $ go mod init example.com/test
@@ -103,7 +103,7 @@ $ cd $GOPATH /pkg/mod/github.com/!goes!to!eleven/!golang!training@v0.0.0-2018120
 ***
 
 ## Useful commands
-```
+```go
 $ go help
 $ go fmt <filename>
 $ go fmt ./...          
@@ -116,7 +116,7 @@ $ go lint               # reports poor coding style (style mistakes)
 ## Testing & Coverage
 * [Package testing](https://pkg.go.dev/testing)
 * [Example Code](https://github.com/GoesToEleven/go-programming/tree/master/code_samples/009-testing)
-```
+```go
 $ go run main.go
 $ go test
 $ go test -bench .
@@ -127,7 +127,7 @@ $ go tool cover -html=c.out
 ***
 
 ## golint
-```
+```go
 $ mkdir -p $GOPATH/src/test
 $ cd $GOPATH/src/test
 $ go mod init
