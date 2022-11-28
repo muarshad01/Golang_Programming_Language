@@ -60,8 +60,8 @@ $ source ~/.bash_profile
 $ go help
 $ go fmt <filename>
 $ go fmt ./...         
-$ go vet <filename>
-$ go vet ./...            # reports suspicious structs (code correctness)
+$ go vet <filename>       # reports suspicious structs (code correctness)
+$ go vet ./...            
 $ golint <filename>       # reports poor coding style (style mistakes)
 ```
 
