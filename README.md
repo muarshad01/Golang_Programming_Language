@@ -17,7 +17,7 @@ Verify that you've installed Go by opening a command prompt and typing the follo
 
 Confirm that the command prints the installed version of Go.
 
-```
+```go
 $ go version
 $ go env
 $ go help
