@@ -68,15 +68,10 @@ func Panicln(v ...any)
   - https://go.dev/play/p/u9bXYTxWod7
 
 ```go
-func SetOutput(w io.Writer)
-
 func Errorf(format string, a ...any) error
-
 func New(text string) error
-
 ```
-`fmt.Errorf(...)`
-`errors.New()`
+Note: `fmt.Errorf(...)` & `errors.New()` both return `error`
 
 ***
 
