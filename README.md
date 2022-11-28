@@ -55,6 +55,18 @@ $ source ~/.bash_profile
 
 ***
 
+## go fmt; go vet; go lint commands
+```go
+$ go help
+$ go fmt <filename>
+$ go fmt ./...         
+$ go vet <filename>
+$ go vet ./...            # reports suspicious structs (code correctness)
+$ golint <filename>       # reports poor coding style (style mistakes)
+```
+
+***
+
 # Run code
 ```go
 $ go run main.go
@@ -98,17 +110,6 @@ $ cd $GOPATH/src/examplegocode
 $ go mod init example.com/test
 $ go get -d github.com/GoesToEleven/go-programming/...        # See the '...'
 $ cd $GOPATH /pkg/mod/github.com/!goes!to!eleven/!golang!training@v0.0.0-20181204234241-afa19f5c43f3/01_getting-started
-```
-
-***
-
-## Useful commands
-```go
-$ go help
-$ go fmt <filename>
-$ go fmt ./...          
-$ go vet ./...          # reports suspicious structs (code correctness)
-$ go lint               # reports poor coding style (style mistakes)
 ```
 
 ***
