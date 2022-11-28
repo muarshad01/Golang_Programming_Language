@@ -185,8 +185,6 @@ $ godoc -http=:6060
 * [Learn How To Code: Google's Go (golang) Programming Language -- Udemy(~22 hrs)](https://www.udemy.com/course/learn-how-to-code/)
 * [The Go Programming Lanauge by Brian W. Kernighan - Book](https://beyondkmp.com/books/golang/The.Go.Programming.Language.pdf) & [code](https://github.com/GoesToEleven/gopl.io)
 * [Welcome to Golang Programs](https://www.golangprograms.com/)
-* [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
-* [Go Language Patterns](http://www.golangpatterns.info/)
 * [Go By Example](https://gobyexample.com/)
 * [Go Language Specifiction](https://go.dev/ref/spec)
 * [Effective Go](https://go.dev/doc/effective_go)
@@ -199,16 +197,27 @@ $ godoc -http=:6060
 * [How to Write a Book: Introduction](https://www.doxsey.net/blog/how-to-write-a-book--introduction/)
 * [Mastering Go: Harness the power of Go to build professional utilities and concurrent servers and services, 3rd Edition 3rd ed. Edition]()
 * [Learning Go: An Idiomatic Approach to Real-World Go Programming 1st Edition]() 
+
+### Design patterns
 * [Design Patterns](https://golangbyexample.com/all-design-patterns-golang/)
+* [Go Language Patterns](http://www.golangpatterns.info/)
 * [All Design Patterns in Go (Golang)](https://golangbyexample.com/all-design-patterns-golang/)
 * [GoF Design patterns that still make sense in Go](https://dev.to/mauriciolinhares/gof-design-patterns-that-still-make-sense-in-go-27k5)
+
+### Testing
 * [Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests/)
+
+### Web Programming
 * [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
+
+***
 
 ## Tools
 * [JSON-to-Go Convert](https://mholt.github.io/json-to-go/)
 * [Go online Playground](https://play.golang.org/)
 * [Better Go Playground](https://goplay.tools/)
+
+***
 
 ## Useful Articles
 * [Error handling and Go](https://go.dev/blog/error-handling-and-go)
