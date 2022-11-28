@@ -11,14 +11,14 @@ type error interface {
 [type errorString](https://cs.opensource.google/go/go/+/refs/tags/go1.19.3:src/errors/errors.go;l=66;drc=d5de62df152baf4de6e9fe81933319b86fd95ae4;bpv=1;bpt=0)
 ```go
 type errorString struct {
-	s string
+	info string
 }
 ```
 `errorString` is a trivial implementation of `error` interface.
 
 ```go
-func (e *errorString) Error() string {
-	return e.s
+func (es *errorString) Error() string {
+	return es.info
 }
 ```
 Any other type (e.g., type `errotString` struct) that implements `Error()` method is also of type `error` interface in Go.
