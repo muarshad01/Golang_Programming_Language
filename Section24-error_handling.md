@@ -21,7 +21,7 @@ func (es *errorString) Error() string {
 	return es.info
 }
 ```
-Any other type (e.g., type `errotString` struct) that implements `Error()` method is also of type `error` interface in Go.
+Any other type (e.g., type `errotString` struct) that implements `Error() string` method is also of type `error` interface in Go.
 
 [func New(...)](https://pkg.go.dev/errors#New)
 ```go
