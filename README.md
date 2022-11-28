@@ -67,12 +67,16 @@ $ golint <filename>       # reports poor coding style (style mistakes)
 
 ***
 
-# Run code
+# Run code (Three different ways)
 ```go
 $ go run main.go
 $ go run -race main.go
+
 $ go build                # mac: folder-name is executable
-$ go install maing.go     # puts the 'executable' in $GOPATH/bin
+$ go build main.go       
+
+$ go install
+$ go install main.go     # puts the 'executable' in $GOPATH/bin
 ```
 
 ***
