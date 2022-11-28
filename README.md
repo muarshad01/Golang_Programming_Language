@@ -236,3 +236,5 @@ $ godoc -http=:6060
 * [Using Go Modules](https://go.dev/blog/using-go-modules)
 * [JSON and Go](https://go.dev/blog/json)
 * [Go Proverbs](https://go-proverbs.github.io/)
+
+***
