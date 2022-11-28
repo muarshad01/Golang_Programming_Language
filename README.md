@@ -213,6 +213,7 @@ $ godoc -http=:6060
 
 ### Testing
 * [Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests/)
+* [Comprehensive Guide to Testing in Go](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/)
 
 ### Web Programming
 * [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
