@@ -67,12 +67,6 @@ func Panicln(v ...any)
   - https://go.dev/play/p/y_ozMejQuBD
   - https://go.dev/play/p/u9bXYTxWod7
 
-```go
-func Errorf(format string, a ...any) error
-func New(text string) error
-```
-Note: `fmt.Errorf(...)` & `errors.New()` both return `error`
-
 ***
 
 ## 181. Recover
@@ -87,6 +81,10 @@ Note: `fmt.Errorf(...)` & `errors.New()` both return `error`
 
 ## 182. Errors with info
 
-`errors.New()`
-`fmt.Errorf()`
-`builtin.error`
+```go
+func Errorf(format string, a ...any) error
+func New(text string) error
+```
+Note: `fmt.Errorf(...)` & `errors.New()` both return `builtin.error`
+
+***
