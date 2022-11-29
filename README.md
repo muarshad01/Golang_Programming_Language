@@ -238,3 +238,6 @@ $ godoc -http=:6060
 * [Go Proverbs](https://go-proverbs.github.io/)
 
 ***
+
+## Others
+* [Selectors](https://go.dev/ref/spec#Selectors)
