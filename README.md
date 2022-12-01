@@ -241,4 +241,5 @@ $ godoc -http=:6060
 
 ## Others
 * [Selectors](https://go.dev/ref/spec#Selectors)
+* [Types](https://go.dev/ref/spec#Types)
 * [The Go Programming Language and Environment- CACM 2022](https://cacm.acm.org/magazines/2022/5/260357-the-go-programming-language-and-environment/fulltext)
