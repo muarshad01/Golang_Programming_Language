@@ -1,8 +1,8 @@
 # Go-Programming-Language
 Learn How To Code: Google's Go (golang) Programming Language [GitHub code link](https://github.com/goestoeleven)
-
 * [Grit - Angela Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8)
 * Bill Gates & Warren Buffet -> ONE Attribute for success (_FOCUS_)
+* [The Go Programming Language and Environment- CACM 2022](https://cacm.acm.org/magazines/2022/5/260357-the-go-programming-language-and-environment/fulltext)
 
 ***
 
@@ -242,4 +242,3 @@ $ godoc -http=:6060
 ## Others
 * [Selectors](https://go.dev/ref/spec#Selectors)
 * [Types](https://go.dev/ref/spec#Types)
-* [The Go Programming Language and Environment- CACM 2022](https://cacm.acm.org/magazines/2022/5/260357-the-go-programming-language-and-environment/fulltext)
