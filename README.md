@@ -222,8 +222,8 @@ $ godoc -http=:6060
 ***
 
 ## Tools
-* [JSON-to-Go Convert](https://mholt.github.io/json-to-go/)
-* [XML to Go Converter](https://jsonformatter.org/xml-to-go)
+* [JSON-to-Go-Converter](https://mholt.github.io/json-to-go/)
+* [XML-to-Go-Converter](https://jsonformatter.org/xml-to-go)
 * [Go online Playground](https://play.golang.org/)
 * [Better Go Playground](https://goplay.tools/)
 
