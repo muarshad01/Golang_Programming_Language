@@ -231,7 +231,7 @@ $ godoc -http=:6060
 
 ## Useful Articles
 * [Error handling and Go](https://go.dev/blog/error-handling-and-go)
-* [Defer, Panic, and Recover](https://go.dev/blog/defer-panic-and-recover)
+* -> [Defer, Panic, and Recover](https://go.dev/blog/defer-panic-and-recover)
 * [Don't defer Close() on writable files](https://www.joeshaw.org/dont-defer-close-on-writable-files/)
 * [Frequently Asked Questions (FAQ)](https://go.dev/doc/faq#exceptions)
 * [Go Forum](https://forum.golangbridge.org/)
