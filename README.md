@@ -107,14 +107,14 @@ $ go list -m all
 ```
 
 ***
-## Using 'go get' to get course code
+## Using 'go get' command to get course code
 [cod link](https://github.com/GoesToEleven/GolangTraining)
 ```go
 $ mkdir -p $GOPATH/src/examplegocode
 $ cd $GOPATH/src/examplegocode
 $ go mod init examplegocode
 $ go get -d github.com/GoesToEleven/go-programming/...        # See the '...'
-$ cd $GOPATH /pkg/mod/github.com/!goes!to!eleven/!golang!training@v0.0.0-20181204234241-afa19f5c43f3/01_getting-started
+$ cd $GOPATH/pkg/mod/github.com/!goes!to!eleven/!golang!training@v0.0.0-20181204234241-afa19f5c43f3/01_getting-started
 ```
 
 ***
