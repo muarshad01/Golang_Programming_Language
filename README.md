@@ -112,7 +112,7 @@ $ go list -m all
 ```go
 $ mkdir -p $GOPATH/src/examplegocode
 $ cd $GOPATH/src/examplegocode
-$ go mod init example.com/test
+$ go mod init examplegocode
 $ go get -d github.com/GoesToEleven/go-programming/...        # See the '...'
 $ cd $GOPATH /pkg/mod/github.com/!goes!to!eleven/!golang!training@v0.0.0-20181204234241-afa19f5c43f3/01_getting-started
 ```
@@ -137,7 +137,7 @@ $ godoc -http=:6060
 ```go
 $ mkdir -p $GOPATH/src/test
 $ cd $GOPATH/src/test
-$ go mod init
+$ go mod init test
 $ go get -u golang.org/x/lint/golint
 $ go install golang.org/x/lint/golint
 $ echo $GOBIN | grep golint
