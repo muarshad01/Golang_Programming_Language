@@ -163,7 +163,7 @@ https://godoc.org/html/template
 
 $ mkdir -p $GOPATH/src/test
 $ cd $GOPATH/src/test
-$ go mod init
+$ go mod init test
 $ go get golang.org/x/tools/cmd/godoc
 $ go install golang.org/x/tools/cmd/godoc
 $ echo $GOBIN | grep godoc
