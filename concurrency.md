@@ -3,12 +3,15 @@
 # Concurrency
 
 * [sync.WaitGroup](https://pkg.go.dev/sync#WaitGroup)
+
 ```go
 type WaitGroup
 	func (wg *WaitGroup) Add(delta int)
-	func (wg *WaitGroup) Done()
+	func (wg *WaitGroup) Done()		# defer wg.Done()
 	func (wg *WaitGroup) Wait()
 ```
+
+`var wg sync.WaitGroup`
 
 ***
 
