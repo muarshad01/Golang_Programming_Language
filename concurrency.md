@@ -29,6 +29,8 @@ type Mutex
 ```go
 func AddInt64(addr *int64, delta int64) (new int64)
 func LoadInt64(addr *int64) (val int64)
+func AddInt32(addr *int32, delta int32) (new int32)
+func LoadInt32(addr *int32) (val int32)
 ```
 
 ***
