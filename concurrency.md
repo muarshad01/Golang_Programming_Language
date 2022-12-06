@@ -37,14 +37,14 @@ func LoadInt32(addr *int32) (val int32)
 
 ***
 
-[runtim](https://pkg.go.dev/runtime)
+* [runtime](https://pkg.go.dev/runtime)
 ```go
 const GOOS string = goos.GOOS
 const GOARCH string = goarch.GOARCH
 func NumCPU() int
 func NumGoroutine() int
 func GOMAXPROCS(n int) int
-func Gosched()
+func Gosched()		# Gosched yields the processor, allowing other goroutines to run.
 ```
 
 ***
