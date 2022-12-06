@@ -23,6 +23,8 @@ type Mutex
 	func (m *Mutex) Unlock()
 ```
 
+`var mutex sync.Mutex`
+
 ***
 
 * [sync/atomic](https://pkg.go.dev/sync/atomic#pkg-index)
