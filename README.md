@@ -230,6 +230,8 @@ $ godoc -http=:6060
 ***
 
 ## Useful Articles
+
+* [Concurrency is not parallelism](https://go.dev/blog/waza-talk)
 * [Error handling and Go](https://go.dev/blog/error-handling-and-go)
 * -> [Defer, Panic, and Recover](https://go.dev/blog/defer-panic-and-recover)
 * [Don't defer Close() on writable files](https://www.joeshaw.org/dont-defer-close-on-writable-files/)
