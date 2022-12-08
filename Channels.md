@@ -1,7 +1,7 @@
 
 # Channels
 
-Channels BLOCK
+Channels BLOCK  # Example: Relay RACE example, one runner is waiting for another...
 
 * [Channel types](https://go.dev/ref/spec#Channel_types)
 * [Channels](https://go.dev/doc/effective_go#channels)
