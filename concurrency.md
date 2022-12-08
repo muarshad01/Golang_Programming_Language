@@ -48,7 +48,7 @@ func Gosched()		# Gosched yields the processor, allowing other goroutines to run
 ```
 
 ```go
-func init {
+func init() {
 	runtime.GOMAXPROCS(runtime.NumCPU())
 }
 ```
