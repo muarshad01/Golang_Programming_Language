@@ -144,18 +144,21 @@ $ godoc -http=:6060
 ***
 
 ## golint
+
 ```go
-$ mkdir -p $GOPATH/src/test
-$ cd $GOPATH/src/test
-$ go mod init test
+$ mkdir -p $GOPATH/src/<folder>         # E.g., install_golint
+$ cd $GOPATH/src/<folder>
+$ go mod init <folder>
 $ go get -u golang.org/x/lint/golint
 $ go install golang.org/x/lint/golint
 $ echo $GOBIN | grep golint
 $ golint main.go
 ```
+
 ***
 
 ## Documentation
+
 ```go
 $ go help doc
 
