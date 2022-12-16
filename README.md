@@ -29,7 +29,7 @@ $ go help
 ## Go workspace
 
 ```
-<goworkaspace>	# one folder - any name, any location, with three directories
+<goworkaspace>	# one folder - any name, any location, with three sub-directories
   |--bin
   |--pkg
   |--src
