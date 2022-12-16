@@ -78,7 +78,22 @@ $ golint <filename>       # reports poor coding style (style mistakes)
 
 ***
 
+## golint
+
+```go
+$ mkdir -p $GOPATH/src/<folder>             # E.g., install_golint
+$ cd $GOPATH/src/<folder>
+$ go mod init <folder>
+$ go get -u golang.org/x/lint/golint
+$ go install golang.org/x/lint/golint       # go install, puts the 'executable' in $GOPATH/bin
+$ echo $GOBIN | grep golint
+$ golint main.go
+```
+
+***
+
 # Run code (Three different ways)
+
 ```go
 $ go run main.go
 $ go run -race main.go
@@ -117,6 +132,7 @@ $ go list -m all
 ```
 
 ***
+
 ## Using 'go get' command to get course code
 [cod link](https://github.com/GoesToEleven/GolangTraining)
 ```go
@@ -141,20 +157,6 @@ $ go tool cover -html=c.out
 
 $ godoc -http=:6060
 ```
-***
-
-## golint
-
-```go
-$ mkdir -p $GOPATH/src/<folder>         # E.g., install_golint
-$ cd $GOPATH/src/<folder>
-$ go mod init <folder>
-$ go get -u golang.org/x/lint/golint
-$ go install golang.org/x/lint/golint
-$ echo $GOBIN | grep golint
-$ golint main.go
-```
-
 ***
 
 ## Documentation
