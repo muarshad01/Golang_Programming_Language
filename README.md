@@ -42,7 +42,7 @@ $ mkdir -p $HOME/goworkspace/bin pkg src
 
 ***
 
-## Go env variable(s) & PATH setup
+## Go ENV variable(s) & PATH setup
 
 ```
 $ vim ~/.bash_profile
