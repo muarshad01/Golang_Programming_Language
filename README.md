@@ -27,27 +27,37 @@ $ go help
 ***
 
 ## Go workspace
+
 ```
-<goworkaspace>	# one folder - any name, any location
+<goworkaspace>	# one folder - any name, any location, with three directories
   |--bin
   |--pkg
   |--src
 
-$ mkdir ~/goworkspace
-$ cd ~/goworkspace
-$ mkdir bin pkg src
-
-NOTE: Usually, the default go workspace on macOS is $GOPATH=$HOME/go
+$ mkdir -p $HOME/goworkspace
+$ mkdir -p $HOME/goworkspace/bin pkg src
 ```
 
 ***
 
-## Env variable(s) & PATH setup
+## Go env variable(s) & PATH setup
+
 ```
 $ vim ~/.bash_profile
 
 export GOROOT=/usr/local/go
-export GOPATH=$HOME/go            # macOS: GOPATH = <goworkspace> = $HOME/go
+export GOPATH=$HOME/goworkspace
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin
+
+$ source ~/.bash_profile
+
+-----
+
+$ vim ~/.bash_profile
+
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go                  #Usually, the default go workspace on macOS is $GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOPATH/bin
 
