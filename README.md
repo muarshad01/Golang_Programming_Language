@@ -26,6 +26,18 @@ $ go help
 
 ***
 
+### VIM Editor
+
+```go
+$ vim ~/.vimrc 
+
+syntax on         # ADD
+
+vim main.go       # :syntax off
+```
+
+***
+
 ## Go workspace
 
 ```
