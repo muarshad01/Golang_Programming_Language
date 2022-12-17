@@ -260,3 +260,4 @@ $ godoc -http=:6060
 ## Tooling
 * [An Overview of Go's Tooling](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
 * [Chapter 1. Setting Up Your Go Environment](https://www.oreilly.com/library/view/learning-go/9781492077206/ch01.html)
+* [An Overview of Go's Tooling](https://www.alexedwards.net/blog/an-overview-of-go-tooling#pre-commit-checks)
