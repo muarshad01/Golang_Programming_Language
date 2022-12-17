@@ -204,7 +204,7 @@ $ godoc -http=:6060
 * [An Introduction to Progrmming in Go by Caleb Doxey](https://www.golang-book.com/public/pdf/gobook.pdf)
 * [Pro Go: The Complete Guide to Programming Reliable and Efficient Software Using Golang 1st ed. Edition](https://www.amazon.com/Pro-Go-Complete-Programming-Efficient/dp/1484273540)
 * [Practical Go: Building Scalable Network and Non-Network Applications 1st Edition](https://amsaha.bitbucket.io/)
-* [Efficient Go - 2022](https://www.oreilly.com/library/view/efficient-go/9781098105709/)
+* [Efficient Go: Data-Driven Performance Optimization - 2022](https://www.oreilly.com/library/view/efficient-go/9781098105709/)
 * [Go in Action](https://www.manning.com/books/go-in-action)
 * [How to Write a Book: Introduction](https://www.doxsey.net/blog/how-to-write-a-book--introduction/)
 * [Mastering Go: Harness the power of Go to build professional utilities and concurrent servers and services, 3rd Edition 3rd ed. Edition]()
