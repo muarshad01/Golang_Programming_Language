@@ -97,6 +97,22 @@ $ golint main.go
 
 ***
 
+## go-critic
+
+* [go-critic](https://github.com/go-critic/go-critic)
+
+```go
+$ mkdir -p $GOPATH/src/<folder>             # E.g., install_gocritic
+$ cd $GOPATH/src/<folder>
+$ go mod init <folder>
+$ go get -v -u github.com/go-critic/go-critic/cmd/gocritic
+$ go install -v github.com/go-critic/go-critic/cmd/gocritic@latest    # go install, puts the 'executable' in $GOPATH/bin
+$ echo $GOBIN | grep gocritic
+$ gocritic check -enableAll ./...
+```
+
+***
+
 # Run code (Three different ways)
 
 ```go
