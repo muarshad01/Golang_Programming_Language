@@ -287,6 +287,7 @@ $ godoc -http=:6060
 ***
 
 ## Tooling
+* [Creating a Golang Makefile](https://earthly.dev/blog/golang-makefile/)
 * [pre-commit](https://pre-commit.com/)
   - [https://github.com/TekWizely/pre-commit-golang](https://github.com/TekWizely/pre-commit-golang)
 * [An Overview of Go's Tooling](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
