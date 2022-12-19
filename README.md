@@ -297,3 +297,4 @@ $ godoc -http=:6060
 * [An Overview of Go's Tooling](https://www.alexedwards.net/blog/an-overview-of-go-tooling#pre-commit-checks)
 * [Helpful Golang tools to make your code great again](https://dev.to/koddr/helpful-golang-tools-to-make-your-code-great-again-3739)
 * [Using Vim for Go development](https://blog.logrocket.com/using-vim-go-development/)
+* [nils in GO](https://go101.org/article/nil.html)
