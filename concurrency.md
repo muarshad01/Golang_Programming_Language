@@ -25,6 +25,13 @@ type Mutex
 
 `var mutex sync.Mutex`
 
+[Singleton Example]https://refactoring.guru/design-patterns/singleton/go/example)
+```go
+var lock = &sync.Mutex{}
+lock.Lock()
+defer lock.Unlock()
+```
+
 ***
 
 * [sync/atomic](https://pkg.go.dev/sync/atomic#pkg-index)
