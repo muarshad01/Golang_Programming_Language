@@ -33,6 +33,19 @@ lock.Lock()
 defer lock.Unlock()
 ```
 
+[ConnPool Example](https://golangbyexample.com/golang-object-pool/)
+
+```go
+mulock *sync.Mutex
+
+mulock : new(sync.Mutex)
+
+mulock.Lock()
+mulock.Unlock()
+
+
+```
+
 ***
 
 * [sync/atomic](https://pkg.go.dev/sync/atomic#pkg-index)
@@ -62,6 +75,7 @@ func init() {
 ```
 
 ***
+
 
 ```
 // go run -race main.go
