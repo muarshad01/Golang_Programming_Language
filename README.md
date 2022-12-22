@@ -29,12 +29,31 @@ $ go help
 
 ### VIM Editor
 
+[Vim Configuration Options](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/)
+
 ```go
-$ vim ~/.vimrc 
+$ vim ~/.vimrc
 
-syntax on         # ADD
+syntax on
 
-vim main.go       # :syntax off
+" tabs
+filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+" search
+set hlsearch
+set ignorecase
+
+" Use colors that suit a dark background.
+" set background=dark
+
+" Enable spellchecking.
+set spell
+
+" Increase the undo limit.
+set history=100
 ```
 
 ***
