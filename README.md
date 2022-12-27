@@ -241,6 +241,7 @@ $ godoc -http=:6060
 7. Everything in Go is PASS BY VALUE (PASS BY COPY or PASS BY REFERENCE throw them away!)
 8. There is no try-catch-finally in go
 9. Go language doesn’t support method overloading
+10. As the language lacks inheritance and focuses on composition
 ```
 
 ***
