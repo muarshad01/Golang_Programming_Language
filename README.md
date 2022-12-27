@@ -242,6 +242,7 @@ $ godoc -http=:6060
 8. There is no try-catch-finally in go
 9. Go language doesn’t support method overloading
 10. As the language lacks inheritance and focuses on composition
+11. Go doesn't have a `collections` library
 ```
 
 ***
