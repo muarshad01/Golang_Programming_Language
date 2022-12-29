@@ -199,6 +199,8 @@ $ go test -coverprofile c.out
 $ go tool cover -html=c.out
 
 $ godoc -http=:6060
+
+http://localhost:6060/pkg/testing/
 ```
 ***
 
