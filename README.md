@@ -192,7 +192,7 @@ $ cd $GOPATH/pkg/mod/github.com/!goes!to!eleven/!golang!training@v0.0.0-20181204
 * [Package testing](https://pkg.go.dev/testing)
 * [Example Code](https://github.com/GoesToEleven/go-programming/tree/master/code_samples/009-testing)
 ```go
-$ go test
+$ go test -v
 $ go test -bench .
 $ go test -cover
 $ go test -coverprofile c.out
@@ -233,6 +233,7 @@ $ godoc -http=:6060
 ***
 
 ## NOTES
+
 ```
 1. Go is STATIC programming language
 2. Everything in Go is "passed by value"
@@ -270,20 +271,24 @@ $ godoc -http=:6060
 * [Build Systems with Go](https://www.amazon.com/Build-Systems-Go-Everything-Gopher/dp/B094L79K1C?dchild=1&keywords=golang&qid=1630693981&sr=8-19&linkCode=sl1&tag=365blottochal-20&linkId=40435c3a918c4078b9d0e0c00b72e0c1&language=en_US&ref_=as_li_ss_tl&asin=B094L79K1C&revisionId=&format=4&depth=1)
 
 ### Concurrency
+
 * [Concurrency in Go; Tools and Techniques for Developers by Katherine Cox-Buday (O’Reilly 2017)](https://www.amazon.com/Concurrency-Go-Tools-Techniques-Developers/dp/1491941197)
 
 ### Design patterns
+
 * [Design Patterns](https://golangbyexample.com/all-design-patterns-golang/)
 * [Go Language Patterns](http://www.golangpatterns.info/)
 * [All Design Patterns in Go (Golang)](https://golangbyexample.com/all-design-patterns-golang/)
 * [GoF Design patterns that still make sense in Go](https://dev.to/mauriciolinhares/gof-design-patterns-that-still-make-sense-in-go-27k5)
 
 ### Testing
+
 * [Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests/)
   - [https://github.com/quii/learn-go-with-tests](https://github.com/quii/learn-go-with-tests)
 * [Comprehensive Guide to Testing in Go](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/)
 
 ### Web Programming
+
 * [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
 
 ***
@@ -312,12 +317,14 @@ $ godoc -http=:6060
 ***
 
 ## Others
+
 * [Selectors](https://go.dev/ref/spec#Selectors)
 * [Types](https://go.dev/ref/spec#Types)
 
 ***
 
 ## Tooling
+
 * [Creating a Golang Makefile](https://earthly.dev/blog/golang-makefile/)
 * [pre-commit](https://pre-commit.com/)
   - [https://github.com/TekWizely/pre-commit-golang](https://github.com/TekWizely/pre-commit-golang)
