@@ -237,7 +237,7 @@ $ godoc -http=:6060
 ```
 1. Go is STATIC programming language
 2. Everything in Go is "passed by value"
-3. There is no "while" or "do-while"
+3. There is no "while" or "do-while" or "until"
 4. Go has "fallthrough" in switch statement
 5. "default" case may appear anywhere in a switch statement
 6. case can be presented in comma-seperted lists.
