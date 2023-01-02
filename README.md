@@ -246,6 +246,7 @@ $ godoc -http=:6060
 9. Go language doesn’t support method overloading
 10. As the language lacks inheritance and focuses on composition
 11. Go doesn't have a `collections` library
+12. In Go if a symbol (variables, types, functions et al) starts with a lowercase symbol then it is private outside the package it's defined in.
 ```
 
 ***
