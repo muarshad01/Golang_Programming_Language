@@ -88,3 +88,7 @@ func New(text string) error
 Note: `fmt.Errorf(...)` & `errors.New()` both return `builtin.error`
 
 ***
+
+## Useful Article
+
+[map CRUD example that uses const errs](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/maps)
