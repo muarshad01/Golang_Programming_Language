@@ -193,6 +193,7 @@ $ cd $GOPATH/pkg/mod/github.com/!goes!to!eleven/!golang!training@v0.0.0-20181204
 * [Example Code](https://github.com/GoesToEleven/go-programming/tree/master/code_samples/009-testing)
 ```go
 $ go test -v
+$ go test -race         # Check RACE condition
 $ go test -bench=.
 $ go test -cover
 $ go test -coverprofile c.out
