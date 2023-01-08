@@ -276,6 +276,7 @@ $ godoc -http=:6060
 * [Learning Go: An Idiomatic Approach to Real-World Go Programming 1st Edition]() 
 * [Build Systems with Go](https://www.amazon.com/Build-Systems-Go-Everything-Gopher/dp/B094L79K1C?dchild=1&keywords=golang&qid=1630693981&sr=8-19&linkCode=sl1&tag=365blottochal-20&linkId=40435c3a918c4078b9d0e0c00b72e0c1&language=en_US&ref_=as_li_ss_tl&asin=B094L79K1C&revisionId=&format=4&depth=1)
 *  [Go Programming Language Phrasebook, The (Developer's Library)](https://www.amazon.com/gp/product/0321817141/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0321817141&linkCode=as2&tag=alexellisuk-20&linkId=dba796393bbfd6c44282ca7bef7a6ad3)
+* [GoLang (Ultimate Guide) ](https://www.amazon.com/GoLang-Ultimate-Guide-Sufyan-Uzayr/dp/1032312327/ref=sr_1_3?keywords=golang+performance&qid=1673195822&sprefix=golang+perform%2Caps%2C343&sr=8-3)
 
 ### Concurrency
 
