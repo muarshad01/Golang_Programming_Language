@@ -196,7 +196,9 @@ $ go test -v
 $ go test -race         # Check RACE condition
 $ go test -bench=.
 $ go test -cover -v
-$ go test -coverprofile c.out
+$ go test -coverprofile=c.out
+
+$ go tool cover -func=c.out
 $ go tool cover -html=c.out
 
 $ godoc -http=:6060
