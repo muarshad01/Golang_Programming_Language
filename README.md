@@ -195,7 +195,7 @@ $ cd $GOPATH/pkg/mod/github.com/!goes!to!eleven/!golang!training@v0.0.0-20181204
 $ go test -v
 $ go test -race         # Check RACE condition
 $ go test -bench=.
-$ go test -cover
+$ go test -cover -v
 $ go test -coverprofile c.out
 $ go tool cover -html=c.out
 
