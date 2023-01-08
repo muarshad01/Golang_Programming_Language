@@ -197,6 +197,7 @@ $ go test -race         # Check RACE condition
 $ go test -bench=.
 $ go test -cover -v
 $ go test -coverprofile=c.out
+$ go tool cover -html=coverage.out -o output.html     # Save the output file
 
 $ go tool cover -func=c.out
 $ go tool cover -html=c.out
