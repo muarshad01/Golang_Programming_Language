@@ -278,6 +278,10 @@ $ godoc -http=:6060
 *  [Go Programming Language Phrasebook, The (Developer's Library)](https://www.amazon.com/gp/product/0321817141/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0321817141&linkCode=as2&tag=alexellisuk-20&linkId=dba796393bbfd6c44282ca7bef7a6ad3)
 * [GoLang (Ultimate Guide) ](https://www.amazon.com/GoLang-Ultimate-Guide-Sufyan-Uzayr/dp/1032312327/ref=sr_1_3?keywords=golang+performance&qid=1673195822&sprefix=golang+perform%2Caps%2C343&sr=8-3)
 
+### Distributed Services
+
+* [Distributed Services with Go: Your Guide to Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/Distributed-Services-Go-Reliable-Maintainable/dp/1680507605/ref=sr_1_1?crid=1Q5SDABL2MXD3&keywords=Distributed+Services+with+Go&qid=1673456986&sprefix=distributed+services+with+go%2Caps%2C63&sr=8-1)
+
 ### Concurrency
 
 * [Concurrency in Go; Tools and Techniques for Developers by Katherine Cox-Buday (O’Reilly 2017)](https://www.amazon.com/Concurrency-Go-Tools-Techniques-Developers/dp/1491941197)
