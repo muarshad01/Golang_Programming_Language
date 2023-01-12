@@ -4,15 +4,19 @@
 
 [io.Reader](https://pkg.go.dev/io#Reader)
 
+```go
 type Reader interface {
     Read(p []byte) (n int, err error)
 }
+```
 
 [io.Writer](https://pkg.go.dev/io#Writer)
 
+```go
 type Writer interface {
     Write(p []byte) (n int, err error)
 }
+```
 
 [io.ReadWriter](https://pkg.go.dev/io#ReadWriter)
 
@@ -40,10 +44,13 @@ type Writer struct {
 }
 
 [bufio.ReadWriter](https://pkg.go.dev/bufio#ReadWriter)
+
+```go
 type ReadWriter struct {
 	*Reader
 	*Writer
 } 
+```
 
 The `ReadWriter struct` could be written as
 
