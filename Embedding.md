@@ -22,10 +22,12 @@ type Writer interface {
 
 `ReadWriter` is the interface that combines the `Reader` and `Writer` interfaces.
 
+```go
 type ReadWriter interface {
     Reader
     Writer
 }
+```
 
 * It is a union of the embedded interfaces. 
 * Only interfaces can be embedded within interfaces.
