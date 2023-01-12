@@ -54,14 +54,18 @@ type ReadWriter struct {
 
 The `ReadWriter struct` could be written as
 
+```go
 type ReadWriter struct {
     reader *Reader
     writer *Writer
 }
+```
 
+```go
 func (rw *ReadWriter) Read(p []byte) (n int, err error) {
     return rw.reader.Read(p)
 }
+```
 
 * The methods of embedded types come along for free, which means that `bufio.ReadWriter` 
 not only has the methods of `bufio.Reader` and `bufio.Writer`, 
