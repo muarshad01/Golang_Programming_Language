@@ -20,7 +20,8 @@ type Writer interface {
 
 [io.ReadWriter](https://pkg.go.dev/io#ReadWriter)
 
-// ReadWriter is the interface that combines the Reader and Writer interfaces.
+`ReadWriter` is the interface that combines the `Reader` and `Writer` interfaces.
+
 type ReadWriter interface {
     Reader
     Writer
