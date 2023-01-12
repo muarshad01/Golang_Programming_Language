@@ -29,7 +29,7 @@ type ReadWriter interface {
 * It is a union of the embedded interfaces. 
 * Only interfaces can be embedded within interfaces.
 
-%---
+***
 
 [bufio.Reader](https://pkg.go.dev/bufio#Reader)
 
@@ -39,9 +39,11 @@ type Reader struct {
 
 [bufio.Writer](https://pkg.go.dev/bufio#Writer)
 
+```go
 type Writer struct {
 	// contains filtered or unexported fields
 }
+```
 
 [bufio.ReadWriter](https://pkg.go.dev/bufio#ReadWriter)
 
