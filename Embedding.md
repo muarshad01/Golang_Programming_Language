@@ -36,9 +36,11 @@ type ReadWriter interface {
 
 [bufio.Reader](https://pkg.go.dev/bufio#Reader)
 
+```go
 type Reader struct {
 	// contains filtered or unexported fields
 }
+```
 
 [bufio.Writer](https://pkg.go.dev/bufio#Writer)
 
