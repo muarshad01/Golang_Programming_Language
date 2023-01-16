@@ -277,6 +277,7 @@ $ godoc -http=:6060
 * [Build Systems with Go](https://www.amazon.com/Build-Systems-Go-Everything-Gopher/dp/B094L79K1C?dchild=1&keywords=golang&qid=1630693981&sr=8-19&linkCode=sl1&tag=365blottochal-20&linkId=40435c3a918c4078b9d0e0c00b72e0c1&language=en_US&ref_=as_li_ss_tl&asin=B094L79K1C&revisionId=&format=4&depth=1)
 *  [Go Programming Language Phrasebook, The (Developer's Library)](https://www.amazon.com/gp/product/0321817141/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0321817141&linkCode=as2&tag=alexellisuk-20&linkId=dba796393bbfd6c44282ca7bef7a6ad3)
 * [GoLang (Ultimate Guide) ](https://www.amazon.com/GoLang-Ultimate-Guide-Sufyan-Uzayr/dp/1032312327/ref=sr_1_3?keywords=golang+performance&qid=1673195822&sprefix=golang+perform%2Caps%2C343&sr=8-3)
+* [Powerful Command-Line Applications in Go: Build Fast and Maintainable Tools](https://www.amazon.com/Powerful-Command-Line-Applications-Go-Maintainable/dp/168050696X/ref=d_pd_vtp_vft_none_sccl_3_4/138-6340339-5761811?pd_rd_w=eCoAG&content-id=amzn1.sym.8e065679-52e9-4d16-ae63-fa3d08b93cef&pf_rd_p=8e065679-52e9-4d16-ae63-fa3d08b93cef&pf_rd_r=TMHVZDGG799BCJGSZERJ&pd_rd_wg=mASTq&pd_rd_r=f7fb705e-a7bd-43c1-ad51-25e58466a00a&pd_rd_i=168050696X&psc=1)
 
 ### Distributed Services
 
@@ -306,6 +307,7 @@ $ godoc -http=:6060
 ***
 
 ## Tools
+
 * [JSON-to-Go-Converter](https://mholt.github.io/json-to-go/)
 * [XML-to-Go-Converter](https://jsonformatter.org/xml-to-go)
 * [Go online Playground](https://play.golang.org/)
