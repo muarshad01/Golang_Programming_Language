@@ -33,7 +33,7 @@ Downlad VS Code
 * [VScode for Golang - How to setup Visual Studio Code for Go](https://www.youtube.com/watch?v=TfCMweSHWHw)
 
 * Go Extension Manager
-  - Search golang 
+  - Search `golang` 
     - Rich Go language support for Visual Studio Code
       - Click Install
 * Go Extension Manager
