@@ -47,6 +47,15 @@ $ go help
 
 ***
 
+### Install MAKE
+
+```
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+$ brew install make
+```
+
+***
+
 ### VIM Editor
 
 [Vim Configuration Options](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/)
