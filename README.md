@@ -28,7 +28,7 @@ $ go help
 
 ***
 
-Downlad VS Code
+## Downlad & Install VSCode / Extensions
 
 * [VS Code](https://code.visualstudio.com/download)
 * [VScode for Golang - How to setup Visual Studio Code for Go](https://www.youtube.com/watch?v=TfCMweSHWHw)
