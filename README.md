@@ -27,6 +27,12 @@ $ go help
 
 ***
 
+Downlad VS Code
+
+* [VS Code](https://code.visualstudio.com/download)
+
+***
+
 ### VIM Editor
 
 [Vim Configuration Options](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/)
