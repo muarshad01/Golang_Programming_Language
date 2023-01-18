@@ -8,7 +8,7 @@ Learn How To Code: Google's Go (golang) Programming Language [GitHub code link](
 ***
 
 ## Install the latest version of Go
-* 
+
 * https://go.dev -> downloads [Download](https://go.dev/dl/)
 * [Go download & Install](https://go.dev/doc/install)
 
