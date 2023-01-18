@@ -35,7 +35,8 @@ Downlad VS Code
 * Go Extension Manager: Search golang 
   - Rich Go language support for Visual Studio Code -> Click Install
 * Go Extension Manager: Preferences 
-* Command Palette: Command + Shift + P; Go: Install/Update Tools
+* Command Palette: Command + Shift + P
+  - **Go: Install/Update Tools**
 
 
 ***
