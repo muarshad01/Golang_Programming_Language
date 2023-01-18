@@ -43,6 +43,7 @@ $ go help
   - **Go: Install/Update Tools**
 * Go Extension Manager
   - Search `gotemplate-syntax` (by casualjim) 
+    - Click Install 
 
 ***
 
