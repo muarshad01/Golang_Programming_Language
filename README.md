@@ -30,7 +30,7 @@ $ go help
 Downlad VS Code
 
 * [VS Code](https://code.visualstudio.com/download)
-Command Palette: Command + Shift + P
+Command Palette: Command + Shift + P; Go: Install/Update Tools
 
 * Go Extension Manager: Search `golang` 
   - Rich Go language support for Visual Studio Code -> Click Install
