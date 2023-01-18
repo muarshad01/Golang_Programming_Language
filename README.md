@@ -35,15 +35,13 @@ $ go help
 
 * Go Extension Manager
   - Search `golang` 
-    - Rich Go language support for Visual Studio Code
-      - Click Install
+    - Rich Go language support for Visual Studio Code (Click Install)
 * Go Extension Manager
   - Preferences 
 * Command Palette: Command + Shift + P
   - **Go: Install/Update Tools**
 * Go Extension Manager
-  - Search `gotemplate-syntax` (by casualjim) 
-    - Click Install 
+  - Search `gotemplate-syntax` (by casualjim) (Click Install) 
 
 ***
 
