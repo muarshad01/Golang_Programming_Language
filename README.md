@@ -309,6 +309,7 @@ $ godoc -http=:6060
 ### Distributed Services
 
 * [Distributed Services with Go: Your Guide to Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/Distributed-Services-Go-Reliable-Maintainable/dp/1680507605/ref=sr_1_1?crid=1Q5SDABL2MXD3&keywords=Distributed+Services+with+Go&qid=1673456986&sprefix=distributed+services+with+go%2Caps%2C63&sr=8-1)
+* [Awesome Distributed System Projects](https://github.com/roma-glushko/awesome-distributed-system-projects)
 
 ### Concurrency
 
