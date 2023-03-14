@@ -285,6 +285,7 @@ $ godoc -http=:6060
 
 ## Books & Courses
 
+* [Getting started with GOLANG](https://www.golinuxcloud.com/getting-started-with-golang/)
 * [Go: The Complete Developer's Guide (Golang) -- Udemy(~9 hrs)](https://www.udemy.com/course/go-the-complete-developers-guide/)
 * [The Go Programming Lanauge by Brian W. Kernighan - Book](https://beyondkmp.com/books/golang/The.Go.Programming.Language.pdf) & [code](https://github.com/GoesToEleven/gopl.io)
 * [Golang cheatsheet](https://quickref.me/golang)
