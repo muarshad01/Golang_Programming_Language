@@ -94,7 +94,9 @@ set history=100
   |--src
 
 $ mkdir -p $HOME/goworkspace
-$ mkdir -p $HOME/goworkspace/bin pkg src
+$ cd $HOME/goworkspace
+$ mkdir -p bin pkg src
+$ cd ..
 ```
 
 **Note**: the default go workspace on macOS is $GOPATH=$HOME/go
@@ -108,10 +110,8 @@ $ vim ~/.bash_profile
 
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/goworkspace
-
-# export GOBIN=$GOPATH/bin
-
-export PATH=$PATH:$GOROOT/bin            # export PATH=$PATH:$GOBIN
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN            
 export PATH=$PATH:$GOPATH/bin
 
 export GO111MODULE="on"
