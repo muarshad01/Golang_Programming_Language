@@ -1,6 +1,6 @@
 
 [Section 01: Course Introduction](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_01_course_introduction.md) -- Nov 16, 2023
-
+[Section 02: Getting going with Go](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_02_getting_going_with_go.md) -- Nov 17, 2023
 ***
 
 # Go-Programming-Language
