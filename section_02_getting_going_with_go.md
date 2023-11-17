@@ -16,6 +16,16 @@
 
 ## 7. Creating our first go program - hello gophers!
 
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello!")
+}
+```
+
 ***
 
 ## 8. Exploring format printing and documentation
