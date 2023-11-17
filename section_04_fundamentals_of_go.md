@@ -2,7 +2,10 @@
 
 * DECLARE a variable to hold a VALUE of a certain TYPE
 * then ASSIGN a VALUE of that TYPE to the variable
-
+```go
+var g int
+g = 44
+```
 * Short declaration operator(`:=`)
 * Underscore(`_`) the blank-identifier
     - `code-pollution`
