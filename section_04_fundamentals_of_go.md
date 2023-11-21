@@ -24,9 +24,13 @@ g = 44
 
 ## 16. Values, types, conversion, scope, & housekeeping
 
+* (`:=`) - short declaration operator can only be used inside a function.
+
 ***
 
 ## 17. Built-in types, aggregate types, and composition
+
+* The act of building a STRUCT which is a composite type is know as COMPOSITION
 
 *** 
 
