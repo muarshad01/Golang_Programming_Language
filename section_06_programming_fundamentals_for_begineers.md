@@ -48,6 +48,11 @@ func (p person)sayHello() {
 
 ## 36. Terminal commands - part 2
 
+```go
+$ go version
+$ go env
+```
+
 ***
 
 ## 37. Github and ssh authentication
