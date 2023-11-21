@@ -1,5 +1,6 @@
 
-$\color{red}{Most\ people\ overestimate\ what\ they\ can\ do\ in\ a\ year,\ and\ they\ underestimate\ what\ they\ can\ do\ in\ ten\ years.\ -\ Bill\ Gates}$
+$\color{red}{Most\ people\ overestimate\ what\ they\ can\ do\ in\ a\ year,\ 
+and\ they\ underestimate\ what\ they\ can\ do\ in\ ten\ years.\ -\ Bill\ Gates}$
 
 ***
 
