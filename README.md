@@ -7,7 +7,7 @@
 * [Section 02: Getting going with Go](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_02_getting_going_with_go.md) -- Nov 17, 2023
 * [Section 03: Hands-on Exercises](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_03_hands_on_exercies.md) -- Nov 17, 2023
 * [Section 04: The Fundamentals of Go](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_04_fundamentals_of_go.md) -- Nov 21, 2023
-
+* [Section 06: Programming Fundamentals for Beginners](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_06_programming_fundamentals_for_begineers.md) -- Nov 21, 2023
 ***
 
 # Go-Programming-Language
