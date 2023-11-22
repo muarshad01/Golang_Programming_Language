@@ -8,6 +8,7 @@
 * [Section 03: Hands-on Exercises](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_03_hands_on_exercies.md) -- Nov 17, 2023
 * [Section 04: The Fundamentals of Go](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_04_fundamentals_of_go.md) -- Nov 21, 2023
 * [Section 06: Programming Fundamentals for Beginners](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_06_programming_fundamentals_for_begineers.md) -- Nov 21, 2023
+* [Section 08: Go Mod and Dependency Management](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_08_go_mod_and_dependency_management.md) -- Nov 22, 2023
 ***
 
 # Go-Programming-Language
