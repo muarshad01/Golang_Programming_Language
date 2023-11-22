@@ -1,5 +1,7 @@
 
-### Most people overestimate what they can do in a year, and they underestimate what they can do in ten years. - Bill Gates
+## Quotes
+* Most people overestimate what they can do in a year, and they underestimate what they can do in ten years. - Bill Gates
+* You will never win if you never begin
 
 ***
 
