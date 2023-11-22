@@ -44,6 +44,26 @@ $ go help
 
 ***
 
+## Go workspace
+
+* One folder - any name, any location, with three sub-directories
+```
+<goworkaspace>
+    |--bin
+    |--pkg
+    |--src
+```
+
+```linux
+$ mkdir -p $HOME/goworkspace
+$ cd $HOME/goworkspace
+$ mkdir -p bin pkg src
+```
+
+* Note: the default go workspace on macOS is $GOPATH=$HOME/go
+
+***
+
 ## Go ENV variable(s) & PATH setup
 
 * Add the following to `~/.bash_profile` file:
@@ -123,21 +143,6 @@ set history=100
 
 ***
 
-## Go workspace
-
-```
-<goworkaspace>	# one folder - any name, any location, with three sub-directories
-  |--bin
-  |--pkg
-  |--src
-
-$ mkdir -p $HOME/goworkspace
-$ cd $HOME/goworkspace
-$ mkdir -p bin pkg src
-$ cd ..
-```
-
-**Note**: the default go workspace on macOS is $GOPATH=$HOME/go
 
 ***
 
