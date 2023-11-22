@@ -188,11 +188,10 @@ $ go run -race main.go
 
 ```go
 $ go build                  # macOS: folder-name is executable
-$ go build main.go       
 ```
 * Builds executable
 
-* Cross build/compile
+### Cross build/compile
 ```go
 $ go env GOARCH GOOS        # macOS: arm64; darwin
 ```
