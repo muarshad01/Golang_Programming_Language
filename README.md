@@ -20,7 +20,7 @@
 * [Section 06: Programming Fundamentals for Beginners](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_06_programming_fundamentals_for_begineers.md) -- Nov 21, 2023
 * [Section 08: Go Mod and Dependency Management](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_08_go_mod_and_dependency_management.md) -- Nov 22, 2023
 
-[Section 33: Writing Documentation](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_33_writing_documentation.md) -- Nov 22, 2023
+* [Section 33: Writing Documentation](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_33_writing_documentation.md) -- Nov 22, 2023
 
 ***
 
@@ -267,37 +267,6 @@ $ godoc -http=:6060
 
 http://localhost:6060/pkg/testing/
 ```
-***
-
-## Documentation
-
-```go
-$ go help doc
-
-$ go doc fmt 
-$ go doc fmt Print
-
-$ go doc -src fmt Print
-$ go doc -src errors New
-```
-
-```
-https://godoc.org/fmt
-https://godoc.org/net/http
-https://godoc.org/text/template
-https://godoc.org/html/template
-```
-
-```
-$ mkdir -p $GOPATH/src/test
-$ cd $GOPATH/src/test
-$ go mod init test
-$ go get golang.org/x/tools/cmd/godoc
-$ go install golang.org/x/tools/cmd/godoc
-$ echo $GOBIN | grep godoc
-$ godoc -http=:8080
-```
-
 ***
 
 ## NOTES
