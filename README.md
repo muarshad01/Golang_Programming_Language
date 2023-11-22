@@ -6,10 +6,11 @@
 
 ## Quotes
 
+* FOCUS: ONE Attribute for success. - Bill Gates & Warren Buffet
 * Most people overestimate what they can do in a year, and they underestimate what they can do in ten years. - Bill Gates
-* You will never win if you never begin
-* Bill Gates & Warren Buffet -> **ONE Attribute for success (*FOCUS*)**
-* [Grit - Angela Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8)
+* You will never win if you never begin.
+* [GRIT - Angela Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8)
+
 ***
 
 * [Section 01: Course Introduction](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_01_course_introduction.md) -- Nov 16, 2023
