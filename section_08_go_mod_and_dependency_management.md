@@ -27,11 +27,12 @@ $ go help mod tidy
 
 ## 47. Package visibility: visible, not visible; exported, not exported
 
-* public / private
-* visible / not visible
-* exported / not exported
+* Package visibility
+    * (public, private)
+    * (visible, not-visible)
+    * (exported, not-exported)
 
-* So, it's the case, the capitalization of that first letter in an identifier name which determines whether or not something is visible or not visible outside of package exported or not exported.
+* So, it's the case, the capitalization of that first-letter in an identifier-name determines whether or not something is visible or not-visible outside of package i.e., exported or not-exported.
 ***
 
 ## 48. Modular code, dependency mgmt, `go get` - #1
