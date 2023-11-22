@@ -44,6 +44,31 @@ $ go help
 
 ***
 
+## Go ENV variable(s) & PATH setup
+
+```
+$ vim ~/.bash_profile
+```
+
+* Update `~/.bash_profile` file as follows:
+```
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/goworkspace
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN            
+export PATH=$PATH:$GOPATH/bin
+
+export GO111MODULE="on"
+export GOVCS=*:all
+# export GOVCS=*:off
+```
+
+```
+$ source ~/.bash_profile
+```
+
+***
+
 ## Download and Install VSCode / Extensions
 
 * [VS Code](https://code.visualstudio.com/download)
@@ -118,22 +143,6 @@ $ cd ..
 **Note**: the default go workspace on macOS is $GOPATH=$HOME/go
 
 ***
-
-## Go ENV variable(s) & PATH setup
-
-```
-$ vim ~/.bash_profile
-
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/goworkspace
-export GOBIN=$GOPATH/bin
-export PATH=$PATH:$GOBIN            
-export PATH=$PATH:$GOPATH/bin
-
-export GO111MODULE="on"
-
-$ source ~/.bash_profile
-```
 
 ***
 
