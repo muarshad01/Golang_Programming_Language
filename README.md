@@ -6,7 +6,7 @@
 
 ## Quotes
 
-* FOCUS: ONE Attribute for success. - Bill Gates & Warren Buffet
+* FOCUS: One attribute for success. - Bill Gates & Warren Buffet
 * Most people overestimate what they can do in a year, and they underestimate what they can do in ten years. - Bill Gates
 * You will never win if you never begin.
 * [GRIT - Angela Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8)
