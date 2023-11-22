@@ -275,22 +275,25 @@ $ go help doc
 $ go doc fmt 
 $ go doc fmt Print
 
-$ go doc -src fmt 
 $ go doc -src fmt Print
 $ go doc -src errors New
+```
 
+```
 https://godoc.org/fmt
 https://godoc.org/net/http
 https://godoc.org/text/template
 https://godoc.org/html/template
+```
 
+```
 $ mkdir -p $GOPATH/src/test
 $ cd $GOPATH/src/test
 $ go mod init test
 $ go get golang.org/x/tools/cmd/godoc
 $ go install golang.org/x/tools/cmd/godoc
 $ echo $GOBIN | grep godoc
-$ godoc -http=:6060
+$ godoc -http=:8080
 ```
 
 ***
