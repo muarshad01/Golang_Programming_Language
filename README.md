@@ -178,17 +178,32 @@ $ gocritic check -enableAll ./...
 
 ***
 
-# Run code (Three different ways)
-
+## 41. Running go programs on your machine (THREE different ways)
 ```go
 $ go run main.go
+$ go run ./...
 $ go run -race main.go
+```
+* Build executable and runs it
 
-$ go build                # mac: folder-name is executable
+```go
+$ go build                  # macOS: folder-name is executable
 $ go build main.go       
+```
+* Builds executable
 
-$ go install
-$ go install main.go     # puts the 'executable' in $GOPATH/bin
+* Cross build/compile
+```go
+$ go env GOARCH GOOS        # macOS: arm64; darwin
+```
+
+* Run one of these at the command line to build to a certain OS:
+    - `GOOS=darwin go build`
+    - `GOOS=linux go build`
+    - `GOOS=windows go build`
+
+```go
+$ go install                # puts the 'executable' in $GOPATH/bin
 ```
 
 ***
