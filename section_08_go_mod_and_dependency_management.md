@@ -1,5 +1,6 @@
 ## 43. Introduction to go modules & dependency management
 
+
 * Dependency management is the process of identifying, organizing, and resolving the external code libraries and packages that a software application or project depends up.
 
 * Most software applications depend on a large number of external code libraries or packages, which are typically maintained by *third-party* developers.
