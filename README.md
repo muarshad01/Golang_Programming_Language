@@ -1,8 +1,15 @@
+## Go-Programming-Language
+
+* [The Go Programming Language and Environment- CACM 2022](https://cacm.acm.org/magazines/2022/5/260357-the-go-programming-language-and-environment/fulltext)
+
+***
 
 ## Quotes
+
 * Most people overestimate what they can do in a year, and they underestimate what they can do in ten years. - Bill Gates
 * You will never win if you never begin
-
+* Bill Gates & Warren Buffet -> **ONE Attribute for success (*FOCUS*)**
+* [Grit - Angela Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8)
 ***
 
 * [Section 01: Course Introduction](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_01_course_introduction.md) -- Nov 16, 2023
@@ -12,13 +19,6 @@
 * [Section 06: Programming Fundamentals for Beginners](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_06_programming_fundamentals_for_begineers.md) -- Nov 21, 2023
 * [Section 08: Go Mod and Dependency Management](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_08_go_mod_and_dependency_management.md) -- Nov 22, 2023
 ***
-
-# Go-Programming-Language
-Learn How To Code: Google's Go (golang) Programming Language [GitHub code link](https://github.com/goestoeleven)
-
-* [The Go Programming Language and Environment- CACM 2022](https://cacm.acm.org/magazines/2022/5/260357-the-go-programming-language-and-environment/fulltext)
-* [Grit - Angela Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8)
-* Bill Gates & Warren Buffet -> **ONE Attribute for success (*FOCUS*)**
 
 ***
 
