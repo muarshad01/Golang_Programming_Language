@@ -56,18 +56,4 @@ $ go help mod tidy
 ***
 
 ## 53. Specifying dependency version
-
 ***
-
-
-
-
-
-
-
-
-
-
-
-
-
