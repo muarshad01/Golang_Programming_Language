@@ -46,17 +46,14 @@ $ go help
 
 ## Go ENV variable(s) & PATH setup
 
-```
-$ vim ~/.bash_profile
-```
+* Add the following to `~/.bash_profile` file:
 
-* Update `~/.bash_profile` file as follows:
 ```
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/goworkspace
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN            
-export PATH=$PATH:$GOPATH/bin
+#export PATH=$PATH:$GOPATH/bin
 
 export GO111MODULE="on"
 export GOVCS=*:all
