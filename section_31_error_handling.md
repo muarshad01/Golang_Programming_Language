@@ -9,7 +9,7 @@ type error interface {
 }
 ```
 * `type error` in Go is an interface.
-* Any other type that has `Error()` method (that returns a string) attached to it is also of `type error` in Go, i.e., it will implicitly implement `type error` and it will be an `error`.
+* Any other type that has `Error() string` method attached to it is also of `type error interface{}` in Go, i.e., it will implicitly implement `type error interface{}` and it will be an `error`.
 
 
 ```go
