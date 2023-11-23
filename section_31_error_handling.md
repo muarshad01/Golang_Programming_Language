@@ -34,13 +34,13 @@ func (e *errorString) Error() string {
 
 ***
 
-## 231. Checking errors
+## 231. Checking `errors`
 
-* code
-  - https://go.dev/play/p/flMiN9rZtnC
-  - https://go.dev/play/p/SHxi-AdsJT9
-  - https://go.dev/play/p/fSqQ0Q1uLhu
-  - https://go.dev/play/p/NdQkbOK909r
+* Examples
+    * https://go.dev/play/p/flMiN9rZtnC
+    * https://go.dev/play/p/SHxi-AdsJT9
+    * https://go.dev/play/p/fSqQ0Q1uLhu
+    * https://go.dev/play/p/NdQkbOK909r
 
 ***
 
