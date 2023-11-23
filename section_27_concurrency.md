@@ -1,6 +1,8 @@
+## 201. Concurrency vs parallelism
 
+***
 
-# Concurrency
+## 202. `WaitGroup`
 
 * [sync.WaitGroup](https://pkg.go.dev/sync#WaitGroup)
 
@@ -12,6 +14,22 @@ type WaitGroup
 ```
 
 `var wg sync.WaitGroup`
+
+***
+
+## 203. Method sets revisited
+
+***
+
+## 204. Documentation
+
+***
+
+## 205. Race condition
+
+***
+
+## 206. Mutex
 
 ***
 
