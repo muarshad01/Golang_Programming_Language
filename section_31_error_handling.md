@@ -75,6 +75,8 @@ func Panicf(format string, v ...any)
 
 * [func panic](https://pkg.go.dev/builtin@go1.21.4#panic)
 ```go
+func panic(v any)
+```
 * [func recover](https://pkg.go.dev/builtin@go1.21.4#recover)
 ```go
 func recover() any
