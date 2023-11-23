@@ -147,12 +147,17 @@ func g(i int) {
 
 ## 234. Errors with info
 
+* [fmt.Errorf()](https://pkg.go.dev/fmt#Errorf)
 ```go
 func Errorf(format string, a ...any) error {}
+```
+
+* [erros.New()](https://pkg.go.dev/errors#example-New)
+```go
 func New(text string) error {}
 ```
 
-* `fmt.Errorf(...)` & `errors.New()` both return `builtin.error`
+* `fmt.Errorf(...)` & `errors.New(...)` both return `builtin.error`
 
 ***
 
