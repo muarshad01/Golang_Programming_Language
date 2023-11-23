@@ -69,9 +69,9 @@ func Panicf(format string, v ...any)
 * For `Panic()`
     * deferred functions are run
     * i.e., can use RECOVER
-* code
-  - https://go.dev/play/p/y_ozMejQuBD
-  - https://go.dev/play/p/u9bXYTxWod7
+* Examples
+    * https://go.dev/play/p/y_ozMejQuBD
+    * https://go.dev/play/p/u9bXYTxWod7
 
 * [func panic](https://pkg.go.dev/builtin@go1.21.4#panic)
 ```go
