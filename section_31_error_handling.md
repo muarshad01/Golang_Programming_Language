@@ -148,10 +148,11 @@ func g(i int) {
 ## 234. Errors with info
 
 ```go
-func Errorf(format string, a ...any) error
-func New(text string) error
+func Errorf(format string, a ...any) error {}
+func New(text string) error {}
 ```
-Note: `fmt.Errorf(...)` & `errors.New()` both return `builtin.error`
+
+* `fmt.Errorf(...)` & `errors.New()` both return `builtin.error`
 
 ***
 
