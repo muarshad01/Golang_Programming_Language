@@ -1,4 +1,4 @@
-## 178. Understanding
+## 230. Understanding
 
 [type error](https://pkg.go.dev/builtin#error)
 ```go
@@ -33,7 +33,7 @@ func New(text string) error {
 
 ***
 
-## 179. Checking errors
+## 231. Checking errors
 
 * code
   - https://go.dev/play/p/flMiN9rZtnC
@@ -43,7 +43,7 @@ func New(text string) error {
 
 ***
 
-## Lecture 180. Printing and logging
+## 232. Printing and logging
 
 [package log](https://pkg.go.dev/log#pkg-index)
 ```go
@@ -69,7 +69,7 @@ func Panicln(v ...any)
 
 ***
 
-## 181. Recover
+## 233. Recover
 
 * [Defer, Panic, and Recover](https://blog.golang.org/defer-panic-and-recover)
 
@@ -79,7 +79,7 @@ func Panicln(v ...any)
 
 ***
 
-## 182. Errors with info
+## 234. Errors with info
 
 ```go
 func Errorf(format string, a ...any) error
