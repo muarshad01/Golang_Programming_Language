@@ -20,6 +20,8 @@
 * [Section 06: Programming Fundamentals for Beginners](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_06_programming_fundamentals_for_begineers.md) -- Nov 21, 2023
 * [Section 08: Go Mod and Dependency Management](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_08_go_mod_and_dependency_management.md) -- Nov 22, 2023
 
+
+* [Section 31: Error Handling](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_31_error_handling.md)
 * [Section 33: Writing Documentation](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_33_writing_documentation.md) -- Nov 22, 2023
 
 ***
