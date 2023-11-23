@@ -13,7 +13,6 @@ type error interface {
 
 
 ```go
-// because the former will succeed if err wraps an [*io/fs.PathError].
 package errors
 
 // New returns an error that formats as the given text.
@@ -31,7 +30,7 @@ func (e *errorString) Error() string {
 	return e.s
 }
 ```
-* Any other type (e.g., type `type errotString struct{}`) that implements `Error()` method is also of `type error interface{}` in Go.
+* Any other type (e.g., `type errotString struct{}`) that implements `Error() string` method is also of `type error interface{}` in Go.
 
 ***
 
