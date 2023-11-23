@@ -46,20 +46,19 @@ func (e *errorString) Error() string {
 
 ## 232. Printing and logging
 
-[package log](https://pkg.go.dev/log#pkg-index)
+* [package log](https://pkg.go.dev/log#pkg-index)
 ```go
 func Print(v ...any)
-func Printf(format string, v ...any)
 func Println(v ...any)
+func Printf(format string, v ...any)
 
 func Fatal(v ...any)
-func Fatalf(format string, v ...any)
 func Fatalln(v ...any)
+func Fatalf(format string, v ...any)
 
 func Panic(v ...any)
-func Panicf(format string, v ...any)
 func Panicln(v ...any)
-
+func Panicf(format string, v ...any)
 ```
 * For `log.Println()`, default is **stdout** similar to `fmt.Println()` but can also write to a logfile.
 * For  `log.Fatal()`, `os.Exit()` is executed, i.e., exit status 1; deferred functions are not run.
