@@ -88,8 +88,8 @@ func recover() any
 
 * [Defer, Panic, and Recover](https://blog.golang.org/defer-panic-and-recover)
 
-* Example code
-    * https://play.golang.org/p/HI4uG55ait
+* https://play.golang.org/p/HI4uG55ait
+
 ```go
 package main
 
@@ -108,7 +108,9 @@ func c() (i int) {
 	return 1
 }
 ```
-    * https://play.golang.org/p/ZocncqtwaK
+
+* https://play.golang.org/p/ZocncqtwaK
+
 ```go
 package main
 
