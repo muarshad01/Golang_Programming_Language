@@ -31,8 +31,6 @@ type WaitGroup
 
 ## 206. Mutex
 
-***
-
 * [sync.Mutex](https://pkg.go.dev/sync#Mutex)
 ```go
 type Mutex
@@ -60,7 +58,6 @@ mulock : new(sync.Mutex)
 
 mulock.Lock()
 mulock.Unlock()
-
 
 ```
 
