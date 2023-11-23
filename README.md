@@ -63,7 +63,7 @@ $ cd $HOME/goworkspace
 $ mkdir -p bin pkg src
 ```
 
-* Note: the default go workspace on macOS is $GOPATH=$HOME/go
+* Note: the default go workspace on macOS is `$GOPATH=$HOME/go`
 
 ***
 
