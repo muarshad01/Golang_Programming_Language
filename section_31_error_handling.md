@@ -73,6 +73,13 @@ func Panicf(format string, v ...any)
   - https://go.dev/play/p/y_ozMejQuBD
   - https://go.dev/play/p/u9bXYTxWod7
 
+* [func panic](https://pkg.go.dev/builtin@go1.21.4#panic)
+```go
+* [func recover](https://pkg.go.dev/builtin@go1.21.4#recover)
+```go
+func recover() any
+```
+
 ***
 
 ## 233. Recover
