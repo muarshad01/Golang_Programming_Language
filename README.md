@@ -21,6 +21,7 @@
 * [Section 08: Go Mod and Dependency Management](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_08_go_mod_and_dependency_management.md) -- Nov 22, 2023
 
 
+* [Section 27: Concurrency](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_27_concurrency.md)
 * [Section 31: Error Handling](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_31_error_handling.md) -- Nov 23, 2023
 * [Section 33: Writing Documentation](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_33_writing_documentation.md) -- Nov 22, 2023
 
