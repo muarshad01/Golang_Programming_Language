@@ -1,5 +1,7 @@
 ## 230. Understanding
 
+* [Error handling and Go](https://go.dev/blog/error-handling-and-go)
+
 [type error](https://pkg.go.dev/builtin#error)
 ```go
 type error interface {
@@ -7,6 +9,12 @@ type error interface {
 }
 ```
 * `error` in Go is an interface.
+* Any other type that has `Error()` method (that returns a string) attached to it is also of `type error` in Go, i.e., it will implicitly implement `type error` and it will be an `error`.
+
+```go
+func New(text string) error
+```
+
 
 [type errorString](https://cs.opensource.google/go/go/+/refs/tags/go1.19.3:src/errors/errors.go;l=66;drc=d5de62df152baf4de6e9fe81933319b86fd95ae4;bpv=1;bpt=0)
 ```go
@@ -14,14 +22,14 @@ type errorString struct {
 	info string
 }
 ```
-`errorString` is a trivial implementation of `error` interface.
+* `errorString` is a trivial implementation of `error` interface.
 
 ```go
 func (es *errorString) Error() string {
 	return es.info
 }
 ```
-Any other type (e.g., type `errotString` struct) that implements `Error() string` method is also of type `error` interface in Go.
+* Any other type (e.g., type `type errotString struct{}`) that implements `Error()` method is also of `type error interface{}` in Go.
 
 [func New(...)](https://pkg.go.dev/errors#New)
 ```go
