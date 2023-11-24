@@ -59,6 +59,11 @@ type WaitGroup
 ## 206. Mutex
 
 * [sync.Mutex](https://pkg.go.dev/sync#Mutex)
+
+```go
+var mu sync.Mutex
+```
+
 ```go
 type Mutex
     func (m *Mutex) Lock()
@@ -66,14 +71,12 @@ type Mutex
     func (m *Mutex) Unlock()
 ```
 
-```go
-var mu sync.Mutex
-```
 ***
 
 ## 207. Atomic
 
 * [sync/atomic](https://pkg.go.dev/sync/atomic#pkg-index)
+
 ```go
 func AddInt64(addr *int64, delta int64) (new int64)
 func LoadInt64(addr *int64) (val int64)
@@ -87,12 +90,12 @@ func LoadInt32(addr *int32) (val int32)
 * [Singleton Example](https://refactoring.guru/design-patterns/singleton/go/example)
 ```go
 var lock = &sync.Mutex{}
+
 lock.Lock()
 defer lock.Unlock()
 ```
 
 * [ConnPool Example](https://golangbyexample.com/golang-object-pool/)
-
 ```go
 mulock *sync.Mutex
 
