@@ -82,15 +82,16 @@ func LoadInt32(addr *int32) (val int32)
 ```
 ***
 
-[Singleton Example](https://refactoring.guru/design-patterns/singleton/go/example)
+## Miscellaneous
 
+* [Singleton Example](https://refactoring.guru/design-patterns/singleton/go/example)
 ```go
 var lock = &sync.Mutex{}
 lock.Lock()
 defer lock.Unlock()
 ```
 
-[ConnPool Example](https://golangbyexample.com/golang-object-pool/)
+* [ConnPool Example](https://golangbyexample.com/golang-object-pool/)
 
 ```go
 mulock *sync.Mutex
@@ -99,13 +100,7 @@ mulock : new(sync.Mutex)
 
 mulock.Lock()
 mulock.Unlock()
-
 ```
-
-***
-
-
-***
 
 * [runtime](https://pkg.go.dev/runtime)
 ```go
@@ -114,7 +109,7 @@ const GOARCH string = goarch.GOARCH
 func NumCPU() int
 func NumGoroutine() int
 func GOMAXPROCS(n int) int
-func Gosched()		# Gosched yields the processor, allowing other goroutines to run.
+func Gosched()		            # Gosched() yields the processor, allowing other goroutines to run.
 ```
 
 ```go
@@ -124,10 +119,3 @@ func init() {
 ```
 
 ***
-
-
-```
-// go run -race main.go
-// vs
-// go run main.go
-```
