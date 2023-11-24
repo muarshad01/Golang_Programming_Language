@@ -1,5 +1,19 @@
 ## 201. Concurrency vs parallelism
 
+* [Concurrency is not Parallelism by Rob Pike](https://www.youtube.com/watch?v=oV9rvDllKEg)
+
+* Multi-core CPU
+    * In 2006, Intel released the first dual-core CPU
+    * In 2007, Google started the first effort to natively-take-advantage for multiple-cores
+    * March 2012, The Go Programming Language Version 1.0 is released
+
+* Concurrency
+    * One CPU
+    * Design Pattern
+    * Multiple-threads run sequentially
+* Parallelism
+    * Multiple CPUs (Cores)
+
 ***
 
 ## 202. `WaitGroup`
