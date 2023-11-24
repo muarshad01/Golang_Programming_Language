@@ -18,16 +18,30 @@
 
 ## 202. `WaitGroup`
 
+* [runtime](https://pkg.go.dev/runtime?utm_source=godoc)
+    * [runtime#NumCPU](https://pkg.go.dev/runtime#NumCPU)
+    * [func#NumGoroutine](https://pkg.go.dev/runtime#NumGoroutine) 
+
+```go
+fmt.Println("OS\t\t",       runtime.GOOS)
+fmt.Println("ARCH\t\t",     runtime.GOARCH)
+fmt.Println("CPUs\t\t",     runtime.NumCPU())
+fmt.Println("Goroutine\t",  runtime.NumGoroutine())
+```
+
 * [sync.WaitGroup](https://pkg.go.dev/sync#WaitGroup)
 
 ```go
-type WaitGroup
-	func (wg *WaitGroup) Add(delta int)
-	func (wg *WaitGroup) Done()		# defer wg.Done()
-	func (wg *WaitGroup) Wait()
+var wg sync.WaitGroup
 ```
 
-`var wg sync.WaitGroup`
+```go
+type WaitGroup
+    func (wg *WaitGroup) Add(delta int)
+    func (wg *WaitGroup) Done()
+    func (wg *WaitGroup) Wait()
+```
+
 
 ***
 
