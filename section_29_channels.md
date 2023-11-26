@@ -6,6 +6,7 @@ Channels BLOCK  # Example: Relay RACE example, one runner is waiting for another
 
 * [Channel types](https://go.dev/ref/spec#Channel_types)
 * [Channels](https://go.dev/doc/effective_go#channels)
+
 ***
 
 ## 215. Directional channels
@@ -34,6 +35,32 @@ cs = c
 ***
 
 ## 216. Using channels
+
+```go
+package main
+
+func main() {
+    c := make(chan int) // bi-directional
+
+    // send
+    go foo(c)    
+    
+    // receive
+    bar(c)
+    
+    fmt.Println("about to exist")
+}
+
+// send
+func foo(c chan<- int) {    // general to specific
+    c<- 42
+}
+
+// receive
+func bar(c <-chan int) {      // general to specific
+    fmt.Println(<-c)
+}
+```
 
 ***
 
