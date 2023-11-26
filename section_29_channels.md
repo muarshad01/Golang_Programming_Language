@@ -112,12 +112,18 @@ func main() {
 
 ## 222. Context
 
+* [Sameer Ajmani Articles](https://ajmani.net/go/)
+    * [Go Concurrency Patterns: Context](https://go.dev/blog/context)
+* Leaking go routines
+* Passing along variables which are related to request
+
 [type Context](https://pkg.go.dev/context#Context)
 ```go
 type Context
-  func Background() Context
-  func TODO() Context
-  func WithValue(parent Context, key, val any) Context
+    func Background() Context
+    func TODO() Context
+    func WithValue(parent Context, key, val any) Context
+    func WithoutCancel(parent Context) Context
 ```
 
 ***
