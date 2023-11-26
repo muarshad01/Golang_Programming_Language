@@ -11,7 +11,7 @@ Channels BLOCK  # Example: Relay RACE example, one runner is waiting for another
 ## 215. Directional channels
 
 ```go
-c := make(chan int)
+c := make(chan int)     // bi-directional
 cr := make(<-chan int)  // receive
 cs := make(chan<- int)  // send
 
