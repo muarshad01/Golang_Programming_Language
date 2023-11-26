@@ -93,6 +93,9 @@ func main() {
 
 ## 218. Select
 
+* Channels BLOCK
+* There are also buffered channels
+
 ***
 
 ## 219. Comma ok idiom
