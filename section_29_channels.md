@@ -10,6 +10,27 @@ Channels BLOCK  # Example: Relay RACE example, one runner is waiting for another
 
 ## 215. Directional channels
 
+```go
+c := make(chan int)
+cr := make(<-chan int)  // receive
+cs := make(chan<- int)  // send
+
+// specific to general doesn't assign
+c = cr
+c = cs
+
+// specific to specific doesn't assign
+cs = cr
+
+// general to specific assigns
+cr = c
+cs = c
+
+// general to specific converts
+(<-chan int)(c)
+(chan<- int)(c)
+```
+
 ***
 
 ## 216. Using channels
