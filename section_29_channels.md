@@ -66,6 +66,29 @@ func bar(c <-chan int) {      // general to specific
 
 ## 217. Range
 
+```go
+package main
+
+func main() {
+    c := make(chan int)
+    
+    // send
+    go func() {
+        for i := 0; i < 5; i ++ {
+            c <- i    
+        }
+        close(c)
+    }()
+
+    // receive 
+    for v := range c {
+        fmt.Println(v)
+    }
+
+    fmt.Println("about to exit")
+}
+```
+
 ***
 
 ## 218. Select
