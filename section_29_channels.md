@@ -46,7 +46,7 @@ func main() {
     go foo(c)    
     
     // receive
-    bar(c)
+    bar(c)      // This blocks (waits for send channel data to arrive!)
     
     fmt.Println("about to exist")
 }
