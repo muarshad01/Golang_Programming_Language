@@ -157,12 +157,16 @@ set history=100
 ## `go fmt`; `go vet`; `golint` commands
 ```go
 $ go help
+
 $ go fmt <filename>
-$ go fmt ./...         
-$ go vet <filename>       # reports suspicious structs (code correctness)
+$ go fmt ./...        
+ 
+$ go vet <filename>       # Reports suspicious structs (code correctness)
 $ go vet ./...            
-$ golint <filename>       # reports poor coding style (style mistakes)
+
+$ golint <filename>       # Reports poor coding style (style mistakes)
 $ golint ./...
+
 $ gocritic check -enableAll <filename>
 $ gocritic check -enableAll ./...
 ```
