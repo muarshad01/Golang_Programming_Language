@@ -259,21 +259,25 @@ $ cd $GOPATH/pkg/mod/github.com/!goes!to!eleven/!golang!training@v0.0.0-20181204
 ## Testing & Coverage
 * [Package testing](https://pkg.go.dev/testing)
 * [Example Code](https://github.com/GoesToEleven/go-programming/tree/master/code_samples/009-testing)
+
 ```go
 $ go test -v            # v: verbost
 $ go test -race         # Check RACE condition
+
 $ go test -bench .
+
 $ go test -cover -v
 $ go test -coverprofile=c.out
-$ go tool cover -html=coverage.out -o output.html     # Save the output file
-
-$ go tool cover -func=c.out
 $ go tool cover -html=c.out
+$ go tool cover -html=c.out -o output.html     # Save the output file
+
+$ go tool cover -h      # h: help
 
 $ godoc -http=:6060
 
 http://localhost:6060/pkg/testing/
 ```
+
 ***
 
 ## NOTES
