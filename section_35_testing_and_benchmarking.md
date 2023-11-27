@@ -75,6 +75,10 @@ func BenchmarkGreet(b *testing.B){
 }
 ```
 
+```go
+$ go test -bench .
+```
+
 ***
 
 ## 251. Coverage
