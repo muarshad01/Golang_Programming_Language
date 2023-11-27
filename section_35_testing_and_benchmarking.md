@@ -20,6 +20,8 @@
 
 ## 248. Example tests
 
+* [Testable Examples in Go](https://go.dev/blog/examples)
+
 ***
 
 ## 249. `Golint`
