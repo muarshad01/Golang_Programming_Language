@@ -23,7 +23,7 @@
 
 
 * [Section 27: Concurrency](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_27_concurrency.md) -- Nov 24, 2023
-* [Section 29: Channels](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_29_channels.md)
+* [Section 29: Channels](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_29_channels.md) -- Nov 27, 2023
 * [Section 31: Error Handling](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_31_error_handling.md) -- Nov 23, 2023
 * [Section 33: Writing Documentation](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_33_writing_documentation.md) -- Nov 22, 2023
 
