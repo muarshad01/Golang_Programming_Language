@@ -26,11 +26,11 @@
 
 ## 249. `Golint`
 
-* `gofmt`
+* `go fmt ./...`
     * format go code
-* `go vet`
+* `go vet ./...`
     * reports suspicious constructs
-* `golint`
+* `golint ./...`
     * reports poor coding style
 
 ```
