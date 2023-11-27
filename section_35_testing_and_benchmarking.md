@@ -3,9 +3,14 @@
 * Test must
     * be in a file that ends with `_test.go`
     * put the file in `the same package` as the one being tested
-    * be in a func with an signature `func TestXxx(*testing T)`
+    * be in a `func` with an signature `func TestXxx(t *testing.T)`
 * Run a test
     * `go test` 
+* Deal with test failure
+    * use `t.Error` to signal failure
+* Nice idiom
+    * expected
+    * got
 
 ***
 
