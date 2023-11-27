@@ -1,8 +1,34 @@
 ## 214. Understanding channels
 
-# Channels
+* Channels BLOCK
+    * Relay RACE example, one runner is waiting for another...
+```go
+package main
 
-Channels BLOCK  # Example: Relay RACE example, one runner is waiting for another...
+func main() {
+    c := make(chan int)
+
+    c <- 42                 // Blocking statement
+
+    fmt.Printf(<-c)
+}
+```
+
+* How to fix the above issue
+
+```go
+package main
+
+func main() {
+    c := make(chan int)
+
+    go func() {
+        c <- 42
+    }()
+
+    fmt.Printf(<-c)
+}
+
 
 * [Channel types](https://go.dev/ref/spec#Channel_types)
 * [Channels](https://go.dev/doc/effective_go#channels)

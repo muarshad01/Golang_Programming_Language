@@ -387,7 +387,7 @@ http://localhost:6060/pkg/testing/
 
 * [Selectors](https://go.dev/ref/spec#Selectors)
 * [Types](https://go.dev/ref/spec#Types)
-
+* [Go Proverbs](https://go-proverbs.github.io/)
 ***
 
 ## Tooling
