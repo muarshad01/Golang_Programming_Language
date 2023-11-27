@@ -1,5 +1,12 @@
 ## 246. Introduction
 
+* Test must
+    * be in a file that ends with `_test.go`
+    * put the file in `the same package` as the one being tested
+    * be in a func with an signature `func TestXxx(*testing T)`
+* Run a test
+    * `go test` 
+
 ***
 
 ## 247. Table tests
