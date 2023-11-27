@@ -26,6 +26,23 @@
 
 ## 249. `Golint`
 
+* `gofmt`
+    * format go code
+* `go vet`
+    * reports suspicious constructs
+* `golint`
+    * reports poor coding style
+
+```
+$ mkdir -p $GOPATH/src/test
+$ cd $GOPATH/src/test
+$ go mod init test
+$ go get -u golang.org/x/lint/golint
+$ go install golang.org/x/lint/golint       # go install, puts the executable in $GOPATH/bin
+$ echo $GOBIN | grep golint
+$ golint main.go
+```
+
 ***
 
 ## 250. Benchmark

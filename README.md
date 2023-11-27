@@ -154,7 +154,7 @@ set history=100
 
 ***
 
-## go fmt; go vet; go lint commands
+## `go fmt`; `go vet`; `golint` commands
 ```go
 $ go help
 $ go fmt <filename>
@@ -165,20 +165,6 @@ $ golint <filename>       # reports poor coding style (style mistakes)
 $ golint ./...
 $ gocritic check -enableAll <filename>
 $ gocritic check -enableAll ./...
-```
-
-***
-
-## golint
-
-```go
-$ mkdir -p $GOPATH/src/<folder>             # E.g., install_golint
-$ cd $GOPATH/src/<folder>
-$ go mod init <folder>
-$ go get -u golang.org/x/lint/golint
-$ go install golang.org/x/lint/golint       # go install, puts the 'executable' in $GOPATH/bin
-$ echo $GOBIN | grep golint
-$ golint main.go
 ```
 
 ***
