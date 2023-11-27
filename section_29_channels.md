@@ -153,4 +153,27 @@ type Context
     func WithoutCancel(parent Context) Context
 ```
 
+```go
+ctx := context.Background()
+
+ctx, cancel := context.WithCancel(ctx)
+
+cancel()
+```
+
+
+```go
+go func() {
+    for {
+        select {
+        case <- ctx.Done();
+            return
+        default:
+            ...
+        }
+    }
+}
+```
+* `ctx.Done()` is within `select {}` statement
+
 ***
