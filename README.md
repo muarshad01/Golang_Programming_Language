@@ -178,10 +178,10 @@ $ gocritic check -enableAll ./...
 * [go-critic](https://github.com/go-critic/go-critic)
 
 ```go
-$ mkdir -p $GOPATH/src/<folder>             # E.g., install_gocritic
-$ cd $GOPATH/src/<folder>
-$ go mod init <folder>
-$ go get -v -u github.com/go-critic/go-critic/cmd/gocritic
+$ mkdir -p $GOPATH/src/test
+$ cd $GOPATH/src/test
+$ go mod init test
+$ go get -v -u  github.com/go-critic/go-critic/cmd/gocritic
 $ go install -v github.com/go-critic/go-critic/cmd/gocritic@latest    # go install, puts the 'executable' in $GOPATH/bin
 $ echo $GOBIN | grep gocritic
 $ gocritic check -enableAll ./...
