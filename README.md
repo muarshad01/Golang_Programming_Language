@@ -252,8 +252,9 @@ $ go list -m all
 
 ## Using 'go get' command to get course code
 [cod link](https://github.com/GoesToEleven/GolangTraining)
+
 ```go
-$ mkdir -p $GOPATH/src/examplegocode
+$ mkdir -p $GOPATH/src/example
 $ cd $GOPATH/src/examplegocode
 $ go mod init examplegocode
 $ go get -d github.com/GoesToEleven/go-programming/...        # See the '...'
