@@ -149,12 +149,8 @@ set history=100
 
 ***
 
+## `go fmt`; `go vet`; `golint`; `gocritic` commands
 
-***
-
-***
-
-## `go fmt`; `go vet`; `golint` commands
 ```go
 $ go help
 
@@ -171,9 +167,7 @@ $ gocritic check -enableAll <filename>
 $ gocritic check -enableAll ./...
 ```
 
-***
-
-## go-critic
+### `gocritic`
 
 * [go-critic](https://github.com/go-critic/go-critic)
 
