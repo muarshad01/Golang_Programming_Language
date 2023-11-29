@@ -18,6 +18,11 @@ func Marshal(v any) ([]byte, error)
 
 ## 191. JSON unmarshal
 
+[func Unmarshal](https://pkg.go.dev/encoding/json#Unmarshal)
+```go
+func Unmarshal(data []byte, v any) error
+```
+
 * [JSON to Go](https://mholt.github.io/json-to-go/)
 * https://github.com/goestoeleven
 * https://play.golang.org/p/O9q0DmpzsZ
