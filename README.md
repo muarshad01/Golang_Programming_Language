@@ -274,7 +274,7 @@ $ go test -race         # Check RACE condition
 $ go test -bench .
 
 $ go test -cover -v
-$ go test -coverprofile=c.out
+$ go test -coverprofile c.out
 $ go tool cover -html=c.out
 $ go tool cover -html=c.out -o output.html     # Save the output file
 
