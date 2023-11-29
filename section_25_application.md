@@ -1,11 +1,8 @@
-# ---------------------
-137. JSON documentation
-# ---------------------
+## 189. JSON documentation
 
+***
 
-# ---------------
-138. JSON marshal
-# ---------------
+## 190. JSON marshal
 
 Here is an example of how you marshal data in Go to JSON. Also important, this video shows
 how the case of an identifier - lowercase or uppercase, 
@@ -13,18 +10,18 @@ determines whether or not the data can be exported.
 
 code: https://play.golang.org/p/jtE_n16cQO
 
-# -----------------
-139. JSON unmarshal
-# -----------------
+***
+
+## 191. JSON unmarshal
 
 https://mholt.github.io/json-to-go/
 https://github.com/goestoeleven
 
 code: https://play.golang.org/p/O9q0DmpzsZ
 
-# -------------------
-140. Writer interface
-# -------------------
+***
+
+## 192. Writer interface
 
 Understanding the writer interface from package io.
 
@@ -44,20 +41,16 @@ func main() {
 	io.WriteString(os.Stdout, "Hello, playground")
 }
 
+***
 
-
-# -------
-141. Sort
-# -------
+## 193. Sort
 
 The sort package allows us to sort slices.
  
 starting code:https://play.golang.org/p/igIGnMv6AN
 sorted: https://play.golang.org/p/8UkvEdzQOk
 
-# --------------
-142. Sort custom
-# --------------
+## 194. Sort custom
 
 Here is how we sort on fields in a struct. 
 
@@ -67,6 +60,6 @@ code:
 	○ by age: https://play.golang.org/p/kqmJovOU5V
 	○ by name: https://play.golang.org/p/he70VcFmdM
 
-# ---------
-143. bcrypt
-# ---------
+## 195. bcrypt
+
+***
