@@ -77,13 +77,9 @@ func main() {
 
 ## 194. Sort custom
 
-Here is how we sort on fields in a struct. 
-
-code:
-● starting code: https://play.golang.org/p/UhXN-G2FwY
-● sorted
-	○ by age: https://play.golang.org/p/kqmJovOU5V
-	○ by name: https://play.golang.org/p/he70VcFmdM
+* https://play.golang.org/p/UhXN-G2FwY
+    * sorted by age: https://play.golang.org/p/kqmJovOU5V
+    * sorted by name: https://play.golang.org/p/he70VcFmdM
 
 ## 195. bcrypt
 
