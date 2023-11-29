@@ -10,17 +10,15 @@
 ```go
 func Marshal(v any) ([]byte, error)
 ```
-
-* https://play.golang.org/p/jtE_n16cQO
+    * https://play.golang.org/p/jtE_n16cQO
 
 ***
 
 ## 191. JSON unmarshal
 
-https://mholt.github.io/json-to-go/
-https://github.com/goestoeleven
-
-code: https://play.golang.org/p/O9q0DmpzsZ
+* [JSON to Go](https://mholt.github.io/json-to-go/)
+* https://github.com/goestoeleven
+* https://play.golang.org/p/O9q0DmpzsZ
 
 ***
 
