@@ -1,28 +1,27 @@
 ## 132. Introduction to functions
 
+* "abstract" code
+* code reusability
+* more understandable
+
 ***
 
 ## 133. Syntax of functions in Go
 
+```go
+func (receiver) identifier(parameters) (returns) {code}
 ```
-func (r receiver) identifier(parameters) (return(s)) { ... }
-```
 
-* Parameters and arguments
-    * we define our func with parameters (if any)
-    * we call our func and pass in arguments (in any)
+### Parameters & arguments
+* we define our `func` with *parameters* (if any)
+* we call our `func` and pass in `arguments` (in any)
+* Everything in Go is *PASS BY VALUE*
 
-* Everything in Go is PASS BY VALUE (Nothing is PASS BY COPY or PASS BY REFERENCE)
-
-* purpose of functions
-    * abstract code
-    * code reusability
-
-
-* basic func:        https://play.golang.org/p/Ou7esJnAkv
-* takes an argument: https://play.golang.org/p/dpINmrlSsQ
-* return:            https://play.golang.org/p/eh2Aud2jyr
-* multiple returns:  https://play.golang.org/p/7Xl9uVH2pO
+* code:
+    * https://play.golang.org/p/Ou7esJnAkv
+    * https://play.golang.org/p/dpINmrlSsQ
+    * https://play.golang.org/p/eh2Aud2jyr
+    * https://play.golang.org/p/7Xl9uVH2pO
 
 ***
 
