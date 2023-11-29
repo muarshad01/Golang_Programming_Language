@@ -95,4 +95,23 @@ $ go test -bench .
 
 ## 253. Review
 
+* Remember to BET
+    - Benchmark
+    - Example
+    - Test
+
+```go
+BenchmarkXxx(b *testing.B)
+ExampleXxx()
+TestXxx(t *testing.T)
+```
+
+```
+$ go test
+$ go test -bench .
+$ go test -cover
+$ go test -coverprofile c.out
+$ go tool cover -html=c.out
+```
+
 ***
