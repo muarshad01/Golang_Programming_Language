@@ -109,16 +109,7 @@ $ source ~/.bash_profile
 
 ***
 
-### Install MAKE
-
-```
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-$ brew install make
-```
-
-***
-
-## VIM Editor
+## `vim` configuration
 
 * [Vim Configuration Options](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/)
 
@@ -149,7 +140,7 @@ set history=100
 
 ***
 
-## `go fmt`; `go vet`; `golint`; `gocritic` commands
+## `go fmt`; `go vet`; `golint`; `gocritic`; `godoc` commands
 
 ```go
 $ go help
