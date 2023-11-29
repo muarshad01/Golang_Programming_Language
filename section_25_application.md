@@ -18,7 +18,7 @@ func Marshal(v any) ([]byte, error)
 
 ## 191. JSON unmarshal
 
-[func Unmarshal](https://pkg.go.dev/encoding/json#Unmarshal)
+* [func Unmarshal](https://pkg.go.dev/encoding/json#Unmarshal)
 ```go
 func Unmarshal(data []byte, v any) error
 ```
@@ -71,11 +71,9 @@ func main() {
 ***
 
 ## 193. Sort
-
-The sort package allows us to sort slices.
  
-starting code:https://play.golang.org/p/igIGnMv6AN
-sorted: https://play.golang.org/p/8UkvEdzQOk
+* https://play.golang.org/p/igIGnMv6AN
+* https://play.golang.org/p/8UkvEdzQOk
 
 ## 194. Sort custom
 
