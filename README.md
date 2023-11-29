@@ -194,9 +194,10 @@ $ go install golang.org/x/tools/cmd/godoc
 $ echo $GOBIN | grep godoc
 $ godoc -http=:8080
 ```
+
 ***
 
-## 41. Running go programs on your machine (THREE different ways)
+## 41. Running `go` programs (THREE different ways)
 ```go
 $ go run main.go
 $ go run ./...
