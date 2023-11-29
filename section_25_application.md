@@ -31,10 +31,9 @@ func Unmarshal(data []byte, v any) error
 
 ## 192. Writer interface
 
-Understanding the writer interface from package io.
+* https://play.golang.org/p/3Txh-dKQBf video: 121
 
-code: https://play.golang.org/p/3Txh-dKQBf video: 121
-
+```go
 package main
 
 import (
@@ -48,6 +47,7 @@ func main() {
 	fmt.Fprintln(os.Stdout, "Hello, playground")
 	io.WriteString(os.Stdout, "Hello, playground")
 }
+```
 
 ***
 
