@@ -192,7 +192,17 @@ $ go install -v github.com/go-critic/go-critic/cmd/gocritic@latest    # go insta
 $ echo $GOBIN | grep gocritic
 $ gocritic check -enableAll ./...
 ```
+### `godoc`
 
+```
+$ mkdir -p $GOPATH/src/test
+$ cd $GOPATH/src/test
+$ go mod init test
+$ go get golang.org/x/tools/cmd/godoc
+$ go install golang.org/x/tools/cmd/godoc
+$ echo $GOBIN | grep godoc
+$ godoc -http=:8080
+```
 ***
 
 ## 41. Running go programs on your machine (THREE different ways)
