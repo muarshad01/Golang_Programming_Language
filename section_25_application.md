@@ -77,10 +77,47 @@ func main() {
 
 ## 194. Sort custom
 
+* [type Interface](https://pkg.go.dev/sort#Interface)
+
+```go
+type Interface interface {
+    Len() int
+	Less(i, j int) bool
+	Swap(i, j int)
+}
+```
+
 * https://play.golang.org/p/UhXN-G2FwY
     * sorted by age: https://play.golang.org/p/kqmJovOU5V
     * sorted by name: https://play.golang.org/p/he70VcFmdM
 
 ## 195. bcrypt
+
+```go
+package main
+
+import (
+    "golang.org/x/crypty/bcrypt"
+    "fmt"
+)
+
+func main() {
+    s := `password123`
+    bs, err := bcrypt.GenerateFromPassword([]byte(s), bcrypt.MinCost)
+    if err != nil {
+        fmt.Println(err)
+    }
+    fmt.Println(s)
+    fmt.Println(bs)
+
+    loginPword1 := `password123`
+
+    err := bcrypt.CompareHashAndPassword(bs, []byte(loginPword1))
+    if err != nil {
+        fmt.Println("YOU CAN'T LOGIN")
+        err
+    }
+}
+```
 
 ***
