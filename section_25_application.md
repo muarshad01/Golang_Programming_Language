@@ -6,6 +6,11 @@
 
 ## 190. JSON marshal
 
+* [func Marshal](https://pkg.go.dev/encoding/json#Marshal)
+```go
+func Marshal(v any) ([]byte, error)
+```
+
 * https://play.golang.org/p/jtE_n16cQO
 
 ***
