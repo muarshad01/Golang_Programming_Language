@@ -118,13 +118,13 @@ $ brew install make
 
 ***
 
-### VIM Editor
+## VIM Editor
 
-[Vim Configuration Options](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/)
+* [Vim Configuration Options](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/)
 
-```go
-$ vim ~/.vimrc
+Update `~/.vimrc` file:
 
+```vim
 syntax on
 
 " tabs
