@@ -1,14 +1,12 @@
 ## 189. JSON documentation
 
+* [package json](https://pkg.go.dev/encoding/json?utm_source=godoc)
+
 ***
 
 ## 190. JSON marshal
 
-Here is an example of how you marshal data in Go to JSON. Also important, this video shows
-how the case of an identifier - lowercase or uppercase, 
-determines whether or not the data can be exported.
-
-code: https://play.golang.org/p/jtE_n16cQO
+* https://play.golang.org/p/jtE_n16cQO
 
 ***
 
