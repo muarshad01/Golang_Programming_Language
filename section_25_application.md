@@ -37,9 +37,9 @@ func Unmarshal(data []byte, v any) error
 package main
 
 import (
-	"fmt"
-	"io"
-	"os"
+	"fmt";
+	"io";
+	"os";
 )
 
 func main() {
