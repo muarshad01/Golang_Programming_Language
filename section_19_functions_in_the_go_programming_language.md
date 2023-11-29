@@ -1,6 +1,8 @@
-# ---------
-109. Syntax
-# ---------
+## 132. Introduction to functions
+
+***
+
+## 133. Syntax of functions in Go
 
 func (r receiver) identifier(parameters) (return(s)) { ... }
 
@@ -20,9 +22,9 @@ code:
 -- return:            https://play.golang.org/p/eh2Aud2jyr
 -- multiple returns:  https://play.golang.org/p/7Xl9uVH2pO
 
-# ---------------------
-110. Variadic parameter
-# ---------------------
+***
+
+## 134. Variadic parameter
 
 // func (r receiver) identifier(parameter(s)) (return(s)) { ... }
 
@@ -31,9 +33,9 @@ this is known as a “variadic parameter.” We use the lexical element operator
 
 code: https://play.golang.org/p/Yi0FsQ2tKq
 
-# --------------------
-111. Unfurling a slice
-# --------------------
+***
+
+## 135. Unfurling a slice
 
 When you have a slice of some type, you can pass in the individual values in a slice by
 using the “...” operator.
@@ -43,9 +45,9 @@ code:
 -- passing in zero or more values: https://play.golang.org/p/Qc5sq_AK_T
 -- variadic parameter has to be the final parameter: https://play.golang.org/p/euQ8PDQ8RN
 
-# --------
-112. Defer
-# --------
+***
+
+## 136. Defer
 
 A "defer" statement invokes a function whose execution is deferred to the moment
 the surrounding function returns, either because the surrounding function executed a return statement, 
@@ -53,42 +55,68 @@ reached the end of its function body, or because the corresponding goroutine is 
 
 code: https://play.golang.org/p/AYY3AN4LQ6
 
-# ----------
-113. Methods
-# ----------
+***
+
+## 137. Methods
 
 A method is nothing more than a FUNC attached to a TYPE. When you attach a func to a
 type it is a method of that type. You attach a func to a type with a RECEIVER.
 
 code: https://play.golang.org/p/HIBt2HHiIm
 
-# -----------------
-115. Anonymous func
-# -----------------
+***
 
-Anonymous self-executing func
+## 138. Interfaces & polymorphism
 
+***
+
+## 139. Exploring the stringer interface
+
+***
+
+## 140. Expanding on the stringer interface- wrapper func for logging
+
+***
+
+## 141. Writer interface & writing to a file
+
+***
+
+## 142. Writer interface & writing to a byte buffer
+
+***
+
+## 143. Writer interface & writing to a file or a byte buffer
+
+***
+
+## 144. Anonymous func
+
+```go
 func(){
 	...
 }()
+```
 
+```go
 func(x int){
 	...
 }(42)
+```
 
-code: https://play.golang.org/p/54U7XWrNwZ
+* https://play.golang.org/p/54U7XWrNwZ
 
-# ------------------
-116. func expression
-# ------------------
+***
+
+## 145. func expression
 
 Assigning a func to a variable
 
 code: https://play.golang.org/p/2ekrbY9SAm
 
-# -------------------
-117. Returning a func
-# -------------------
+***
+
+## 146. Returning a func
 
 You can return a func from a func. Here is what that looks like. 
 
@@ -103,9 +131,9 @@ returning a func
 	step 4 - cleaned up: https://play.golang.org/p/7wbv9KNlhK
 	step 5 - cleaned up: https://play.golang.org/p/vW0IGeIAox
 
-# -----------
-118. Callback
-# -----------
+***
+
+## 147. Callback
 
 Passing a func as an argument
 Functional programming not something that is recommended in go, however, it is good to be aware of callbacks
@@ -118,9 +146,9 @@ code:
 	even numbers: https://play.golang.org/p/RKHjy9Bl6j
 	odd numbers: https://play.golang.org/p/Nf3_KrpidO
 
-# ----------
-119. Closure
-# ----------
+***
+
+## 148. Closure
 
 Closure helps us limit the scope of variables
 
@@ -130,6 +158,17 @@ code:
 	code block in code block with y: 	 https://play.golang.org/p/6Hyqe_aU-R
 	enclosing a variable in a block of code: https://play.golang.org/p/fHez3lg8wc
 
-# ------------
-120. Recursion
-# ------------
+***
+
+## 149. Function fundamentals
+
+
+***
+
+## 150. Recursion
+
+***
+
+## 151. Wrapper function
+
+***
