@@ -45,7 +45,7 @@ func Create(name string) (*File, error)
 func (f *File) Write(b []byte) (n int, err error)
 ```
 * Any value of `type *File` which has `Write(b []byte) (n int, err error)` method attached to it
-    * is also of `type Writer`.
+    * is value is also of `type Writer`.
 * https://play.golang.org/p/3Txh-dKQBf
 
 ```go
