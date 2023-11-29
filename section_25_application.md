@@ -31,30 +31,34 @@ func Unmarshal(data []byte, v any) error
 
 ## 192. Writer interface
 
-[type Writer](https://pkg.go.dev/io#Writer)
+* [type Writer](https://pkg.go.dev/io#Writer)
 ```go
 type Writer interface {
     Write(p []byte) (n int, err error)
 }
 ```
+
 * `type Writer` is an interface. So, any other type with `Write(p [byte]) (n int, err error)` method attached to it is also of `type Wrtier`.
+
+* [package os#File.Write](https://pkg.go.dev/os#File.Write)
 
 ```go
 func Create(name string) (*File, error)
-
+...
 func (f *File) Write(b []byte) (n int, err error)
 ```
 * Any value of `type *File` which has `Write(b []byte) (n int, err error)` method attached to it
     * is value is also of `type Writer`.
+
 * https://play.golang.org/p/3Txh-dKQBf
 
 ```go
 package main
 
 import (
-	"fmt";
-	"io";
-	"os";
+	"fmt"
+	"io"
+	"os"
 )
 
 func main() {
