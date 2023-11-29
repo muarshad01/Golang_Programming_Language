@@ -13,8 +13,8 @@ func (receiver) identifier(parameters) (returns) {code}
 ```
 
 ### Parameters & arguments
-* we define our `func` with **parameters** (if any)
-* we call our `func` and pass in **arguments** (in any)
+* We define our `func` with **parameters** (if any)
+* We call our `func` and pass in **arguments** (in any)
 * Everything in Go is **PASS BY VALUE**
 
 * code:
