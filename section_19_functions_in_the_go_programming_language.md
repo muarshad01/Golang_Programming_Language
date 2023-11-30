@@ -156,7 +156,7 @@ func (r receiver) identifier(p parameter(s)) (r return(s)) {...}
 
 ***
 
-## 144. Anonymous func
+## 144. Anonymous `func`
 
 ```go
 func(){
@@ -174,10 +174,10 @@ func(x int){
 
 ***
 
-## 145. func expression
+## 145. `func` expression
 
-* Assigning a func to a variable
-    * https://play.golang.org/p/2ekrbY9SAm
+* Assigning a `func` to a variable
+* https://play.golang.org/p/2ekrbY9SAm
 
 ***
 
