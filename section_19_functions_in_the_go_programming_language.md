@@ -9,7 +9,7 @@
 ## 133. Syntax of functions in Go
 
 ```go
-func (r receiver) identifier(p parameter(s)) (return(s)) {...}
+func (r receiver) identifier(p parameter(s)) (r return(s)) {...}
 ```
 
 ### Parameters & arguments
