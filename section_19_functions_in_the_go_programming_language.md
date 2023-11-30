@@ -120,9 +120,15 @@ func bar() {
 
 ## 137. Methods
 
-* A method is nothing more than a FUNC attached to a TYPE. When you attach a func to a
-type it is a method of that type. You attach a func to a type with a RECEIVER.
-    * https://play.golang.org/p/HIBt2HHiIm
+```go
+func (r receiver) identifier(p parameter(s)) (r return(s)) {...} 
+```
+
+* A method is nothing more than a FUNC attached to a TYPE. 
+* When you attach a `func` to a type it is a method of that type. 
+* You attach a `func` to a type with a RECEIVER.
+    
+* https://play.golang.org/p/HIBt2HHiIm
 
 ***
 
