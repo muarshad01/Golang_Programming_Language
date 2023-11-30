@@ -194,23 +194,6 @@ func(x int){
     * step 3: https://play.golang.org/p/7wbv9KNlhK
     * step 4: https://play.golang.org/p/vW0IGeIAox
 
-***
-
-## 147. Callback
-
-* Passing a `func` as an argument
-* Functional programming is not something that is recommended in go, however, it is good to be aware of callbacks
-* idiomatic go: 
-    * write clear, 
-    * simple, 
-    * readable code
-
-* https://play.golang.org/p/j6IXDY_6H2
-* https://play.golang.org/p/sTDJ3l_rlj
-* https://play.golang.org/p/TEZChnAYIq
-* https://play.golang.org/p/RKHjy9Bl6j
-* https://play.golang.org/p/Nf3_KrpidO
-
 ```go
 package main
 
@@ -229,6 +212,22 @@ func bar() func() int {
 	}
 }
 ```
+
+***
+
+## 147. Callback
+
+* Passing a `func` as an argument
+* Functional programming is not something that is recommended in go, however, it is good to be aware of callbacks
+* idiomatic go: 
+    * write clear, simple, readable code
+
+* https://play.golang.org/p/j6IXDY_6H2
+* https://play.golang.org/p/sTDJ3l_rlj
+* https://play.golang.org/p/TEZChnAYIq
+* https://play.golang.org/p/RKHjy9Bl6j
+* https://play.golang.org/p/Nf3_KrpidO
+
 ***
 
 ## 148. Closure
