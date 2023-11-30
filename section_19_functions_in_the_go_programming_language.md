@@ -9,13 +9,23 @@
 ## 133. Syntax of functions in Go
 
 ```go
-func (receiver) identifier(parameters) (returns) {code}
+func (r receiver) identifier(p parameter(s)) (return(s)) {...}
 ```
 
 ### Parameters & arguments
 * We define our `func` with **parameters** (if any)
 * We call our `func` and pass in **arguments** (in any)
 * Everything in Go is **PASS BY VALUE**
+
+```
+
+func syntx
+
+no params, no returns
+1 param, no returns
+1 param, 1 return
+2 params, 2 returns
+```
 
 * code:
     * https://play.golang.org/p/Ou7esJnAkv
