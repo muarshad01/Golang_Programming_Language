@@ -37,7 +37,7 @@ no params, no returns
 
 ## 134. Variadic parameter
 
-```
+```go
 func (r receiver) identifier(p parameter(s)) (r return(s)) { ... }
 ```
 
