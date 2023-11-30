@@ -198,15 +198,18 @@ func(x int){
 
 ## 147. Callback
 
-* Passing a func as an argument
-* Functional programming not something that is recommended in go, however, it is good to be aware of callbacks
-* idiomatic go: write clear, simple, readable code
+* Passing a `func` as an argument
+* Functional programming is not something that is recommended in go, however, it is good to be aware of callbacks
+* idiomatic go: 
+    * write clear, 
+    * simple, 
+    * readable code
 
-* pre lecture prep: https://play.golang.org/p/j6IXDY_6H2
-* math operators: https://play.golang.org/p/sTDJ3l_rlj
-* just sum func: https://play.golang.org/p/TEZChnAYIq
-* even numbers: https://play.golang.org/p/RKHjy9Bl6j
-* odd numbers: https://play.golang.org/p/Nf3_KrpidO
+* https://play.golang.org/p/j6IXDY_6H2
+* https://play.golang.org/p/sTDJ3l_rlj
+* https://play.golang.org/p/TEZChnAYIq
+* https://play.golang.org/p/RKHjy9Bl6j
+* https://play.golang.org/p/Nf3_KrpidO
 
 ***
 
