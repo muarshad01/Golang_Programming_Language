@@ -41,10 +41,11 @@ no params, no returns
 func (r receiver) identifier(parameter(s)) (return(s)) { ... }
 ```
 
-* You can create a `func` which takes an **unlimited number of arguments**. When you do this, this is known as a *variadic parameter*. 
+* You can create a `func` which takes an **unlimited number of arguments**. 
 * We use the lexical element operator `...T` to signify a variadic parameter (there `T` represents some type).
 * `...T`: Unlimited number of arguments of type `T`
-
+* A function with a parameter (`...T`) is called **variadic** and maybe invoked with zero or more arguments for that parameter
+* Final incoming parameter in the function signature
 * https://play.golang.org/p/Yi0FsQ2tKq
 
 ```go
@@ -77,12 +78,11 @@ func sum(x ...int) int {
 
 ## 135. Unfurling a slice
 
-When you have a slice of some type, you can pass in the individual values in a slice by
-using the “...” operator.
+When you have a slice of some type (`[]T`), you can pass in the individual values in a slice by using the `...` operator.
 
-* unfurling a slice of int: https://play.golang.org/p/T-mm6-SH71
-* passing in zero or more values: https://play.golang.org/p/Qc5sq_AK_T
-* variadic parameter has to be the final parameter: https://play.golang.org/p/euQ8PDQ8RN
+* https://play.golang.org/p/T-mm6-SH71
+* https://play.golang.org/p/Qc5sq_AK_T
+* https://play.golang.org/p/euQ8PDQ8RN
 
 ***
 
