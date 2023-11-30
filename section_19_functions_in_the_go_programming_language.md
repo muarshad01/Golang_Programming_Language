@@ -211,6 +211,24 @@ func(x int){
 * https://play.golang.org/p/RKHjy9Bl6j
 * https://play.golang.org/p/Nf3_KrpidO
 
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	fmt.Println(bar()())
+
+}
+
+func bar() func() int {
+	return func() int {
+		return 451
+	}
+}
+```
 ***
 
 ## 148. Closure
