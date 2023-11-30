@@ -43,6 +43,7 @@ func (r receiver) identifier(parameter(s)) (return(s)) { ... }
 
 * You can create a `func` which takes an **unlimited number of arguments**. When you do this, this is known as a *variadic parameter*. 
 * We use the lexical element operator `...T` to signify a variadic parameter (there `T` represents some type).
+* `...T`: Unlimited number of arguments of type `T`
 
 * https://play.golang.org/p/Yi0FsQ2tKq
 
