@@ -38,7 +38,7 @@ no params, no returns
 ## 134. Variadic parameter
 
 ```
-func (r receiver) identifier(parameter(s)) (return(s)) { ... }
+func (r receiver) identifier(p parameter(s)) (r return(s)) { ... }
 ```
 
 * You can create a `func` which takes an **unlimited number of arguments**. 
