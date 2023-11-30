@@ -95,6 +95,27 @@ When you have a slice of some type (`[]T`), you can pass in the individual value
 
 * https://play.golang.org/p/AYY3AN4LQ6
 
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	defer foo()
+	bar()
+}
+
+func foo() {
+	fmt.Println("foo")
+}
+
+func bar() {
+	fmt.Println("bar")
+}
+```
+
 ***
 
 ## 137. Methods
