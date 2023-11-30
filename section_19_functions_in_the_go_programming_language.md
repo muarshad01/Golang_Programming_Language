@@ -89,9 +89,9 @@ When you have a slice of some type (`[]T`), you can pass in the individual value
 ## 136. Defer
 
 * A `defer` statement invokes a function whose execution is deferred to the moment the surrounding function returns, 
-    * either because the surrounding function executed a return statement, 
-    * reached the end of its function body, 
-    * or because the corresponding **goroutine is panicking**.
+    * either because the surrounding function executed a **return** statement, 
+    * reached the **end** of its function body, 
+    * or because the corresponding goroutine is **panicking**.
 
 * https://play.golang.org/p/AYY3AN4LQ6
 
