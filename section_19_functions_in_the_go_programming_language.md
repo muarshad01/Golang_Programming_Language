@@ -267,7 +267,7 @@ func bar() func() int {
 
 ***
 
-## 147. Callback
+## 147. Callback (Call Back)
 
 * Passing a `func` as an argument
 * Functional programming is not something that is recommended in go, however, it is good to be aware of callbacks
