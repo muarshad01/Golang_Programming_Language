@@ -275,10 +275,30 @@ func bar() func() int {
     * write clear, simple, readable code
 
 * https://play.golang.org/p/j6IXDY_6H2
-* https://play.golang.org/p/sTDJ3l_rlj
-* https://play.golang.org/p/TEZChnAYIq
-* https://play.golang.org/p/RKHjy9Bl6j
-* https://play.golang.org/p/Nf3_KrpidO
+
+```go
+package main
+
+func main() {
+    x := doMath(42, 16, add)
+    fmt.Println(x)
+
+    y := doMath(42, 16, subtract)
+    fmt.Println(y)
+}
+
+func doMath(a int, b int, f func(int, int) int ) int {
+    return f(a, b)
+}
+
+func add(a int, b int) int {
+    return a + b
+}
+
+func subtract(a int, b int) int {
+    return a - b
+}
+```
 
 ***
 
