@@ -158,11 +158,14 @@ func (r receiver) identifier(p parameter(s)) (r return(s)) {...}
 
 ## 144. Anonymous `func`
 
+```
 // a named function with an identifier
 // func (r receiver) identifier(p parameter(s)) (r return(s)) {code}
 
 // an anonymous function
 // func (p parameter(s)) (r return(s)) {code}
+```
+* Note that there is no `(r receiver)` and `identifier`
 
 ```go
 func(){
