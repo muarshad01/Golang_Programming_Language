@@ -285,10 +285,10 @@ func bar() func() int {
 ## 148. Closure
 
 * Closure helps us limit the scope of variables
-    * scope of x: https://play.golang.org/p/YWuniJtu2R
-    * scope of x narrowed to func main: https://play.golang.org/p/4hqrzybcFc
-    * code block in code block with y: https://play.golang.org/p/6Hyqe_aU-R
-    * enclosing a variable in a block of code: https://play.golang.org/p/fHez3lg8wc
+    * https://play.golang.org/p/YWuniJtu2R
+    * https://play.golang.org/p/4hqrzybcFc
+    * https://play.golang.org/p/6Hyqe_aU-R
+    * https://play.golang.org/p/fHez3lg8wc
 
 ***
 
