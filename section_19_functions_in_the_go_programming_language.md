@@ -159,10 +159,6 @@ type Writer interface {
 * Any other type, which has `Write(p []byte) (n int, err error)` method is also of type `Writer`.
 * So, the `Writer` interface says, if you've `Write(p []byte) (n int, err error)` method then you're also my type (i.e., `type Writer`).
 
-```go
-func (w Writer) Write(p []byte)(n int, err error)
-```
-
 ***
 
 ## 142. Writer interface & writing to a byte buffer
