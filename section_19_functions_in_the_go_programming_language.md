@@ -146,6 +146,17 @@ func (r receiver) identifier(p parameter(s)) (r return(s)) {...}
 
 ## 141. Writer interface & writing to a file
 
+* [type Writer](https://pkg.go.dev/io#Writer)
+```go
+type Writer interface {
+	Write(p []byte) (n int, err error)
+}
+```
+
+```go
+func (w Writer) Write(p []byte)(n int, err error)
+```
+
 ***
 
 ## 142. Writer interface & writing to a byte buffer
