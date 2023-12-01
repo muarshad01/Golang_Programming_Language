@@ -284,6 +284,30 @@ func bar() func() int {
 
 ## 148. Closure
 
+```go
+package main
+
+func main() {
+    f := incrementor()
+    fmt.Println(f()) // 1
+    fmt.Println(f()) // 2
+    fmt.Println(f()) // 3
+    
+    g := incrementor()
+    fmt.Println(g()) // 1
+    fmt.Println(g()) // 2
+    fmt.Println(g()) // 3
+}
+
+func incrementor() func() int {
+    x := 0
+    return func() int {
+        x++
+        return x
+    }
+}
+```
+
 * Closure helps us limit the scope of variables
     * https://play.golang.org/p/YWuniJtu2R
     * https://play.golang.org/p/4hqrzybcFc
