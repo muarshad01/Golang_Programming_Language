@@ -134,6 +134,10 @@ func (r receiver) identifier(p parameter(s)) (r return(s)) {...}
 
 ## 138. Interfaces & polymorphism
 
+* An interface in Go defines a set of method signatures.
+* Polymorphism is the ability of a VALUE of a certain TYPE to also be of another TYPE.
+* In Go, values can be of more than one type.
+
 ***
 
 ## 139. Exploring the stringer interface
@@ -152,6 +156,8 @@ type Writer interface {
 	Write(p []byte) (n int, err error)
 }
 ```
+* Any other type, which has `Write(p []byte) (n int, err error)` method is also of type `Writer`.
+* So, the `Writer` interface says, if you've `Write(p []byte) (n int, err error)` method then you're also my type (i.e., `type Writer`).
 
 ```go
 func (w Writer) Write(p []byte)(n int, err error)
