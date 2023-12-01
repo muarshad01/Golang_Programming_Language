@@ -158,6 +158,12 @@ func (r receiver) identifier(p parameter(s)) (r return(s)) {...}
 
 ## 144. Anonymous `func`
 
+// a named function with an identifier
+// func (r receiver) identifier(p parameter(s)) (r return(s)) {code}
+
+// an anonymous function
+// func (p parameter(s)) (r return(s)) {code}
+
 ```go
 func(){
 	...
@@ -168,6 +174,26 @@ func(){
 func(x int){
 	...
 }(42)
+```
+
+```go
+package main
+
+func main() {
+    foo()
+
+    func(){
+        fmt.Println("Anonymous func ran")
+    }()
+    
+    func(s string){
+        fmt.Println("This is an anonymous func showing my name", s)
+    }("Todd")
+}
+
+func foo() {
+    fmt.Println("Foo ran")
+}
 ```
 
 * https://play.golang.org/p/54U7XWrNwZ
