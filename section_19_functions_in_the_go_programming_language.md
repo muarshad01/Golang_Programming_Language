@@ -205,6 +205,29 @@ func foo() {
 * Assigning a `func` to a variable
     * https://play.golang.org/p/2ekrbY9SAm
 
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	fmt.Println("Hello, playground")
+
+	f := func() {
+	    fmt.Println("my first func expression")
+	}
+
+	g := func(x int) {
+	    fmt.Println("the year big brother started watching:", x)
+	}
+
+    f()
+	g(1984)
+}
+```
+
 ***
 
 ## 146. Returning a `func`
