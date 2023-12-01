@@ -284,6 +284,12 @@ func bar() func() int {
 
 ## 148. Closure
 
+* Closure helps us limit the scope of variables
+    * https://play.golang.org/p/YWuniJtu2R
+    * https://play.golang.org/p/4hqrzybcFc
+    * https://play.golang.org/p/6Hyqe_aU-R
+    * https://play.golang.org/p/fHez3lg8wc
+
 ```go
 package main
 
@@ -308,12 +314,6 @@ func incrementor() func() int {
 }
 ```
 
-* Closure helps us limit the scope of variables
-    * https://play.golang.org/p/YWuniJtu2R
-    * https://play.golang.org/p/4hqrzybcFc
-    * https://play.golang.org/p/6Hyqe_aU-R
-    * https://play.golang.org/p/fHez3lg8wc
-
 ***
 
 ## 149. Function fundamentals
@@ -321,6 +321,8 @@ func incrementor() func() int {
 ***
 
 ## 150. Recursion
+
+* Recursion is when a function calls itself
 
 ***
 
