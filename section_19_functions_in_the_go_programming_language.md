@@ -142,6 +142,13 @@ func (r receiver) identifier(p parameter(s)) (r return(s)) {...}
 
 ## 139. Exploring the stringer interface
 
+* [type Stringer](https://pkg.go.dev/fmt#Stringer)
+```go
+type Stringer interface {
+	String() string
+}
+```
+
 ***
 
 ## 140. Expanding on the stringer interface- wrapper func for logging
