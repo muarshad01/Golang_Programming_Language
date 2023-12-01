@@ -148,6 +148,7 @@ type Stringer interface {
 	String() string
 }
 ```
+* Any type, which has a method `String()` that returns a `string` is also of type `Stringer`.
 
 ***
 
