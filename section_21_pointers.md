@@ -17,6 +17,17 @@
 
 * https://go.dev/play/p/9m9q3ej5zdK
 
+```go
+func main() {
+	a := 42
+	fmt.Println(a)
+	fmt.Println(&a) // & gives you the address
+
+	fmt.Printf("%T\n", a)
+	fmt.Printf("%T\n", &a)
+}
+```
+
 ***
 
 ## 171. Dereferencing pointers
