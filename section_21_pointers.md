@@ -32,13 +32,33 @@ func main() {
 
 ## 171. Dereferencing pointers
 
+```go
+func main() {
+	a := 42
+	fmt.Println(a)
+	fmt.Println(&a) // & gives you the address
+
+	fmt.Printf("%T\n", a)
+	fmt.Printf("%T\n", &a)
+
+	b := &a
+	fmt.Println(b)
+	fmt.Println(*b) // * gives you the value stored at an address when you have the address
+	fmt.Println(*&a)
+
+	*b = 43
+	fmt.Println(a)
+}
+```
+
+***
+
+## 172. Pass by value, pointers / reference types, and mutability
+
 * https://play.golang.org/p/Ysv5Adn3V1
 * https://play.golang.org/p/BO7zRQN4Xm
 * https://play.golang.org/p/ucJYPu3QkP
 * https://play.golang.org/p/KpLImTmQCa
-***
-
-## 172. Pass by value, pointers / reference types, and mutability
 
 ***
 
