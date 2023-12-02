@@ -1,6 +1,4 @@
-# --------------------
-132. What are pointers
-# --------------------
+## 169. What are pointers
 
 All values are stored in memory. Every location in memory has an address. A pointer is a memory address.
 -- & (ampersand) 
@@ -12,6 +10,39 @@ code
 	step 1 - take an address & : https://play.golang.org/p/BO7zRQN4Xm
 	step 2 - dereference * : https://play.golang.org/p/ucJYPu3QkP
 	step 3 - dereference * : https://play.golang.org/p/KpLImTmQCa
+***
+
+## 170. Seeing type & value for pointers
+
+***
+
+## 171. Dereferencing pointers
+
+***
+
+## 172. Pass by value, pointers / reference types, and mutability
+
+***
+
+## 173. Pointer & value semantics defined
+
+***
+
+## 174. Pointer & value semantics heuristics
+
+***
+
+## 175. Pointers, values, the stack, & the heap
+
+***
+
+## 176. Exploring method sets part 1
+
+***
+
+## 177. Exploring method sets part 2
+
+***
 
 # -----------------------
 133. When to use pointers
