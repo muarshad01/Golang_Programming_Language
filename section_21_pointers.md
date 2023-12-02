@@ -3,7 +3,7 @@
 * All values are stored in memory. 
     * Post office boxes are good analogy for memory
         * Every location in memory has an address. 
-        * $\color{red}{A pointer is a memory address.}$
+        * $\color{red}{A\ pointer\ is\ a\ memory\ address.}$
 
 * Operators
     * ampersand operator (`&`) 
