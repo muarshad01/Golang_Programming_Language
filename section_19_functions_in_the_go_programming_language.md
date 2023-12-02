@@ -153,7 +153,7 @@ type Stringer interface {
 * We can attach this function as a method (`func String() string{}`) to the `type XXX` using a receiver of that type `(r XXX)`.
 
 ```go
-func (r TYPE) String() string {
+func (r XXX) String() string {
 }
 ```
 
