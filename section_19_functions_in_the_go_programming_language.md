@@ -143,6 +143,7 @@ func (r receiver) identifier(p parameter(s)) (r return(s)) {...}
 ## 139. Exploring the stringer interface
 
 * [type Stringer](https://pkg.go.dev/fmt#Stringer)
+
 ```go
 type Stringer interface {
 	String() string
@@ -157,7 +158,7 @@ func (r XXX) String() string {
 }
 ```
 
-```
+```go
 package main
 
 type book struct {
@@ -185,6 +186,7 @@ func main() {
     fmt.Println(n)
 }
 ```
+
 * `type book` and `type int` are both implementing the `Stringer` interface
     * Notice that value of one type can be of another type (i.e., polymorphism)
 
