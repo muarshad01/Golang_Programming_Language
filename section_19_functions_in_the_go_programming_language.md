@@ -212,6 +212,7 @@ type Writer interface {
 * So, the `Writer` interface says, if you've `Write(p []byte) (n int, err error)` method then you're also my type (i.e., `type Writer interface {}`).
 
 * [os#Create](https://pkg.go.dev/os#Create)
+
 ```go
 func Create(name string) (*File, error)
 ```
@@ -223,12 +224,16 @@ func (f *File) Write(b []byte) (n int, err error)
 * type pointer-to-a-file (`type *File`) is also of `type Writer interface{}` because a method with signature `Write(b []byte) (n int, err error)` is attached through a receiver `(f *File)` with `type *File`
 * 
 
-```
-```
 
 ***
 
 ## 142. Writer interface & writing to a byte buffer
+
+* [func NewBufferString](https://pkg.go.dev/bytes#NewBufferString)
+
+```go
+func (b *Buffer) Write(p []byte) (n int, err error)
+```
 
 ***
 
@@ -258,6 +263,12 @@ func main() {
     defer f.close()
 
     p.writeOut(f)
+
+    // ---
+
+    var b bytes.Buffer
+    
+    p.writeOut(&b)
 }
 ```
 
