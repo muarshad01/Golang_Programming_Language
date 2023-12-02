@@ -208,7 +208,23 @@ type Writer interface {
 }
 ```
 * Any other type (e.g., `type XXX`), which has `Write(p []byte) (n int, err error)` method is also of `type Writer interface{}`.
+    * i.e., the other type (e.g., `type XXX`), implements (IMPLICITLY) the `type Writer interface{}`
 * So, the `Writer` interface says, if you've `Write(p []byte) (n int, err error)` method then you're also my type (i.e., `type Writer interface {}`).
+
+* [os#Create](https://pkg.go.dev/os#Create)
+```go
+func Create(name string) (*File, error)
+```
+
+```go
+func (f *File) Write(b []byte) (n int, err error)
+```
+
+* type pointer-to-a-file (`type *File`) is also of `type Writer interface{}` because a method with signature `Write(b []byte) (n int, err error)` is attached through a receiver `(f *File)` with `type *File`
+* 
+
+```
+```
 
 ***
 
