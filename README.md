@@ -22,8 +22,9 @@
 * [Section 06: Programming Fundamentals for Beginners](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_06_programming_fundamentals_for_begineers.md) -- Nov 21, 2023
 * [Section 08: Go Mod and Dependency Management](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_08_go_mod_and_dependency_management.md) -- Nov 22, 2023
 
-* [Section 21: Pointers](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_21_pointers.md)
+
 * [Section 19: Functions in the go programming language](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_19_functions_in_the_go_programming_language.md) -- Dec 02, 2023
+* [Section 21: Pointers](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_21_pointers.md)
 * [Section 25: Applications](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_25_application.md) -- Nov 29, 2023
 * [Section 27: Concurrency](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_27_concurrency.md) -- Nov 24, 2023
 * [Section 29: Channels](https://github.com/muarshad01/Golang_Programming_Language/blob/main/section_29_channels.md) -- Nov 27, 2023
