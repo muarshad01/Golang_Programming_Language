@@ -148,9 +148,9 @@ type Stringer interface {
 	String() string
 }
 ```
-* Any TYPE, which has a method `String()` that returns a `string` is also of type `Stringer`.
-* Any TYPE, which has a method with the following signature `String() string` is also of type `Stringer`
-* We can attach this `function as a method` to the TYPE using a receiver of that type `(r TYPE)`.
+* Any type (e.g., `type XXX`), which has a method `String()` that returns a `string` is also of `type Stringer interface{}`.
+* Any type (e.g., `type XXX`), which has a method with the signature `String() string` is also of `type Stringer interface{}`
+* We can attach this `function as a method` to the `type XXX` using a receiver of that type `(r XXX)`.
 
 ```go
 func (r TYPE) String() string {
