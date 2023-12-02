@@ -234,6 +234,33 @@ func (f *File) Write(b []byte) (n int, err error)
 
 ## 143. Writer interface & writing to a file or a byte buffer
 
+```go
+type person struct {
+    first string
+}
+
+func (p person) writeOut(w io.Writer) error {
+    _, err := w.Write([]byte(p.first))
+    return err
+}
+```
+
+```go 
+func main() {
+    p := person {
+        first: "Jenny",
+    }
+
+    f, err := os.Cerate("output.txt")
+    if err != nil {
+        log.Fatal("error %s", err)
+    }
+    defer f.close()
+
+    p.writeOut(f)
+}
+```
+
 ***
 
 ## 144. Anonymous `func`
