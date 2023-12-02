@@ -11,15 +11,14 @@
     * Dereferencing operator(`*`)
         * The `*` operate is used to get the value stored at the memory address. If `p` is a pointer to an integer then `*p` gives you the integer that `p` points to.
 
-* code
-    * https://play.golang.org/p/Ysv5Adn3V1
-    * https://play.golang.org/p/BO7zRQN4Xm
-    * https://play.golang.org/p/ucJYPu3QkP
-    * https://play.golang.org/p/KpLImTmQCa
-
 ***
 
 ## 170. Seeing type & value for pointers
+
+* https://play.golang.org/p/Ysv5Adn3V1
+* https://play.golang.org/p/BO7zRQN4Xm
+* https://play.golang.org/p/ucJYPu3QkP
+* https://play.golang.org/p/KpLImTmQCa
 
 ***
 
