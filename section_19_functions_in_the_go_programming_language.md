@@ -149,7 +149,7 @@ type Stringer interface {
 }
 ```
 * Any type, which has a method `String()` that returns a `string` is also of type `Stringer`.
-
+* Any type, which has a method with the following signature `String() string` is also of type `Stringer`
 ```
 package main
 
