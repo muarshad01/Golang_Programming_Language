@@ -51,6 +51,11 @@ func main() {
 }
 ```
 
+* `b` is of type int pointer (`*int`)
+    * b points to the memory address where an int is stored
+	* to see the value in that memory address, add a `*` in front of b
+	* `*int` -- the * is part of the type
+
 ***
 
 ## 172. Pass by value, pointers / reference types, and mutability
@@ -60,8 +65,6 @@ func main() {
 * **Maps**: A map is a powerful data structure that associates values of one type (the key) with values of another type (the value). It's an unordered collection of key-value pairs.
 * 
 
-* https://play.golang.org/p/Ysv5Adn3V1
-* https://play.golang.org/p/BO7zRQN4Xm
 * https://play.golang.org/p/ucJYPu3QkP
 * https://play.golang.org/p/KpLImTmQCa
 
