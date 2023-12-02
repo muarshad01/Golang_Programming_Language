@@ -66,7 +66,12 @@ func main() {
 
 * **Maps**: A map is a powerful data structure that associates values of one type (the key) with values of another type (the value). It's an unordered collection of key-value pairs.
 
+* **Channels**: Channels are used for communication between goroutines (Go's term for threads). They allow you to pass data from one goroutine to another.
+
+* **Functions**: In Go. function are first-class citizens, meaning they can be assigned to variables, passed as arguments to other functions, and returned as values form other functions. When a function is assigned to a variable, the variable stores a reference to the function.
 ***
+
+* **Interfaces**: An interface type represents a set of method signatures. It provides a way to specify the behavior of an object. If something can do this, then it can be used here.
 
 ## 173. Pointer & value semantics defined
 
