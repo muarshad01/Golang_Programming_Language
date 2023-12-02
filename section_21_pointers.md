@@ -1,12 +1,13 @@
 ## 169. What are pointers
 
 * All values are stored in memory. 
-* Every location in memory has an address. 
-* A pointer is a memory address.
+    * Every location in memory has an address. 
+    * A pointer is a memory address.
 
-* ampersand operator (`&`) 
-* pointer to an int (`*int`)
-* dereferencing operator(`*`)
+* Operators
+    * ampersand operator (`&`) 
+    * dereferencing operator(`*`)
+    * pointer to an int (`*int`)
 
 * code
     * https://play.golang.org/p/Ysv5Adn3V1
