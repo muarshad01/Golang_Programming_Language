@@ -1,8 +1,9 @@
 ## 169. What are pointers
 
 * All values are stored in memory. 
-    * Every location in memory has an address. 
-    * A pointer is a memory address.
+    * Post office boxes are good analogy for memory
+        * Every location in memory has an address. 
+        * $\color{red}{A pointer is a memory address.}$
 
 * Operators
     * ampersand operator (`&`) 
