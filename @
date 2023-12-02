@@ -166,19 +166,9 @@ type count int
 func (c count) String() string {
     reutnr fmt.Sprintf("This is the number ", strconv.Itoa((int)(c)))       // First convert type `count` to `int`
 }
-
 func main() {
-    b := book {
-        title: "West With the Night",
-    }
-
-    var n count = 42
-
-    fmt.Println(b)
-    fmt.Println(n)
 }
 ```
-* `type book` and `type int` both are implementing the `Stringer` interface
 ***
 
 ## 140. Expanding on the stringer interface- wrapper func for logging
