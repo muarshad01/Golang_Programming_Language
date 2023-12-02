@@ -187,8 +187,8 @@ func main() {
 }
 ```
 
-* `type book` and `type int` are both implementing the `Stringer` interface
-    * Notice that value of one type can be of another type (i.e., polymorphism)
+* `type book` and `type int` are both implementing the `type Stringer interface{}`
+    * Notice that the value of one type can be of another type (i.e., polymorphism)
 
 ***
 
