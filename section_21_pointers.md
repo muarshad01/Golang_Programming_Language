@@ -10,7 +10,6 @@
         * The `&` operator is used to get the memory address of a variable. If `x` is an integer variable then `&x` will give you a pointer to `x` - that is, a memory address where the integer `x` is stored.
     * Dereferencing operator(`*`)
         * The `*` operate is used to get the value stored at the memory address. If `p` is a pointer to an integer then `*p` gives you the integer that `p` points to.
-    * pointer to an int (`*int`)
 
 * code
     * https://play.golang.org/p/Ysv5Adn3V1
