@@ -15,15 +15,16 @@
 
 ## 170. Seeing type & value for pointers
 
-* https://play.golang.org/p/Ysv5Adn3V1
-* https://play.golang.org/p/BO7zRQN4Xm
-* https://play.golang.org/p/ucJYPu3QkP
-* https://play.golang.org/p/KpLImTmQCa
+* https://go.dev/play/p/9m9q3ej5zdK
 
 ***
 
 ## 171. Dereferencing pointers
 
+* https://play.golang.org/p/Ysv5Adn3V1
+* https://play.golang.org/p/BO7zRQN4Xm
+* https://play.golang.org/p/ucJYPu3QkP
+* https://play.golang.org/p/KpLImTmQCa
 ***
 
 ## 172. Pass by value, pointers / reference types, and mutability
