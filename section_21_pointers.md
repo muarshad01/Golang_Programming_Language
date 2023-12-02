@@ -61,11 +61,10 @@ func main() {
 ## 172. Pass by value, pointers / reference types, and mutability
 
 * **Pointers**: A pointer holds the memory address of a value. It allows you to directly access and modify the memory location of a value.
-* **Slices**: A slice is a descriptor of an array segment. It includes a pointer to the array, the length of the segment, and its capacity (the maximum length of the segment).
-* **Maps**: A map is a powerful data structure that associates values of one type (the key) with values of another type (the value). It's an unordered collection of key-value pairs.
-* 
 
-* https://play.golang.org/p/KpLImTmQCa
+* **Slices**: A slice is a descriptor of an array segment. It includes a pointer to the array, the length of the segment, and its capacity (the maximum length of the segment).
+
+* **Maps**: A map is a powerful data structure that associates values of one type (the key) with values of another type (the value). It's an unordered collection of key-value pairs.
 
 ***
 
