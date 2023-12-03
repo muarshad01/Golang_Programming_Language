@@ -110,25 +110,28 @@ func addOneP(v *int) int {
 
 * **Pointer Semantics**: Pointer semantics in Go, on the other hand, involve passing the memory address (a "pointer") rather than the data itself. This means that you can modify the original data, not just a copy of it.
 
-* There are some general guidelines you can follow when deciding whether to use pointer or value semantics in Go:
-    * **Value semantics** are simpler and usually safer, since they don't involve shared state or require you to think about memory management.
-        * if a function doesn't need to modify its input, or the data you're working with is small (like built-in types or small structs), use value semantics.
-        * use value semantics for builtin types (numeric, string, bool) and reference types (slices, maps, channels, pointer, interfaces, functions)
+There are some general guidelines you can follow when deciding whether to use pointer or value semantics in Go:
 
-2. Use Pointer Semantics for Large Data:
-● Copying large structs or arrays can be inefficient.
-● If the data you're working with is large, you might want to use pointer semantics to
-avoid the cost of copying the data. A rule of thumb: 64 bytes or larger, use pointers.
-3. Use Pointer Semantics for Mutability:
-● If a function or method needs to modify its receiver or an input parameter, you'll need
-to use pointer semantics.
-● This is a common use case for methods that need to update the state of a struct.
-4. Consistency:
-● It's important to be consistent. If some functions on a type use pointer semantics and
-others use value semantics, it can lead to confusion. Typically,
-5. Pointer Semantics When Interfacing With Other Code:
-● If you're interfacing with other code (like a library or a system call), you might need to
-use pointer semantics. For example, the `json.Unmarshal` function in the Go standard library requires a pointer to a value to populate it with unmarshalled data.
+### Use Value Semantics When Possible:
+
+* **Value semantics** are simpler and usually safer, since they don't involve shared state or require you to think about memory management.
+    * if a function doesn't need to modify its input, or the data you're working with is small (like built-in types or small structs), use value semantics.
+    * use value semantics for builtin types (numeric, string, bool) and reference types (slices, maps, channels, pointer, interfaces, functions)
+
+### Use Pointer Semantics for Large Data:
+* Copying large structs or arrays can be inefficient.
+* If the data you're working with is large, you might want to use pointer semantics to avoid the cost of copying the data. A rule of thumb: 64 bytes or larger, use pointers.
+
+### Use Pointer Semantics for Mutability:
+* If a function or method needs to modify its receiver or an input parameter, you'll need to use pointer semantics.
+* This is a common use case for methods that need to update the state of a struct.
+
+### Consistency:
+* It's important to be consistent. If some functions on a type use pointer semantics and others use value semantics, it can lead to confusion. Typically, once a type has a method with pointer semantics, all methods on that type should have pointer semantics.
+
+### Pointer Semantics When Interfacing With Other Code:
+* If you're interfacing with other code (like a library or a system call), you might need to use pointer semantics. For example, the `json.Unmarshal` function in the Go standard library requires a pointer to a value to populate it with unmarshalled data.
+
 Remember, these are just guidelines. The specifics can depend on the situation, and sometimes you may have good reasons to make different choices. But these guidelines provide a good starting point.
 
 ***
