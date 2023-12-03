@@ -16,11 +16,7 @@ Arrays are mostly used as a building block in the Go programming language. In so
 
 ## 97. Slice - composite literal
 
-
-We will use a COMPOSITE LITERAL to create a slice. 
-
-A composite literal is created by having the TYPE followed by CURLY BRACES and then putting the appropriate values in the curly brace area.
-code
+We will use a COMPOSITE LITERAL to create a slice. A composite literal is created by having the TYPE followed by CURLY BRACES and then putting the appropriate values in the curly brace area.
 
 * https://play.golang.org/p/XtUEPJFgqD
 
@@ -32,9 +28,7 @@ code
 
 * https://play.golang.org/p/AXGTEEn92M
 
-# --------------------------
-83. Slice - append to a slice
-# ---------------------------
+## 83. Slice - append to a slice
 
 * https://play.golang.org/p/oQnjP5Ka3F
 
@@ -59,8 +53,7 @@ make([]int, 50, 100)
 
 ## 104. Slice - multidimensional slice
 
-A multi-dimensional slice is like a spreadsheet. You can have a slice of a slice of some type.
-Does that sound confusing? Watch this video and it will all be clarified. code
+A multi-dimensional slice is like a spreadsheet. You can have a slice of a slice of some type. Does that sound confusing? Watch this video and it will all be clarified.
 
-code: https://play.golang.org/p/S4cyB89Zpm
+* https://play.golang.org/p/S4cyB89Zpm
 
