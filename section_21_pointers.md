@@ -154,6 +154,9 @@ Remember, these are just guidelines. The specifics can depend on the situation, 
 $ go run -gcflags -m main.go
 ```
 
+* https://play.golang.org/p/lxsWkhTaYv
+* https://play.golang.org/p/XuI19kjFmb
+
 ***
 
 ## 176. Exploring method sets part 1
@@ -162,19 +165,6 @@ $ go run -gcflags -m main.go
 
 ## 177. Exploring method sets part 2
 
-***
-
-# -----------------------
-133. When to use pointers
-# -----------------------
-
-* code
-    * https://play.golang.org/p/lxsWkhTaYv
-    * https://play.golang.org/p/XuI19kjFmb
-
-# --------------
-134. Method Sets
-# --------------
 
 * Method sets determine what methods attach to a TYPE. It is exactly what the name says: What is the set of methods for a given type? That is its method set.
 
