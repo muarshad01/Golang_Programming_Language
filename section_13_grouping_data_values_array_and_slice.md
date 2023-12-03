@@ -64,20 +64,3 @@ Does that sound confusing? Watch this video and it will all be clarified. code
 
 code: https://play.golang.org/p/S4cyB89Zpm
 
-# --------------------
-87. Map - introduction
-# --------------------
-
-code: https://play.golang.org/p/TJajJyrUo5
-
-# -----------------------------
-88. Map - add element & range
-# -----------------------------
-
-code: https://play.golang.org/p/RTuBRiW087
-
-# --------------
-89. Map - delete
-# --------------
-
-code: https://play.golang.org/p/t5g_-8wgOL
