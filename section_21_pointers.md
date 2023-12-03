@@ -108,6 +108,9 @@ func addOneP(v *int) int {
 
 ## 174. Pointer & value semantics heuristics
 
+* **Pointer Semantics**: Pointer semantics in Go, on the other hand, involve passing the memory address (a "pointer") rather than the data itself. This means that you can modify the original data, not just a copy of it.
+
+
 ***
 
 ## 175. Pointers, values, the stack, & the heap
