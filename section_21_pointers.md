@@ -161,6 +161,17 @@ $ go run -gcflags -m main.go
 
 ## 176. Exploring method sets part 1
 
+In Go, a `method set` is the set of methods attached to a type. This concept is key to the Go's interface mechanism, and it is associated with both the value types and pointer types.
+
+* The method set of a type T consists of all methods with receiver type T.
+    * These methods can be called using variables of type T.
+
+* The method set of a type *T consists of all methods with receiver *T or T
+    * These methods can be called using variables of type *T.
+    * it can call methods of the corresponding non-pointer type as well
+
+The idea of the method set is integral to how interfaces are implemented and used in Go. An interface in Go defines a method set, and any type whose method set is a superset of the interface's method set is considered to implement that interface.
+
 ```go
 package main
 
@@ -193,6 +204,47 @@ func main() {
 ***
 
 ## 177. Exploring method sets part 2
+
+```go
+package main
+
+import "fmt"
+
+type dog struct {
+	first string
+}
+
+func (d dog) walk() {
+	fmt.Println("My name is", d.first, "and I'm walking.")
+}
+
+func (d *dog) run() {
+	d.first = "Rover"
+	fmt.Println("My name is", d.first, "and I'm running.")
+}
+
+type youngin interface {
+	walk()
+	run()
+}
+
+func youngRun(y youngin) {
+	y.run()
+}
+
+func main() {
+	d1 := dog{"Henry"}
+	d1.walk()
+	d1.run()
+	// youngRun(d1) // doesn't run
+	
+	d2 := &dog{"Padget"}
+	d2.walk()
+	d2.run()
+	youngRun(d2)
+
+}
+```
 
 * https://play.golang.org/p/2ZU0QX12a8
 * https://play.golang.org/p/glWZmm0gY6
