@@ -142,6 +142,18 @@ Remember, these are just guidelines. The specifics can depend on the situation, 
 
 ## 175. Pointers, values, the stack, & the heap
 
+### Value semantics & the stack
+
+* In Go, when a function receives a value (not a pointer), it gets its own copy of that value. This copy is typically placed on the **stack**, which is fast and doesn't involve any form of garbage collection. Once the function returns, this memory can be instantly reclaimed.
+
+### Pointer semantics & the heap
+
+* On the other hand, when a function receives a pointer or returns a pointer to a local variable, it indicates to the compiler that this value could be shared across goroutine boundaries or could persist after the function returns. To ensure that the data will remain available, the Go compiler must allocate it on the **heap**, rather than on the stack. Heap allocation is more expensive and requires garbage collection.
+
+```go
+$ go run -gcflags -m main.go
+```
+
 ***
 
 ## 176. Exploring method sets part 1
