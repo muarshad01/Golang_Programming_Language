@@ -75,6 +75,34 @@ func main() {
 ## 173. Pointer & value semantics defined
 
 * **Value Semantics**: Value semantics in Go refers to when the actual data of a variable is passed to a function or assigned to another variable. This means that the new variable or function parameter gets completely $\color{red}{independent\ copy\ of\ data.}$
+
+```go
+package main
+
+func main() {
+    // value semantic
+    a := 1
+    fmt.Println(a)  // 1
+    addOne(1)       // 2
+    fmt.Println(a)  // 1
+    
+    // pointer semantic
+    b := 1
+    fmt.Println(b)  // 1
+    addOne(&b)
+    fmt.Println(b)  // 2
+}
+
+// value semantics
+func addOne(v int) int {
+    return v + 1
+}
+
+// pointer semantics
+func addOneP(v *int) int {
+    return *v += 1
+}
+```
  
 ***
 
