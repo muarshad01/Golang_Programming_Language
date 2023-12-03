@@ -161,30 +161,41 @@ $ go run -gcflags -m main.go
 
 ## 176. Exploring method sets part 1
 
+```go
+package main
+
+import "fmt"
+
+type dog struct {
+    first string
+}
+
+func (d dog) walk() {
+    fmt.Println("My name is", d.first, "and I'm walking.")
+}
+
+func (d *dog) run() {
+    d.first = "Rover"
+    fmt.Println("My name is", d.first, "and I'm walking.")
+}
+
+func main() {
+    d1 := dog{"Henry"}
+    d1.walk()
+    d1.run()
+
+    d2 := &dog{"Padget"}
+    d1.walk()
+    d1.run()
+}
+```
+
 ***
 
 ## 177. Exploring method sets part 2
 
-
-* Method sets determine what methods attach to a TYPE. It is exactly what the name says: What is the set of methods for a given type? That is its method set.
-
-* IMPORTANT: “The method set of a type determines the INTERFACES that the type implements.....”
-
-* NON-POINTER RECEIVER
-    * works with values that are POINTERS or NON-POINTERS.
-* POINTER RECEIVER
-    * only works with values that are POINTERS.
-
-* Receivers 
----------
-(t  T) -- T and *T 
-(t *T) -- *T
-
-code
-* NON-POINTER RECEIVER & NON-POINTER VALUE: https://play.golang.org/p/2ZU0QX12a8
-* NON-POINTER RECEIVER & POINTER VALUE: https://play.golang.org/p/glWZmm0gY6
-* POINTER RECEIVER & POINTER VALUE: https://play.golang.org/p/pWFxsg6MSe
-* POINTER RECEIVER & NON-POINTER VALUE: https://play.golang.org/p/G3lEy-4Mc8 ( code does not run )
-    * this codes does run - notice the difference - method set determines the 
-* INTERFACES that the type implements
-    * https://play.golang.org/p/KK8gjsAWBZ
+* https://play.golang.org/p/2ZU0QX12a8
+* https://play.golang.org/p/glWZmm0gY6
+* https://play.golang.org/p/pWFxsg6MSe
+* https://play.golang.org/p/G3lEy-4Mc8
+* https://play.golang.org/p/KK8gjsAWBZ
