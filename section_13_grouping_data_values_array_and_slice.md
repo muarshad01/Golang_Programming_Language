@@ -17,7 +17,7 @@
 
 ## 95. Array - an introduction to arrays
 
-Arrays are mostly used as a building block in the Go programming language. In some instances, we might use an array, but mostly the recommendation is to use slices instead. 
+* Arrays are mostly used as a building block in the Go programming language. In some instances, we might use an array, but mostly the $\color{red}{recommendation\ is\ to\ use\ slices\ instead\.}$ 
 
 * https://play.golang.org/p/f-7aufl2DO
 
