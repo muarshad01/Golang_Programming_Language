@@ -65,7 +65,25 @@ xi = append(xi,45,46,47)
 
 ## 101. Slice - slicing a slice
 
-* https://play.golang.org/p/AXGTEEn92M
+* Cuts part of slice away
+
+```go
+func main(){
+    xi := []int{0,1,2,3,4,5,6,7,8,9}
+
+    // [inclusive:exclusive]
+    fmt.Printf("xi - %#v\n", xi)
+    
+    // [:exclusive]
+    fmt.Printf("xi - %#v\n", xi[:7])
+    
+    // [inclusive:]
+    fmt.Printf("xi - %#v\n", xi[4:])
+    
+    // [:]
+    fmt.Printf("xi - %#v\n", xi[:])
+}
+```
 
 *** 
 
