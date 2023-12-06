@@ -4,6 +4,15 @@
 
 ## 94. Introduction to grouping values
 
+* Arrays
+    * https://go.dev/ref/spec#Array_types
+* Slice
+    * https://go.dev/ref/spec#Slice_types
+* Map
+    * https://go.dev/ref/spec#Map_types
+* Struct
+    * https://go.dev/ref/spec#Struct_types
+
 ***
 
 ## 95. Array - an introduction to arrays
