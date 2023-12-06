@@ -35,6 +35,8 @@
 xs := []string{"hello", "world"}
 ```
 
+***
+
 ## 99. Slice - for range & access values by index position
 
 ```go
@@ -60,16 +62,15 @@ for _, v := range xs {
 
 * https://play.golang.org/p/AXGTEEn92M
 
-## 83. Slice - append to a slice
-
-* https://play.golang.org/p/oQnjP5Ka3F
+*** 
 
 102. Slice - deleting from a slice
 
-We can delete from a slice using both append and slicing. This is a wonderful and elegant
-example of why Go is great and how Go provides ease of programming.
+We can delete from a slice using both append and slicing. This is a wonderful and elegant example of why Go is great and how Go provides ease of programming.
 
 * https://play.golang.org/p/VTZ2Bof6bN
+
+***
 
 ## 103. Slice - make
 
@@ -82,6 +83,8 @@ make([]int, 50, 100)
 ```
 
 * https://play.golang.org/p/07hH1b-hvD
+
+***
 
 ## 104. Slice - multidimensional slice
 
