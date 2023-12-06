@@ -37,7 +37,11 @@ xs := []string{"hello", "world"}
 
 ## 99. Slice - for range & access values by index position
 
-* https://play.golang.org/p/O7cCALNFsH
+```go
+for i, v := range xs {
+    fmt.Print("index %v - value %v\n", i, v)
+}
+```
 
 ## 101. Slice - slicing a slice
 
