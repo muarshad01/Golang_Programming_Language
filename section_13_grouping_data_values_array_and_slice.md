@@ -29,7 +29,7 @@
 
 ## 97. Slice - composite literal
 
-* We will use a $\color{red}{COMPOSITE\ LITERAL}$ to create a slice. A composite literal is created by having the $\color{red}{TYPE\ followed\ by\ `{}`\}$ and then putting the appropriate values in the curly brace area.
+* We will use a $\color{red}{COMPOSITE\ LITERAL}$ to create a slice. A composite literal is created by having the **TYPE\ followed\ by\ `{}`** and then putting the appropriate values in the curly brace area.
 
 ```go
 xs := []string{"hello", "world"}
