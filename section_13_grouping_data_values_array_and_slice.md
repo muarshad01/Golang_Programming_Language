@@ -79,8 +79,8 @@ We can delete from a slice using both append and slicing. This is a wonderful an
 
 ## 103. Slice - make
 
-Slices are built on top of arrays. A slice is dynamic in that it will grow in size.
-The underlying array, however, does not grow in size. When we create a slice, we can use the built in function make to specify how large our slice should be and also how large the underlying array should be. This can enhance performance a little bit.
+* Slices are built on top of arrays. A slice is dynamic in that it will grow in size.
+* The underlying array, however, does not grow in size. When we create a slice, we can use the built in function make to specify how large our slice should be and also how large the underlying array should be. This can enhance performance a little bit.
 
 ```go
 make([]T, length, capacity)
@@ -97,3 +97,14 @@ A multi-dimensional slice is like a spreadsheet. You can have a slice of a slice
 
 * https://play.golang.org/p/S4cyB89Zpm
 
+***
+
+## 105. Slice - slice internal & underlying array - 01
+
+***
+
+## 106. Slice - slice internal & underlying array - 02
+
+***
+
+## 105. Slice - slice internal & underlying array - 03
