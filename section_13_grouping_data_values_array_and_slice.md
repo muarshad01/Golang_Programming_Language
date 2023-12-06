@@ -124,7 +124,18 @@ make([]int, 50, 100)
     * $\color{red}{You\ can\ have\ a\ slice-of-a-slice\ of\ some\ type.}$
     * Does that sound confusing? Watch this video and it will all be clarified.
 
-* https://play.golang.org/p/S4cyB89Zpm
+```go
+func main() {
+	a := []string{"1", "2", "3", "4"}
+	fmt.Println(a)
+
+	b := []string{"5", "6", "7", "8"}
+	fmt.Println(b)
+
+	c := [][]string{a, b}
+	fmt.Println(c)
+}
+```
 
 ***
 
