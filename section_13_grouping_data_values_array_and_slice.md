@@ -43,6 +43,19 @@ for i, v := range xs {
 }
 ```
 
+* bland identifier(`_`) to not use a returned  value
+```go
+for _, v := range xs {
+    fmt.Print("value %v\n",v)
+}
+```
+
+***
+
+## 100. Slice - append to a slice
+
+***
+
 ## 101. Slice - slicing a slice
 
 * https://play.golang.org/p/AXGTEEn92M
