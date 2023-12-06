@@ -120,7 +120,9 @@ make([]int, 50, 100)
 
 ## 104. Slice - multidimensional slice
 
-A multi-dimensional slice is like a spreadsheet. You can have a slice of a slice of some type. Does that sound confusing? Watch this video and it will all be clarified.
+* A multidimensional slice is like a spreadsheet. 
+    * $\color{red}{You\ can\ have\ a\ slice-of-a-slice\ of\ some\ type.}$
+    * Does that sound confusing? Watch this video and it will all be clarified.
 
 * https://play.golang.org/p/S4cyB89Zpm
 
