@@ -107,15 +107,14 @@ func main() {
 
 ## 103. Slice - make
 
-* Slices are built on top of arrays. A slice is dynamic in that it will grow in size.
-* The underlying array, however, does not grow in size. When we create a slice, we can use the built in function make to specify how large our slice should be and also how large the underlying array should be. This can enhance performance a little bit.
+* Slices are built on top of arrays. A $\color{red}{slice\ is\ dynamic}$ in that it will grow in size.
+* The underlying array, however, does not grow in size. 
+* When we create a slice, we can use the built in function `make()` to specify how large our slice should be and also how large the underlying array should be. This can enhance performance a little bit.
 
 ```go
 make([]T, length, capacity)
 make([]int, 50, 100)
 ```
-
-* https://play.golang.org/p/07hH1b-hvD
 
 ***
 
