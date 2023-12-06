@@ -89,9 +89,19 @@ func main(){
 
 ## 102. Slice - deleting from a slice
 
-* We can delete from a slice using both append and slicing. This is a wonderful and elegant example of why Go is great and how Go provides ease of programming.
+* We can delete from a slice using both append and slicing. 
+* This is a wonderful and elegant example of why Go is great and how Go provides ease of programming.
 
-* https://play.golang.org/p/VTZ2Bof6bN
+```go
+func main() {
+	x := []int{0,1,2,3,4,5,6,7,8,9}
+	fmt.Println(x)
+
+	// delte 4
+	x = append(x[:4], x[5:]...)
+	fmt.Println(x)
+}
+```
 
 ***
 
