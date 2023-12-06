@@ -56,6 +56,11 @@ for _, v := range xs {
 
 ## 100. Slice - append to a slice
 
+```go
+xi := []int{42,43,44}
+xi = append(xi, 45,46,47)
+```
+
 ***
 
 ## 101. Slice - slicing a slice
