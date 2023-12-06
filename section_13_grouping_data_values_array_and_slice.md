@@ -23,11 +23,17 @@
 
 ***
 
+## 96. Hands-on exercise
+
+***
+
 ## 97. Slice - composite literal
 
-We will use a COMPOSITE LITERAL to create a slice. A composite literal is created by having the TYPE followed by CURLY BRACES and then putting the appropriate values in the curly brace area.
+* We will use a $\color{red}{COMPOSITE LITERAL}$ to create a slice. A composite literal is created by having the $\color{red}{TYPE followed by CURLY BRACES}$ and then putting the appropriate values in the curly brace area.
 
-* https://play.golang.org/p/XtUEPJFgqD
+```go
+xs := []string{"hello", "world"}
+```
 
 ## 99. Slice - for range & access values by index position
 
