@@ -1,5 +1,12 @@
 ## 64. Previewing code
 
+* no `default` fall through in go.
+* a `select` statement chooses which of a set of possible send or receive operations will proceed. It looks similar to a `switch` statement but with the cases all referring to communication operations.
+
+```go
+r := rand.New(rand.NewSource(time.Now().UnixNano()))
+```
+
 ***
 
 ## 65. Understanding control flow
