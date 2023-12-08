@@ -383,22 +383,13 @@ http://localhost:6060/pkg/testing/
 
 * [Concurrency is not parallelism](https://go.dev/blog/waza-talk)
 * [Error handling and Go](https://go.dev/blog/error-handling-and-go)
-* -> [Defer, Panic, and Recover](https://go.dev/blog/defer-panic-and-recover)
+* [Defer, Panic, and Recover](https://go.dev/blog/defer-panic-and-recover)
 * [Don't defer Close() on writable files](https://www.joeshaw.org/dont-defer-close-on-writable-files/)
 * [Frequently Asked Questions (FAQ)](https://go.dev/doc/faq#exceptions)
-* [Go Forum](https://forum.golangbridge.org/)
-* [Go Blog](https://go.dev/blog/)
 * [Using Go Modules](https://go.dev/blog/using-go-modules)
 * [JSON and Go](https://go.dev/blog/json)
 * [Go Proverbs](https://go-proverbs.github.io/)
 
-***
-
-## Others
-
-* [Selectors](https://go.dev/ref/spec#Selectors)
-* [Types](https://go.dev/ref/spec#Types)
-* [Go Proverbs](https://go-proverbs.github.io/)
 ***
 
 ## Tooling
