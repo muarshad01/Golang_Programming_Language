@@ -39,7 +39,7 @@ r := rand.New(rand.NewSource(time.Now().UnixNano()))
 
 ## 68. The `statement; statement` & `comma, ok` idioms
 
-* [If Statement; Statement](https://go.dev/ref/spec#If_statements)
+* [if statement; statement](https://go.dev/ref/spec#If_statements)
 ```go
 if x := f(); x < y {
 	return x
@@ -65,11 +65,11 @@ func offset(tz string) int {
 
 ***
 
-## 70. Using select statement for concurrency communication
+## 70. Using `select` statement for concurrency communication
 
 ***
 
-## 71. Understanding & using for statement to create loops
+## 71. Understanding & using `for` statement to create loops
 
 ***
 
