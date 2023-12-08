@@ -37,8 +37,28 @@ r := rand.New(rand.NewSource(time.Now().UnixNano()))
 
 ***
 
-## 68. The "statement; statement" & "comma, ok" idioms
+## 68. The `statement; statement` & `comma, ok` idioms
 
+* [If Statement](https://go.dev/ref/spec#If_statements)
+```go
+if x := f(); x < y {
+	return x
+} else if x > z {
+	return z
+} else {
+	return y
+}
+```
+* [comma, ok](https://go.dev/doc/effective_go)
+```go
+func offset(tz string) int {
+    if seconds, ok := timeZone[tz]; ok {
+        return seconds
+    }
+    log.Println("unknown time zone:", tz)
+    return 0
+}
+```
 ***
 
 ## 69. Using `switch` statements to make decision in code
