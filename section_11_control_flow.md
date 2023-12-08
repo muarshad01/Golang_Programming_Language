@@ -13,9 +13,10 @@ r := rand.New(rand.NewSource(time.Now().UnixNano()))
 
 * control flow
     * sequence
-        * All `Go` programs start in `package main` and `func main{}`
-        * `func init(){}` runs before `main`.
+        * All `Go` programs start in `package main` and `func main() {...}`
+        * `func init() {...}` runs before `func main() {...}`.
             * initialized your program before anything runs.
+            * [Program initialization and execution](https://go.dev/ref/spec#Program_initialization_and_execution)
     * conditional
     * loop
 
