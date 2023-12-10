@@ -3,7 +3,7 @@
 * DRY - don't repeat yourself
 * repetitive and redundant code
 
-```
+```go
 package main
 
 func addI(a, b int) int {
