@@ -27,9 +27,20 @@ func main(){
     fmt.Println(addT(1.2, 2.2))
 }
 ```
+
 ***
 
 ## 183. Type constraint & type set interface example
+
+```go
+type myNumbers interface {
+    int | float64
+}
+
+func addT[T myNumbers](a, b T) T {
+    return a + b
+}
+```
 
 ***
 
