@@ -62,6 +62,17 @@ addT(n, 2)
 
 ## 185. Package constraints
 
+
+```go
+package (
+    "golang.org/x/exp/constraints"
+)
+
+type myNumbers interface {
+    constraints.Integer | constraints.Float
+}
+```
+
 ***
 
 ## 186. Generics tutorial
