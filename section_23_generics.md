@@ -46,6 +46,18 @@ func addT[T myNumbers](a, b T) T {
 
 ## 184. Type alias & underlying type constraints
 
+```go
+type myNumbers interface {
+    ~int | ~float64
+}
+
+type myAlias int
+
+var n myAlias = 42
+
+addT(n, 2)
+```
+
 ***
 
 ## 185. Package constraints
