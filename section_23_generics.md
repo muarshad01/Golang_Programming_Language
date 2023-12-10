@@ -1,5 +1,32 @@
 ## 182. Type constraint
 
+* DRY - don't repeat yourself
+* repetitive and redundant code
+
+```
+package main
+
+func addI(a, b int) int {
+    return a + b
+}
+
+func addF(a, b float64) float64 {
+    return a + b
+}
+
+
+func addT[T int | float](a, b T) T {
+    return a + b
+}
+
+func main(){
+    fmt.Println(addI(1, 2))
+    fmt.Println(addF(1.2, 2.2))
+
+    fmt.Println(addT(1, 2))
+    fmt.Println(addT(1.2, 2.2))
+}
+```
 ***
 
 ## 183. Type constraint & type set interface example
