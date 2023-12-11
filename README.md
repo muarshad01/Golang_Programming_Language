@@ -409,3 +409,4 @@ http://localhost:6060/pkg/testing/
 
 * [Go Performance Tools Cheat Sheet](https://steveazz.xyz/blog/go-performance-tools-cheat-sheet/)
 * [Chapter 36: Program Profiling](https://www.practical-go-lessons.com/chap-36-program-profiling)
+* [Awesome Profiling](https://github.com/adriannovegil/awesome-profiling)
