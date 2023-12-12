@@ -4,9 +4,7 @@
     * Structs allow us to compose together values of different types. 
     * Complex data structures (e.g., slices, maps)
 
-* Composite literal `{}`
-    * struct literal `{}`
-    * map literal `{}`
+* Composite literal `{}`: * struct literal `{}`, map literal `{}`, ...
 
 ```go
 package main
@@ -42,15 +40,54 @@ func main() {
 }
 ```
 
-
 ***
 
 ## 125.Embedded structs
 
-We can take one struct and embed it in another struct. When you do this the inner type gets
+* We can take one struct and embed it in another struct. When you do this the inner type gets
 promoted to the outer type.
 
-* https://play.golang.org/p/u6b3qTr1CH
+```go
+package main
+
+import (
+	"fmt"
+)
+
+type person struct {
+	first string
+	last  string
+	age   int
+}
+
+type secretAgent struct {
+	person
+	ltk bool
+}
+
+func main() {
+	sa1 := secretAgent{
+		person: person{
+			first: "James",
+			last:  "Bond",
+			age:   32,
+		},
+		ltk: true,
+	}
+
+	p2 := person{
+		first: "Miss",
+		last:  "Moneypenny",
+		age:   27,
+	}
+
+	fmt.Println(sa1)
+	fmt.Println(p2)
+
+	fmt.Println(sa1.first, sa1.last, sa1.age, sa1.ltk)
+	fmt.Println(p2.first, p2.last, p2.age)
+}
+```
 
 ***
 
