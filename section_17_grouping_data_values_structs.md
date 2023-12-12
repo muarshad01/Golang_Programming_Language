@@ -99,6 +99,45 @@ associated with a specific identifier.
 * NAMED: https://play.golang.org/p/O7DiZX_e1R
 * ANONYMOUS: https://go.dev/play/p/OfqUspH-JIw
 
+```go
+package main
+
+import (
+	"fmt"
+)
+
+type person struct {
+	first string
+	last  string
+	age   int
+}
+
+func main() {
+
+	p1 := struct {
+		first string
+		last  string
+		age   int
+	}{
+		first: "James",
+		last:  "Bond",
+		age:   32,
+	}
+
+	p2 := person {
+		first: "Jenny",
+		last:  "Moneypenny",
+		age:   27,
+    }
+    
+	fmt.Println(p1)
+	fmt.Println(p2)
+	
+    fmt.Println("%T \n", p1)
+	fmt.Println("%T \n", p2)
+}
+```
+
 ***
 
 ## 127. Composition
