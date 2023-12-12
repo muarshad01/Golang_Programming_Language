@@ -93,11 +93,7 @@ func main() {
 
 ## 126. Anonymous structs
 
-We can create anonymous structs also. An anonymous struct is a struct which is not
-associated with a specific identifier.
-
-* NAMED: https://play.golang.org/p/O7DiZX_e1R
-* ANONYMOUS: https://go.dev/play/p/OfqUspH-JIw
+* An anonymous struct is a struct, which is not associated with a specific identifier.
 
 ```go
 package main
@@ -141,12 +137,6 @@ func main() {
 ***
 
 ## 127. Composition
-
-***
-
-# --------------
-104.Housekeeping
-# --------------
 
 It’s all about type
 
