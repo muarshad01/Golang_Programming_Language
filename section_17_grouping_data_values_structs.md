@@ -4,7 +4,9 @@
     * Structs allow us to compose together values of different types. 
     * Complex data structures (e.g., slices, maps)
 
-* Composite literal `{}`: * struct literal `{}`, map literal `{}`, ...
+* Composite-literal `{}`: 
+    * struct-literal `{}`
+    * map-literal `{}`
 
 ```go
 package main
