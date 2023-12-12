@@ -42,6 +42,7 @@ func main() {
 }
 ```
 
+
 ***
 
 ## 125.Embedded structs
