@@ -160,17 +160,17 @@ It’s all about type
 	* Overriding
 	    * promotion
 
-Traditional OOP 
-1. Classes
-	a. data structure describing a type of object
-	b. you can then create "instances"/"objects" from the class / blueprint
-	c. classes hold both:
-		i. state / data / fields
-		ii. behavior / methods
-	d. public / private
-2. Inheritance
+### Traditional OOP 
 
-InGo:
-1. you don't create classes, you create a TYPE
-2. you don't instantiate, you create a VALUE of a TYPE
+* Classes
+    * data structure describing a type of object
+	* you can then create instances / objects from the class / blueprint
+	* classes hold both:
+	    * state / data / fields
+		* behavior / methods / functions
+	* public / private
+* Inheritance
 
+* In Go,
+    * you don't create classes, you create a TYPE
+    * you don't instantiate, you create a VALUE of a TYPE
