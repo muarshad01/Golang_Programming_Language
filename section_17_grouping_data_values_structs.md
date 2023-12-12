@@ -143,7 +143,8 @@ func main() {
 It’s all about type
 
 * Is go an object oriented language? 
-    * Go has OOP aspects, but it’s all about TYPE. We create TYPES in Go, i.e. user-defined TYPES. 
+    * Go has OOP aspects, but it’s all about TYPE. 
+    * We create TYPES in Go, i.e. user-defined TYPES. 
     * We can then have VALUES of that type. 
     * We can assign VALUES of a user-defined TYPE to a VARIABLE. 
 
