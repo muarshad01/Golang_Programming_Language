@@ -5,23 +5,23 @@
 
 
 ```go
-    am := map[string]int{
-        "Todd":   42,
-	    "Henry":  16,
-        "Padget": 14,
-	}
-    fmt.Println(am)
-	fmt.Println("%#v\n", am)
+am := map[string]int{
+    "Todd":   42,
+    "Henry":  16,
+    "Padget": 14,
+}
+fmt.Println(am)
+fmt.Println("%#v\n", am)
 ```
 
 * Just like we can create slice using a `make()`, we can create a map using `make()` command as well.
 
 ```go
-    an := make(map[string]int)
-    an["Lucas"] = 28
-    an["Steph"] = 37
-    fmt.Println(an)
-	fmt.Println("%#v\n", an)
+an := make(map[string]int)
+an["Lucas"] = 28
+an["Steph"] = 37
+fmt.Println(an)
+fmt.Println("%#v\n", an)
 ```
 
 
