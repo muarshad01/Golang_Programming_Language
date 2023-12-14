@@ -111,8 +111,7 @@ $ source ~/.bash_profile
         * Language suppor for go txt/template casualjim (Click Install)  
 * Command Palette: `Command + Shift + P`
     * `>Go: Install/Update Tools`
-* Go Extension Manager
-  - Preferences
+    * `>Preferences`
 
 ***
 
