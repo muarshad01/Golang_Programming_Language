@@ -185,6 +185,8 @@ func main() {
 	* Overriding
 	    * promotion
 
+***
+
 ### Traditional OOP 
 
 * Classes
