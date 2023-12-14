@@ -297,21 +297,18 @@ http://localhost:6060/pkg/testing/
 
 ## NOTES
 
-```
-1. Go is STATIC programming language
-2. Everything in Go is "passed by value"
-3. There is no "while" or "do-while" or "until"
-4. Go has "fallthrough" in switch statement
-5. "default" case may appear anywhere in a switch statement
-6. case can be presented in comma-seperted lists.
-7. Everything in Go is PASS BY VALUE (PASS BY COPY or PASS BY REFERENCE throw them away!)
-8. There is no try-catch-finally in go
-9. Go language doesn’t support method overloading
-10. As the language lacks inheritance and focuses on composition
-11. Go doesn't have a `collections` library
-12. In Go if a symbol (variables, types, functions et al) starts with a lowercase symbol then it is private outside the package it's defined in.
-13. In Go any is an alias for interface{}
-```
+* Go is `STATIC` programming language
+* Everything in Go is `passed by value`
+* There is no `while` or `do-while` or `until`
+* Go has `fallthrough` in switch statement
+* `default` case may appear anywhere in a switch statement
+* case can be presented in comma-seperted lists.
+* There is no `try-catch-finally` in go
+* Go language DOESN’T support method overloading
+* The language lacks inheritance and focuses on composition
+* Go doesn't have a `collections` library
+12. In Go, if a symbol (variables, types, functions et al) starts with a lowercase letter then it is private outside the package it's defined in.
+13. In Go, `any` is an alias for `interface{}`
 
 ***
 
