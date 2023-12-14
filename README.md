@@ -6,9 +6,9 @@
 
 ## Quotes
 
-* FOCUS: One attribute for success. - Bill Gates & Warren Buffet
+* $\color{red}{FOCUS}$: One attribute for success. - Bill Gates & Warren Buffet
 * Most people overestimate what they can do in a year, and they underestimate what they can do in ten years. - Bill Gates
-* $\color{red}{You\ will\ never\ win\ if\ you\ never\ begin.}$
+* You will never win if you never begin.
 * It takes time to understand the wisdom of masters
 * [GRIT - Angela Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8)
 * [Developing Your Software Engineering Career: Words of Advice From Seasoned Professionals](https://www.computer.org/csdl/magazine/so/2023/05/10273788/1R6sOd7L64o)
