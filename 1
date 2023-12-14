@@ -141,29 +141,6 @@ func main() {
 ## 127. Composition
 
 * composite data types, aggregate data types, aka, complex data types
-* slices, maps, structs
-* composition is a way of structuring and building complex types by combining multiple simpler types
-
-```go
-type Engine struct {
-    // Engine fields
-}
-
-//
-func (e *Engine) Start() {
-    fmt.Println("Engine started")
-}
-
-type Car struct {
-    Engine // Embedding the Engine struct
-    // Car-specific fields
-}
-
-func main() {
-    car := Car{}
-    car.Start() // Calling the Start() method from the embedded Engine struct
-}
-```
 
 It’s all about type
 
