@@ -66,8 +66,27 @@ delete(m, "James") // This don't panic
 
 ## 118.  Map - comma ok idiom
 
-* https://play.golang.org/p/RTuBRiW087
+* If you look up a non-existent key, a zero value will be returned as the value associated with that non-existent key.
+```go
+v, ok := an["Georgey"]
 
+if ok {
+    fmt.Println(v)
+} else {
+    fmt.Println("key didn't exist")
+}
+```
+* the `comma, ok` idiom is combined with `statement; statement` idiom
+
+```go
+if v, ok := an["Georgey"]; !ok {
+    fmt.Println("Key didn't exist")
+} else {
+    fmt.Println("The value prints", v)
+}
+```
+
+* The reason `statement;statement` idiom is used is because this limits the scope of `v` and `ok` to `if-else {}` block
 ***
 
 ## 119. Map - counting words in a book
