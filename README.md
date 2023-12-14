@@ -109,8 +109,8 @@ $ source ~/.bash_profile
         * Rich Go language support for Visual Studio Code (Click Install)
     * Search `gotemplate-syntax`
         * Language suppor for go txt/template casualjim (Click Install)  
-* Command Palette: Command + Shift + P
-    * **Go: Install/Update Tools**
+* Command Palette: `Command + Shift + P`
+    * `>Go: Install/Update Tools`
 * Go Extension Manager
   - Preferences
 
