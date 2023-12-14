@@ -6,9 +6,9 @@
 
 ```go
     am := map[string]int{
-		"Todd":   42,
-		"Henry":  16,
-        "Padget": 14
+        "Todd":   42,
+	    "Henry":  16,
+        "Padget": 14,
 	}
     fmt.Println(am)
 	fmt.Println("%#v\n", am)
