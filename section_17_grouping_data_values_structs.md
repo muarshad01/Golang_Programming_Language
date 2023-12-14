@@ -199,5 +199,5 @@ func main() {
 * Inheritance
 
 * In Go,
-    * you don't create classes, $\color{red}{you create a TYPE}$
-    * you don't instantiate, $\color{red}{you create a VALUE of a TYPE}$
+    * you don't create classes, $\color{red}{you\ create\ a\ TYPE}$
+    * you don't instantiate, $\color{red}{you\ create\ a\ VALUE\ of\ a\ TYPE}$
