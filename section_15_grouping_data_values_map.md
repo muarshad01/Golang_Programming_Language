@@ -28,19 +28,19 @@ fmt.Println("%#v\n", an)
 ## 116. Map - for range over map
 
 ```go
-for k, v : range an {
+for k, v := range an {
     fmt.Println(k, v)
 }
 ```
 * We don't want the key, just the values, then use (`_`)
 ```go
-for _, v : range an {
+for _, v := range an {
     fmt.Println(v)
 }
 ```
 * We only want to print the keys, then just one variable is defined:
 ```go
-for k : range an {
+for k := range an {
     fmt.Println(k)
 }
 ```
@@ -50,7 +50,7 @@ for k : range an {
 
 ***
 
-## 117. Map - delete element
+## 117. Map - `delete` element
 
 ```go
 m := map[string]int{
@@ -64,7 +64,7 @@ delete(m, "James") // This don't panic
 
 ***
 
-## 118.  Map - comma ok idiom
+## 118.  Map - `comma ok` idiom
 
 * If you look up a non-existent key, a zero value will be returned as the value associated with that non-existent key.
 ```go
