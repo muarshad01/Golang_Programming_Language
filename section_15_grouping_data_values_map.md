@@ -3,7 +3,6 @@
 * Composite or aggregate data structure(s): slice, map, ...
 * maps are unordered; they'll print out in random order
 
-
 ```go
 am := map[string]int{
     "Todd":   42,
@@ -24,10 +23,30 @@ fmt.Println(an)
 fmt.Println("%#v\n", an)
 ```
 
-
 ***
 
 ## 116. Map - for range over map
+
+```go
+for k, v : range an {
+    fmt.Println(k, v)
+}
+```
+* We don't want the key, just the values, then use (`_`)
+```go
+for _, v : range an {
+    fmt.Println(v)
+}
+```
+* We only want to print the keys, then just one variable is defined:
+```go
+for k : range an {
+    fmt.Println(k)
+}
+```
+*** 
+
+* It is very similar to slices as well. Instead of `k` for key, use `i` for index
 
 ***
 
