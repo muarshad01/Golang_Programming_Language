@@ -91,4 +91,6 @@ if v, ok := an["Georgey"]; !ok {
 
 ## 119. Map - counting words in a book
 
+* [Word count example](https://github.com/GoesToEleven/learn-to-code-go-version-03/tree/main/117-map-count-words)
+
 ***
