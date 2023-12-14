@@ -52,7 +52,15 @@ for k : range an {
 
 ## 117. Map - delete element
 
-* https://play.golang.org/p/t5g_-8wgOL
+```go
+m := map[string]int{
+    "James": 32,
+    "Todd":  27,
+}
+delete(m, "James")
+
+delete(m, "James") // This don't panic
+```
 
 ***
 
