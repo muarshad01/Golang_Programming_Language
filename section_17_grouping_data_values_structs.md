@@ -141,8 +141,9 @@ func main() {
 ## 127. Composition
 
 * composite data types, aggregate data types, aka, complex data types
-* slices, maps, structs
-* composition is a way of structuring and building complex types by combining multiple simpler types
+    * e.g., slices, maps, structs
+````diff
++ * composition is a way of structuring and building complex types by combining multiple simpler types
 
 ```go
 type Engine struct {
