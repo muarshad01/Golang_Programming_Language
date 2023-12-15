@@ -382,27 +382,27 @@ http://localhost:6060/pkg/testing/
 
 ## Tooling
 
-* [Creating a Golang Makefile](https://earthly.dev/blog/golang-makefile/)
+* [Makefile - Golang](https://earthly.dev/blog/golang-makefile/)
 * [pre-commit](https://pre-commit.com/)
     * [https://github.com/TekWizely/pre-commit-golang](https://github.com/TekWizely/pre-commit-golang)
 * [An Overview of Go's Tooling](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
 * [An Overview of Go's Tooling](https://www.alexedwards.net/blog/an-overview-of-go-tooling#pre-commit-checks)
-* [Chapter 1. Setting Up Your Go Environment](https://www.oreilly.com/library/view/learning-go/9781492077206/ch01.html)
-* [Helpful Golang tools to make your code great again](https://dev.to/koddr/helpful-golang-tools-to-make-your-code-great-again-3739)
-* [Using Vim for Go development](https://blog.logrocket.com/using-vim-go-development/)
-* [Go Diagnostics](https://go.dev/doc/diagnostics)
+* [Setting Up Your Go Environment](https://www.oreilly.com/library/view/learning-go/9781492077206/ch01.html)
+* [Golang tools to make your code great again](https://dev.to/koddr/helpful-golang-tools-to-make-your-code-great-again-3739)
+* [VIM for Go development](https://blog.logrocket.com/using-vim-go-development/)
+* [Go online Playground](https://play.golang.org/)
+* [Better Go Playground](https://goplay.tools/)
 
 ***
 
-### Tools
+### Format Conversion Tools
 
 * [JSON-to-Go-Converter](https://mholt.github.io/json-to-go/)
 * [XML-to-Go-Converter](https://jsonformatter.org/xml-to-go)
-* [Go online Playground](https://play.golang.org/)
-* [Better Go Playground](https://goplay.tools/)
 
 ### Performance Tools
 
 * [Go Performance Tools Cheat Sheet](https://steveazz.xyz/blog/go-performance-tools-cheat-sheet/)
 * [Chapter 36: Program Profiling](https://www.practical-go-lessons.com/chap-36-program-profiling)
 * [Awesome Profiling](https://github.com/adriannovegil/awesome-profiling)
+* [Go Diagnostics](https://go.dev/doc/diagnostics)
