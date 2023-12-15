@@ -383,6 +383,7 @@ http://localhost:6060/pkg/testing/
 * [Using Go Modules](https://go.dev/blog/using-go-modules)
 * [JSON and Go](https://go.dev/blog/json)
 * [Go Proverbs](https://go-proverbs.github.io/)
+* [nils in GO](https://go101.org/article/nil.html)
 
 ***
 
@@ -390,18 +391,17 @@ http://localhost:6060/pkg/testing/
 
 * [Creating a Golang Makefile](https://earthly.dev/blog/golang-makefile/)
 * [pre-commit](https://pre-commit.com/)
-  - [https://github.com/TekWizely/pre-commit-golang](https://github.com/TekWizely/pre-commit-golang)
+    * [https://github.com/TekWizely/pre-commit-golang](https://github.com/TekWizely/pre-commit-golang)
 * [An Overview of Go's Tooling](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
-* [Chapter 1. Setting Up Your Go Environment](https://www.oreilly.com/library/view/learning-go/9781492077206/ch01.html)
 * [An Overview of Go's Tooling](https://www.alexedwards.net/blog/an-overview-of-go-tooling#pre-commit-checks)
+* [Chapter 1. Setting Up Your Go Environment](https://www.oreilly.com/library/view/learning-go/9781492077206/ch01.html)
 * [Helpful Golang tools to make your code great again](https://dev.to/koddr/helpful-golang-tools-to-make-your-code-great-again-3739)
 * [Using Vim for Go development](https://blog.logrocket.com/using-vim-go-development/)
-* [nils in GO](https://go101.org/article/nil.html)
 * [Go Diagnostics](https://go.dev/doc/diagnostics)
 
 ***
 
-## Performnce Tools
+## Performance Tools
 
 * [Go Performance Tools Cheat Sheet](https://steveazz.xyz/blog/go-performance-tools-cheat-sheet/)
 * [Chapter 36: Program Profiling](https://www.practical-go-lessons.com/chap-36-program-profiling)
