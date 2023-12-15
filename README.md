@@ -258,15 +258,17 @@ $ go list -m all
 
 ***
 
-## Using 'go get' command to get course code
-[cod link](https://github.com/GoesToEleven/GolangTraining)
+## Using `go get` command to get course code
+
+* [Git: Learn to Code Go Version 03](https://github.com/GoesToEleven/learn-to-code-go-version-03)
 
 ```go
-$ mkdir -p $GOPATH/src/example
-$ cd $GOPATH/src/examplegocode
-$ go mod init examplegocode
-$ go get -d github.com/GoesToEleven/go-programming/...        # See the '...'
-$ cd $GOPATH/pkg/mod/github.com/!goes!to!eleven/!golang!training@v0.0.0-20181204234241-afa19f5c43f3/01_getting-started
+$ mkdir -p $GOPATH/src/learn-to-coge-go-version-03
+$ cd $GOPATH/src/learn-to-coge-go-version-03
+$ go mod init learn-to-coge-go-version-03
+
+$ go get -d github.com/GoesToEleven/learn-to-code-go-version-03/...     # See the `...`
+--> $ cd $GOPATH/pkg/mod/github.com/!goes!to!eleven/!golang!training@v0.0.0-20181204234241-afa19f5c43f3/01_getting-started
 ```
 
 ***
