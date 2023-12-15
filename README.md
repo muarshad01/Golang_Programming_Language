@@ -400,9 +400,11 @@ http://localhost:6060/pkg/testing/
 * [JSON-to-Go-Converter](https://mholt.github.io/json-to-go/)
 * [XML-to-Go-Converter](https://jsonformatter.org/xml-to-go)
 
+***
+
 ### Performance Tools
 
 * [Go Performance Tools Cheat Sheet](https://steveazz.xyz/blog/go-performance-tools-cheat-sheet/)
-* [Chapter 36: Program Profiling](https://www.practical-go-lessons.com/chap-36-program-profiling)
+* [Program Profiling](https://www.practical-go-lessons.com/chap-36-program-profiling)
 * [Awesome Profiling](https://github.com/adriannovegil/awesome-profiling)
 * [Go Diagnostics](https://go.dev/doc/diagnostics)
