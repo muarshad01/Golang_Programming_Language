@@ -307,8 +307,8 @@ http://localhost:6060/pkg/testing/
 * Go language DOESN’T support method overloading
 * The language lacks inheritance and focuses on composition
 * Go doesn't have a `collections` library
-12. In Go, if a symbol (variables, types, functions et al) starts with a lowercase letter then it is private outside the package it's defined in.
-13. In Go, `any` is an alias for `interface{}`
+* In Go, if a symbol (variables, types, functions et al) starts with a lowercase letter then it is private outside the package it's defined in.
+* In Go, `any` is an alias for `interface{}`
 
 ***
 
