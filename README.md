@@ -366,15 +366,6 @@ http://localhost:6060/pkg/testing/
 
 ***
 
-## Tools
-
-* [JSON-to-Go-Converter](https://mholt.github.io/json-to-go/)
-* [XML-to-Go-Converter](https://jsonformatter.org/xml-to-go)
-* [Go online Playground](https://play.golang.org/)
-* [Better Go Playground](https://goplay.tools/)
-
-***
-
 ## Useful Articles
 
 * [Concurrency is not parallelism](https://go.dev/blog/waza-talk)
@@ -403,7 +394,14 @@ http://localhost:6060/pkg/testing/
 
 ***
 
-## Performance Tools
+### Tools
+
+* [JSON-to-Go-Converter](https://mholt.github.io/json-to-go/)
+* [XML-to-Go-Converter](https://jsonformatter.org/xml-to-go)
+* [Go online Playground](https://play.golang.org/)
+* [Better Go Playground](https://goplay.tools/)
+
+### Performance Tools
 
 * [Go Performance Tools Cheat Sheet](https://steveazz.xyz/blog/go-performance-tools-cheat-sheet/)
 * [Chapter 36: Program Profiling](https://www.practical-go-lessons.com/chap-36-program-profiling)
