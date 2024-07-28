@@ -7,7 +7,7 @@
 ## Quotes
 
 * $\color{red}{FOCUS}$: One attribute for success. - Bill Gates & Warren Buffet
-* Most people overestimate what they can do in a year, and they underestimate what they can do in ten years. - Bill Gates
+* Most people `overestimate` what they-can-do-in-a-year, and they `underestimate` what-they-can-do-in-ten-years. - Bill Gates
 * You will never win if you never begin.
 * It takes time to understand the wisdom of masters
 * [GRIT - Angela Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8)
